@@ -1,0 +1,4516 @@
+{
+  "_metadata": {
+    "tick_rate": 18,
+    "tick_ms": 55.56,
+    "source": "settings/skills.txt + script/skill/*.lua",
+    "note_wait_time": "WaitTime = cast startup ticks (animation startup before skill fires)",
+    "note_time_per_cast": "TimePerCast = cooldown ticks between skill uses (0 = no explicit CD)",
+    "note_fly_event_time": "FlyEventTime = tick when fly-phase event fires on missile",
+    "note_anim_id": "CharAnimId: 9=melee_attack, 10=special_attack, 11=cast_skill, 13=jump, 14=channel",
+    "note_msl_generate": "MslsGenerate: 0=none, 1=single, 2=multi, 3=spread, 4=rain, 5=burst",
+    "note_phases": "Granular sub-tick phases (hit_stop, recovery_lock, combo_window) are in C++ engine binary, not in Lua/settings. Data below is what scripts define.",
+    "style_enum": {
+      "0": "combat_attack",
+      "1": "combat_missile_rush",
+      "2": "aura_buff",
+      "3": "passive",
+      "13": "formation",
+      "14": "boss_special"
+    }
+  },
+  "skills": [
+    {
+      "skill_id": 1,
+      "skill_name": "cong_kich_vat_ly",
+      "display_name": "Cong Kich Vat Ly",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 100,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 64,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 2,
+      "skill_name": "cong_kich_vat_ly_gan",
+      "display_name": "Cong Kich Vat Ly Gan",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 320,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 65,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 10,
+      "skill_name": "kim_cang_phuc_ma",
+      "display_name": "Kim Cang Phuc Ma",
+      "faction": "shaolin",
+      "style": 1,
+      "is_melee": 1,
+      "attack_radius": 90,
+      "anim_id": 9,
+      "timing": {},
+      "missile": {
+        "generate_type": 1
+      },
+      "child_skill": {
+        "skill_id": 216,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 11,
+      "skill_name": "hoanh_tao_luc_hop",
+      "display_name": "Hoanh Tao Luc Hop",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 90,
+      "anim_id": 10,
+      "timing": {},
+      "missile": {
+        "generate_type": 1
+      },
+      "child_skill": {
+        "skill_id": 86,
+        "count": 1
+      },
+      "params": {
+        "param1": 32
+      }
+    },
+    {
+      "skill_id": 13,
+      "skill_name": "lap_dia_thanh_phat",
+      "display_name": "Lap Dia Thanh Phat",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1,
+        "vanish_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "vanish_event": true
+      },
+      "child_skill": {
+        "skill_id": 76,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 14,
+      "skill_name": "hang_long_bat_vu",
+      "display_name": "Hang Long Bat Vu",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 90,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 66,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 15,
+      "skill_name": "bat_dong_minh_vuong",
+      "display_name": "Bat Dong Minh Vuong",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1,
+        "vanish_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "vanish_event": true
+      },
+      "child_skill": {
+        "skill_id": 76,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 19,
+      "skill_name": "ma_ha_vu_luong",
+      "display_name": "Ma Ha Vu Luong",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 200,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 5,
+        "cooldown_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 2
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 61,
+        "count": 2
+      }
+    },
+    {
+      "skill_id": 20,
+      "skill_name": "su_tu_hong",
+      "display_name": "Su Tu Hong",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 90,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 54,
+        "cooldown_sec": 3.0
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        },
+        "start_event_fires": {
+          "tick": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 77,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 22,
+      "skill_name": "kim_ba",
+      "display_name": "Kim Ba",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 0,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 59,
+        "count": 32
+      }
+    },
+    {
+      "skill_id": 29,
+      "skill_name": "tram_long_quyet",
+      "display_name": "Tram Long Quyet",
+      "faction": "tianwang",
+      "style": 1,
+      "is_melee": 1,
+      "attack_radius": 72,
+      "anim_id": 9,
+      "timing": {},
+      "missile": {
+        "generate_type": 1
+      },
+      "child_skill": {
+        "skill_id": 405,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 40,
+      "skill_name": "doan_hon_thich",
+      "display_name": "Doan Hon Thich",
+      "faction": "tianwang",
+      "style": 1,
+      "is_melee": 1,
+      "attack_radius": 200,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167,
+        "cooldown_tick": 27,
+        "cooldown_sec": 1.5
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 224,
+        "count": 1
+      },
+      "params": {
+        "param1": 32,
+        "param2": 5
+      }
+    },
+    {
+      "skill_id": 45,
+      "skill_name": "tich_lich_don",
+      "display_name": "Tich Lich Don",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 35,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 47,
+      "skill_name": "doat_hon_tieu",
+      "display_name": "Doat Hon Tieu",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 450,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 116,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 50,
+      "skill_name": "truy_tam_tien",
+      "display_name": "Truy Tam Tien",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 2
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 37,
+        "count": 2
+      }
+    },
+    {
+      "skill_id": 54,
+      "skill_name": "man_thien_hoa_vu",
+      "display_name": "Man Thien Hoa Vu",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 38,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 58,
+      "skill_name": "thien_la_dia_vong",
+      "display_name": "Thien La Dia Vong",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 520,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "collide_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "collide_event": true
+      },
+      "child_skill": {
+        "skill_id": 67,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 63,
+      "skill_name": "doc_sa_chuong",
+      "display_name": "Doc Sa Chuong",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 30,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 65,
+      "skill_name": "huyet_dao_doc_sat",
+      "display_name": "Huyet Dao Doc Sat",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 31,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 68,
+      "skill_name": "u_minh_kho_lau",
+      "display_name": "U Minh Kho Lau",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 32,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 74,
+      "skill_name": "chu_cap_thanh_minh",
+      "display_name": "Chu Cap Thanh Minh",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 2
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 34,
+        "count": 2
+      }
+    },
+    {
+      "skill_id": 80,
+      "skill_name": "phieu_tuyet_xuyen_van",
+      "display_name": "Phieu Tuyet Xuyen Van",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 240,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 68,
+        "count": 1
+      },
+      "params": {
+        "param2": 5
+      }
+    },
+    {
+      "skill_id": 82,
+      "skill_name": "tu_tuong_dong_quy",
+      "display_name": "Tu Tuong Dong Quy",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 570,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "start_event_fires": {
+          "tick": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 101,
+        "count": 1
+      },
+      "params": {
+        "param1": 20
+      }
+    },
+    {
+      "skill_id": 85,
+      "skill_name": "nhat_diep_tri_thu",
+      "display_name": "Nhat Diep Tri Thu",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 2,
+        "count": 1
+      },
+      "params": {
+        "param1": 2
+      }
+    },
+    {
+      "skill_id": 91,
+      "skill_name": "phat_quang_pho_chieu",
+      "display_name": "Phat Quang Pho Chieu",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 4,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 99,
+      "skill_name": "phong_hoa_tuyet_nguyet",
+      "display_name": "Phong Hoa Tuyet Nguyet",
+      "faction": "gaibang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 6,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 102,
+      "skill_name": "phong_quyen_tan_tuyet",
+      "display_name": "Phong Quyen Tan Tuyet",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "start_event_fires": {
+          "tick": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 7,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 105,
+      "skill_name": "vu_da_le_hoa",
+      "display_name": "Vu Da Le Hoa",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 300,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 3,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 8,
+        "count": 4
+      }
+    },
+    {
+      "skill_id": 107,
+      "skill_name": "nhiep_tam_thuat",
+      "display_name": "Nhiep Tam Thuat",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 6,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 110,
+      "skill_name": "ngu_hanh_don",
+      "display_name": "Ngu Hanh Don",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 6,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 113,
+      "skill_name": "phu_van_tan_tuyet",
+      "display_name": "Phu Van Tan Tuyet",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 12,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 117,
+      "skill_name": "dau_thach_van_lo",
+      "display_name": "Dau Thach Van Lo",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 280,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 44,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 118,
+      "skill_name": "co_moc_don_loi",
+      "display_name": "Co Moc Don Loi",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 49,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 119,
+      "skill_name": "dien_mon_thac_bat",
+      "display_name": "Dien Mon Thac Bat",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 240,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 45,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 120,
+      "skill_name": "bon_luu_dao_hai",
+      "display_name": "Bon Luu Dao Hai",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 50,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 122,
+      "skill_name": "kien_nhan_than_thu",
+      "display_name": "Kien Nhan Than Thu",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 300,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 46,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 123,
+      "skill_name": "khue_moc_tinh_chieu",
+      "display_name": "Khue Moc Tinh Chieu",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 51,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 125,
+      "skill_name": "bong_da_ac_cau",
+      "display_name": "Bong Da Ac Cau",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 72,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 47,
+        "count": 16
+      }
+    },
+    {
+      "skill_id": 126,
+      "skill_name": "kim_o_anh_tuyet",
+      "display_name": "Kim O Anh Tuyet",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 52,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 128,
+      "skill_name": "khang_long_huu_hoi",
+      "display_name": "Khang Long Huu Hoi",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 48,
+        "count": 8
+      },
+      "params": {
+        "param1": 3,
+        "param2": 1
+      }
+    },
+    {
+      "skill_id": 135,
+      "skill_name": "tan_duong_nhu_huyet",
+      "display_name": "Tan Duong Nhu Huyet",
+      "faction": "tianren",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 270,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 54,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 138,
+      "skill_name": "thoi_son_dien_hai",
+      "display_name": "Thoi Son Dien Hai",
+      "faction": "tianren",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 10,
+        "cast_startup_sec": 0.556,
+        "cooldown_tick": 40,
+        "cooldown_sec": 2.222
+      },
+      "missile": {
+        "generate_type": 5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 10
+        }
+      },
+      "child_skill": {
+        "skill_id": 55,
+        "count": 10
+      },
+      "params": {
+        "param1": 64
+      }
+    },
+    {
+      "skill_id": 141,
+      "skill_name": "liet_hoa_tinh_thien",
+      "display_name": "Liet Hoa Tinh Thien",
+      "faction": "tianren",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 72,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 56,
+        "count": 16
+      }
+    },
+    {
+      "skill_id": 145,
+      "skill_name": "don_chi_liet_diem",
+      "display_name": "Don Chi Liet Diem",
+      "faction": "tianren",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 280,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 57,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 153,
+      "skill_name": "no_loi_chi",
+      "display_name": "No Loi Chi",
+      "faction": "cuiyan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 24,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 155,
+      "skill_name": "thuong_hai_minh_nguyet",
+      "display_name": "Thuong Hai Minh Nguyet",
+      "faction": "cuiyan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 480,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 25,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 158,
+      "skill_name": "kiem_phi_kinh_thien",
+      "display_name": "Kiem Phi Kinh Thien",
+      "faction": "cuiyan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 26,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 162,
+      "skill_name": "huyen_nhat_vu_tuong",
+      "display_name": "Huyen Nhat Vu Tuong",
+      "faction": "wudang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 520,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 27,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 164,
+      "skill_name": "bac_cap_nhi_phuc",
+      "display_name": "Bac Cap Nhi Phuc",
+      "faction": "wudang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 25,
+        "cooldown_sec": 1.389
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 28,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 165,
+      "skill_name": "vu_ngo_vu_kiem",
+      "display_name": "Vu Ngo Vu Kiem",
+      "faction": "wudang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 29,
+        "count": 16
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 169,
+      "skill_name": "ho_phong_phap",
+      "display_name": "Ho Phong Phap",
+      "faction": "wudang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 300,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 2
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 14,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 171,
+      "skill_name": "thanh_phong_phu",
+      "display_name": "Thanh Phong Phu",
+      "faction": "xiaoyao",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 440,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 19,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 172,
+      "skill_name": "thien_te_tan_loi",
+      "display_name": "Thien Te Tan Loi",
+      "faction": "xiaoyao",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "start_event_fires": {
+          "tick": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 15,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 174,
+      "skill_name": "ki_ban_phu",
+      "display_name": "Ki Ban Phu",
+      "faction": "xiaoyao",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 440,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 20,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 176,
+      "skill_name": "cuong_phong_sau_dien",
+      "display_name": "Cuong Phong Sau Dien",
+      "faction": "xiaoyao",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 16,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 179,
+      "skill_name": "cuong_loi_chan_dia",
+      "display_name": "Cuong Loi Chan Dia",
+      "faction": "xiaoyao",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 17,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 181,
+      "skill_name": "khi_tam_phu",
+      "display_name": "Khi Tam Phu",
+      "faction": "xiaoyao",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 440,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 54,
+        "cooldown_sec": 3.0
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 22,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 183,
+      "skill_name": "tue_nguyet_vu_tinh_phu",
+      "display_name": "Tue Nguyet Vu Tinh Phu",
+      "faction": "xiaoyao",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 23,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 210,
+      "skill_name": "khinh_cong",
+      "display_name": "Khinh Cong",
+      "faction": "unknown",
+      "style": 1,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 13,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 301,
+      "skill_name": "truy_tinh_truc_dien",
+      "display_name": "Truy Tinh Truc Dien",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 9,
+        "cast_startup_sec": 0.5
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 9
+        }
+      },
+      "child_skill": {
+        "skill_id": 126,
+        "count": 8
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 302,
+      "skill_name": "bao_vu_le_hoa",
+      "display_name": "Bao Vu Le Hoa",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "fly_event": 1,
+        "fly_event_tick": 30
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "fly_event_fires": {
+          "tick": 30
+        }
+      },
+      "child_skill": {
+        "skill_id": 96,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 317,
+      "skill_name": "kim_phat_xuat_kich",
+      "display_name": "Kim Phat Xuat Kich",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 75,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 134,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 319,
+      "skill_name": "hoanh_tao_thien_quan",
+      "display_name": "Hoanh Tao Thien Quan",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 75,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 135,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 321,
+      "skill_name": "vu_tuong_tram",
+      "display_name": "Vu Tuong Tram",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 2
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 136,
+        "count": 2
+      }
+    },
+    {
+      "skill_id": 326,
+      "skill_name": "pha_thien_tram",
+      "display_name": "Pha Thien Tram",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 75,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 138,
+        "count": 3
+      },
+      "params": {
+        "param1": 32,
+        "param2": 65537
+      }
+    },
+    {
+      "skill_id": 327,
+      "skill_name": "truy_tinh_truc_nguyet",
+      "display_name": "Truy Tinh Truc Nguyet",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 75,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167
+      },
+      "missile": {
+        "generate_type": 2
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 139,
+        "count": 1
+      },
+      "params": {
+        "param1": 30
+      }
+    },
+    {
+      "skill_id": 329,
+      "skill_name": "ngoc_tuyen_tay_tran",
+      "display_name": "Ngoc Tuyen Tay Tran",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 143,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 331,
+      "skill_name": "kim_dinh_phat_quang",
+      "display_name": "Kim Dinh Phat Quang",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 144,
+        "count": 4
+      },
+      "params": {
+        "param2": 34
+      }
+    },
+    {
+      "skill_id": 336,
+      "skill_name": "bang_tung_vu_anh",
+      "display_name": "Bang Tung Vu Anh",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 10,
+      "timing": {
+        "cast_startup_tick": 6,
+        "cast_startup_sec": 0.333
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 6
+        }
+      },
+      "child_skill": {
+        "skill_id": 146,
+        "count": 5
+      },
+      "params": {
+        "param1": 2,
+        "param2": 24
+      }
+    },
+    {
+      "skill_id": 337,
+      "skill_name": "bang_tam_tien_tu",
+      "display_name": "Bang Tam Tien Tu",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 240,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "fly_event": 1,
+        "fly_event_tick": 3
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        },
+        "fly_event_fires": {
+          "tick": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 147,
+        "count": 1
+      },
+      "params": {
+        "param2": 5
+      }
+    },
+    {
+      "skill_id": 338,
+      "skill_name": "phong_tuyet_bang_thien",
+      "display_name": "Phong Tuyet Bang Thien",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 148,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 339,
+      "skill_name": "nhiep_hon_nguyet_anh",
+      "display_name": "Nhiep Hon Nguyet Anh",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 2,
+        "damage_by_missile": true,
+        "collide_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "collide_event": true
+      },
+      "child_skill": {
+        "skill_id": 149,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 340,
+      "skill_name": "ngan_dao_xa_nguyet",
+      "display_name": "Ngan Dao Xa Nguyet",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 150,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 341,
+      "skill_name": "tan_hoa_tieu",
+      "display_name": "Tan Hoa Tieu",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 151,
+        "count": 5
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 342,
+      "skill_name": "cuu_cung_phi_tinh",
+      "display_name": "Cuu Cung Phi Tinh",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111
+      },
+      "missile": {
+        "generate_type": 5,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 152,
+        "count": 5
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 357,
+      "skill_name": "phi_long_tai_thien",
+      "display_name": "Phi Long Tai Thien",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 5,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 166,
+        "count": 3
+      },
+      "params": {
+        "param1": 32,
+        "param2": 65537
+      }
+    },
+    {
+      "skill_id": 358,
+      "skill_name": "tiem_long_tai_uyen",
+      "display_name": "Tiem Long Tai Uyen",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 570,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 167,
+        "count": 1
+      },
+      "params": {
+        "param1": 20
+      }
+    },
+    {
+      "skill_id": 359,
+      "skill_name": "thien_ha_vu_cau",
+      "display_name": "Thien Ha Vu Cau",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 168,
+        "count": 16
+      },
+      "params": {
+        "param1": 32,
+        "param2": 65537
+      }
+    },
+    {
+      "skill_id": 365,
+      "skill_name": "thien_dia_vu_cuc",
+      "display_name": "Thien Dia Vu Cuc",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 173,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 366,
+      "skill_name": "thai_cuc_vu_y",
+      "display_name": "Thai Cuc Vu Y",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "vanish_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "vanish_event": true
+      },
+      "child_skill": {
+        "skill_id": 174,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 367,
+      "skill_name": "kiem_khi_tung_hoanh",
+      "display_name": "Kiem Khi Tung Hoanh",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 9,
+        "cast_startup_sec": 0.5
+      },
+      "missile": {
+        "generate_type": 1,
+        "damage_by_missile": true,
+        "collide_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 9
+        },
+        "collide_event": true
+      },
+      "child_skill": {
+        "skill_id": 172,
+        "count": 8
+      }
+    },
+    {
+      "skill_id": 371,
+      "skill_name": "thai_cuc_kiem_y",
+      "display_name": "Thai Cuc Kiem Y",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 10,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 176,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 372,
+      "skill_name": "ngao_tuyet_tieu_phong",
+      "display_name": "Ngao Tuyet Tieu Phong",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 178,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 373,
+      "skill_name": "khieu_phong_tam_lien_kich",
+      "display_name": "Khieu Phong Tam Lien Kich",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 179,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 374,
+      "skill_name": "vu_toa_con_lun",
+      "display_name": "Vu Toa Con Lun",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "collide_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "collide_event": true
+      },
+      "child_skill": {
+        "skill_id": 180,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 375,
+      "skill_name": "loi_dong_cuu_thien",
+      "display_name": "Loi Dong Cuu Thien",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111
+      },
+      "missile": {
+        "generate_type": 3,
+        "damage_by_missile": true,
+        "collide_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        },
+        "collide_event": true
+      },
+      "child_skill": {
+        "skill_id": 181,
+        "count": 4
+      }
+    },
+    {
+      "skill_id": 377,
+      "skill_name": "no_loi_lien_hoan_kich",
+      "display_name": "No Loi Lien Hoan Kich",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 2,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 182,
+        "count": 4
+      }
+    },
+    {
+      "skill_id": 378,
+      "skill_name": "phong_hoa_lien_thien",
+      "display_name": "Phong Hoa Lien Thien",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 184,
+        "count": 8
+      },
+      "params": {
+        "param2": 128
+      }
+    },
+    {
+      "skill_id": 379,
+      "skill_name": "ma_viem_tai_thien",
+      "display_name": "Ma Viem Tai Thien",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 185,
+        "count": 16
+      },
+      "params": {
+        "param2": 128
+      }
+    },
+    {
+      "skill_id": 381,
+      "skill_name": "bang_tam_ngoc_lang",
+      "display_name": "Bang Tam Ngoc Lang",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167
+      },
+      "missile": {
+        "generate_type": 1,
+        "damage_by_missile": true,
+        "collide_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        },
+        "collide_event": true
+      },
+      "child_skill": {
+        "skill_id": 187,
+        "count": 1
+      },
+      "params": {
+        "param2": 64
+      }
+    },
+    {
+      "skill_id": 382,
+      "skill_name": "bang_tam_tuyet_lien",
+      "display_name": "Bang Tam Tuyet Lien",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 6,
+        "cast_startup_sec": 0.333
+      },
+      "missile": {
+        "generate_type": 2
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 6
+        }
+      },
+      "child_skill": {
+        "skill_id": 188,
+        "count": 1
+      },
+      "params": {
+        "param2": 64
+      }
+    },
+    {
+      "skill_id": 384,
+      "skill_name": "bach_doc_xuyen_tam",
+      "display_name": "Bach Doc Xuyen Tam",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 190,
+        "count": 1
+      },
+      "params": {
+        "param2": 64
+      }
+    },
+    {
+      "skill_id": 386,
+      "skill_name": "ngu_phong_thuat",
+      "display_name": "Ngu Phong Thuat",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 300,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 192,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 387,
+      "skill_name": "binh_dia_ham_loi",
+      "display_name": "Binh Dia Ham Loi",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 193,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 388,
+      "skill_name": "truy_phong_doc_cat",
+      "display_name": "Truy Phong Doc Cat",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 194,
+        "count": 32
+      },
+      "params": {
+        "param2": 128
+      }
+    },
+    {
+      "skill_id": 389,
+      "skill_name": "long_chien_u_da",
+      "display_name": "Long Chien U Da",
+      "faction": "cuiyan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 570,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 195,
+        "count": 1
+      },
+      "params": {
+        "param1": 20
+      }
+    },
+    {
+      "skill_id": 392,
+      "skill_name": "thuc_phuoc_chu",
+      "display_name": "Thuc Phuoc Chu",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cooldown_tick": 27,
+        "cooldown_sec": 1.5
+      },
+      "child_skill": {
+        "skill_id": 290,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 554,
+      "skill_name": "ngan_cau_thiet_hoach",
+      "display_name": "Ngan Cau Thiet Hoach",
+      "faction": "vohan",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 75,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 8,
+        "cooldown_sec": 0.444
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 209,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 555,
+      "skill_name": "hai_thien_nhat_tuyen",
+      "display_name": "Hai Thien Nhat Tuyen",
+      "faction": "vohan",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 75,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 8,
+        "cooldown_sec": 0.444
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 210,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 556,
+      "skill_name": "pha_khong_tram_anh",
+      "display_name": "Pha Khong Tram Anh",
+      "faction": "vohan",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 75,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 8,
+        "cooldown_sec": 0.444
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 211,
+        "count": 3
+      },
+      "params": {
+        "param1": 21,
+        "param2": 30
+      }
+    },
+    {
+      "skill_id": 557,
+      "skill_name": "bat_diet_sat_y",
+      "display_name": "Bat Diet Sat Y",
+      "faction": "vohan",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 75,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 4,
+        "cast_startup_sec": 0.222,
+        "cooldown_tick": 8,
+        "cooldown_sec": 0.444
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 4
+        }
+      },
+      "child_skill": {
+        "skill_id": 212,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 558,
+      "skill_name": "tran_ngoc_pha_thien",
+      "display_name": "Tran Ngoc Pha Thien",
+      "faction": "vohan",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 559,
+      "skill_name": "dai_bi_chu",
+      "display_name": "Dai Bi Chu",
+      "faction": "vohan",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 560,
+      "skill_name": "hac_sat_than_sa",
+      "display_name": "Hac Sat Than Sa",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 300,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 213,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 561,
+      "skill_name": "thien_thu_van_doc",
+      "display_name": "Thien Thu Van Doc",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 300,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 4,
+        "cast_startup_sec": 0.222,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 4
+        }
+      },
+      "child_skill": {
+        "skill_id": 214,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 562,
+      "skill_name": "bi_ma_huyet_quang",
+      "display_name": "Bi Ma Huyet Quang",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 300,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 4,
+        "cast_startup_sec": 0.222,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 4
+        }
+      },
+      "child_skill": {
+        "skill_id": 215,
+        "count": 2
+      },
+      "params": {
+        "param1": 45
+      }
+    },
+    {
+      "skill_id": 563,
+      "skill_name": "co_yen_truc_van",
+      "display_name": "Co Yen Truc Van",
+      "faction": "wudu",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 350,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 4,
+        "cast_startup_sec": 0.222,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 4
+        }
+      },
+      "child_skill": {
+        "skill_id": 216,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 564,
+      "skill_name": "luyen_ngoc_hu_cot",
+      "display_name": "Luyen Ngoc Hu Cot",
+      "faction": "wudu",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 565,
+      "skill_name": "thuc_cot_huyet_nhen",
+      "display_name": "Thuc Cot Huyet Nhen",
+      "faction": "wudu",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 566,
+      "skill_name": "trieu_khoi_nguyet_doanh",
+      "display_name": "Trieu Khoi Nguyet Doanh",
+      "faction": "cuiyan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 280,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167,
+        "cooldown_tick": 7,
+        "cooldown_sec": 0.389
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 217,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 567,
+      "skill_name": "van_lieu_phieu_phong",
+      "display_name": "Van Lieu Phieu Phong",
+      "faction": "cuiyan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 280,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167,
+        "cooldown_tick": 7,
+        "cooldown_sec": 0.389
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        },
+        "start_event_fires": {
+          "tick": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 218,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 568,
+      "skill_name": "tuyet_anh_hong_tran",
+      "display_name": "Tuyet Anh Hong Tran",
+      "faction": "cuiyan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 300,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 7,
+        "cooldown_sec": 0.389
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 219,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 569,
+      "skill_name": "suong_da_tien_tung",
+      "display_name": "Suong Da Tien Tung",
+      "faction": "cuiyan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 320,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167,
+        "cooldown_tick": 7,
+        "cooldown_sec": 0.389
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        },
+        "start_event_fires": {
+          "tick": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 220,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 570,
+      "skill_name": "nghich_chuyen_tam_kinh",
+      "display_name": "Nghich Chuyen Tam Kinh",
+      "faction": "cuiyan",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 571,
+      "skill_name": "huyen_bang_am_khi",
+      "display_name": "Huyen Bang Am Khi",
+      "faction": "cuiyan",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 572,
+      "skill_name": "viem_long_chi_bao",
+      "display_name": "Viem Long Chi Bao",
+      "faction": "tianren",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 221,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 573,
+      "skill_name": "trieu_duong_liet_diem",
+      "display_name": "Trieu Duong Liet Diem",
+      "faction": "tianren",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 180,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 222,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 574,
+      "skill_name": "nhu_nhat_trung_thien",
+      "display_name": "Nhu Nhat Trung Thien",
+      "faction": "tianren",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 200,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 223,
+        "count": 4
+      },
+      "params": {
+        "param1": 64
+      }
+    },
+    {
+      "skill_id": 575,
+      "skill_name": "xich_khong_hoa_vu",
+      "display_name": "Xich Khong Hoa Vu",
+      "faction": "tianren",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 200,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 224,
+        "count": 2
+      },
+      "params": {
+        "param1": 3
+      }
+    },
+    {
+      "skill_id": 576,
+      "skill_name": "tran_khong_pham_tan",
+      "display_name": "Tran Khong Pham Tan",
+      "faction": "tianren",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 577,
+      "skill_name": "hoa_phong_khinh_ngam",
+      "display_name": "Hoa Phong Khinh Ngam",
+      "faction": "tianren",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 578,
+      "skill_name": "hon_nguyen_can_khon",
+      "display_name": "Hon Nguyen Can Khon",
+      "faction": "wudang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 220,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 7,
+        "cooldown_sec": 0.389
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 225,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 579,
+      "skill_name": "truong_ha_lac_nhat",
+      "display_name": "Truong Ha Lac Nhat",
+      "faction": "wudang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 240,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 7,
+        "cooldown_sec": 0.389
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 226,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 580,
+      "skill_name": "tat_phong_tan_loi",
+      "display_name": "Tat Phong Tan Loi",
+      "faction": "wudang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 260,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 7,
+        "cooldown_sec": 0.389
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        },
+        "start_event_fires": {
+          "tick": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 227,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 581,
+      "skill_name": "vu_anh_kiem_quyet",
+      "display_name": "Vu Anh Kiem Quyet",
+      "faction": "wudang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 260,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111,
+        "cooldown_tick": 7,
+        "cooldown_sec": 0.389
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 228,
+        "count": 5
+      },
+      "params": {
+        "param1": 2
+      }
+    },
+    {
+      "skill_id": 582,
+      "skill_name": "thuan_duong_vu_cuc",
+      "display_name": "Thuan Duong Vu Cuc",
+      "faction": "wudang",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 583,
+      "skill_name": "van_sinh_ket_hai",
+      "display_name": "Van Sinh Ket Hai",
+      "faction": "wudang",
+      "style": 2,
+      "is_melee": 0,
+      "attack_radius": 600,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 9,
+        "cooldown_sec": 0.5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      }
+    },
+    {
+      "skill_id": 1024,
+      "skill_name": "ngung_tuyet_han_suong",
+      "display_name": "Ngung Tuyet Han Suong",
+      "faction": "gaibang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 10,
+        "cast_startup_sec": 0.556,
+        "cooldown_tick": 540,
+        "cooldown_sec": 30.0
+      },
+      "missile": {
+        "generate_type": 5
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 10
+        }
+      },
+      "child_skill": {
+        "skill_id": 311,
+        "count": 10
+      },
+      "params": {
+        "param1": 50
+      }
+    },
+    {
+      "skill_id": 1045,
+      "skill_name": "cuu_long_tai_thien",
+      "display_name": "Cuu Long Tai Thien",
+      "faction": "tianwang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 480,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 18,
+        "cast_startup_sec": 1.0,
+        "cooldown_tick": 270,
+        "cooldown_sec": 15.0
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 18
+        }
+      },
+      "child_skill": {
+        "skill_id": 166,
+        "count": 9
+      }
+    },
+    {
+      "skill_id": 1046,
+      "skill_name": "song_long_hy_chau",
+      "display_name": "Song Long Hy Chau",
+      "faction": "tianwang",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 480,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 166,
+        "count": 2
+      },
+      "params": {
+        "param1": 3
+      }
+    },
+    {
+      "skill_id": 1047,
+      "skill_name": "dai_phong_khoi_he",
+      "display_name": "Dai Phong Khoi He",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 480,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        },
+        "start_event_fires": {
+          "tick": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 227,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1048,
+      "skill_name": "ta_tuyen_lam_kiem_khi",
+      "display_name": "Ta Tuyen Lam Kiem Khi",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 480,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278,
+        "cooldown_tick": 1080,
+        "cooldown_sec": 60.0
+      },
+      "missile": {
+        "generate_type": 1,
+        "damage_by_missile": true,
+        "fly_event": 1,
+        "fly_event_tick": 6
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "start_event_fires": {
+          "tick": 5
+        },
+        "fly_event_fires": {
+          "tick": 6
+        }
+      },
+      "child_skill": {
+        "skill_id": 315,
+        "count": 1
+      },
+      "params": {
+        "param2": 20
+      }
+    },
+    {
+      "skill_id": 1052,
+      "skill_name": "tieu_dieu_tan",
+      "display_name": "Tieu Dieu Tan",
+      "faction": "xiaoyao",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 1,
+        "vanish_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "vanish_event": true
+      },
+      "child_skill": {
+        "skill_id": 76,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1056,
+      "skill_name": "vi_da_hien_xu",
+      "display_name": "Vi Da Hien Xu",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 180,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 318,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1057,
+      "skill_name": "tam_gioi_quy_thien",
+      "display_name": "Tam Gioi Quy Thien",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "start_event_fires": {
+          "tick": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 319,
+        "count": 3
+      },
+      "params": {
+        "param1": 8
+      }
+    },
+    {
+      "skill_id": 1063,
+      "skill_name": "bang_tuoc_hoat_ky",
+      "display_name": "Bang Tuoc Hoat Ky",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "collide_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "collide_event": true
+      },
+      "child_skill": {
+        "skill_id": 326,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 1064,
+      "skill_name": "bang_ngung_han_yen",
+      "display_name": "Bang Ngung Han Yen",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 354,
+        "count": 5
+      },
+      "params": {
+        "param1": 4,
+        "param2": 64
+      }
+    },
+    {
+      "skill_id": 1065,
+      "skill_name": "thuy_anh_man_tu",
+      "display_name": "Thuy Anh Man Tu",
+      "faction": "emei",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 240,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "fly_event": 1,
+        "fly_event_tick": 2
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        },
+        "start_event_fires": {
+          "tick": 2
+        },
+        "fly_event_fires": {
+          "tick": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 327,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1069,
+      "skill_name": "vu_anh_xuyen",
+      "display_name": "Vu Anh Xuyen",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167
+      },
+      "missile": {
+        "generate_type": 2,
+        "damage_by_missile": true,
+        "collide_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        },
+        "collide_event": true
+      },
+      "child_skill": {
+        "skill_id": 331,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1070,
+      "skill_name": "thiet_lien_tu_sat",
+      "display_name": "Thiet Lien Tu Sat",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "fly_event": 1,
+        "fly_event_tick": 18
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "fly_event_fires": {
+          "tick": 18
+        }
+      },
+      "child_skill": {
+        "skill_id": 332,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 1071,
+      "skill_name": "can_khon_nhat_trich",
+      "display_name": "Can Khon Nhat Trich",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 360,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111
+      },
+      "missile": {
+        "generate_type": 5,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 333,
+        "count": 5
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 1072,
+      "skill_name": "ngu_dieu_can_khon",
+      "display_name": "Ngu Dieu Can Khon",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 570,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 334,
+        "count": 1
+      },
+      "params": {
+        "param1": 20
+      }
+    },
+    {
+      "skill_id": 1073,
+      "skill_name": "thoi_thang_luc_long",
+      "display_name": "Thoi Thang Luc Long",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "fly_event": 1,
+        "fly_event_tick": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "start_event_fires": {
+          "tick": 5
+        },
+        "fly_event_fires": {
+          "tick": 1
+        }
+      },
+      "child_skill": {
+        "skill_id": 335,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1074,
+      "skill_name": "bong_huynh_luoc_dia",
+      "display_name": "Bong Huynh Luoc Dia",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 2,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 336,
+        "count": 5
+      }
+    },
+    {
+      "skill_id": 1078,
+      "skill_name": "tao_hoa_thai_thanh",
+      "display_name": "Tao Hoa Thai Thanh",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 340,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 1080,
+      "skill_name": "cuu_thien_cuong_phong",
+      "display_name": "Cuu Thien Cuong Phong",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 342,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1081,
+      "skill_name": "thien_loi_chan_nhac",
+      "display_name": "Thien Loi Chan Nhac",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 512,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 3,
+        "damage_by_missile": true,
+        "vanish_event": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "vanish_event": true
+      },
+      "child_skill": {
+        "skill_id": 372,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1083,
+      "skill_name": "long_thua_bat_nha_thu",
+      "display_name": "Long Thua Bat Nha Thu",
+      "faction": "shaolin",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 200,
+      "anim_id": 9,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 345,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1098,
+      "skill_name": "thiet_sa_xa_tinh",
+      "display_name": "Thiet Sa Xa Tinh",
+      "faction": "tangmen",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 10,
+        "cast_startup_sec": 0.556
+      },
+      "missile": {
+        "generate_type": 1
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 10
+        }
+      },
+      "child_skill": {
+        "skill_id": 360,
+        "count": 8
+      },
+      "params": {
+        "param1": 1,
+        "param2": 90
+      }
+    },
+    {
+      "skill_id": 1105,
+      "skill_name": "kiem_vu_dieu_nguyet",
+      "display_name": "Kiem Vu Dieu Nguyet",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 520,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 367,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 1108,
+      "skill_name": "phong_minh_ngoc_toai",
+      "display_name": "Phong Minh Ngoc Toai",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 370,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 1109,
+      "skill_name": "loi_dong_can_khon",
+      "display_name": "Loi Dong Can Khon",
+      "faction": "kunlun",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 2,
+        "cast_startup_sec": 0.111
+      },
+      "missile": {
+        "generate_type": 3,
+        "damage_by_missile": true
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 2
+        }
+      },
+      "child_skill": {
+        "skill_id": 343,
+        "count": 1
+      }
+    },
+    {
+      "skill_id": 1114,
+      "skill_name": "ngoc_tuyen_tam_kinh",
+      "display_name": "Ngoc Tuyen Tam Kinh",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 470,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "missile": {
+        "generate_type": 0,
+        "damage_by_missile": true,
+        "fly_event": 1,
+        "fly_event_tick": 19
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        },
+        "fly_event_fires": {
+          "tick": 19
+        }
+      },
+      "child_skill": {
+        "skill_id": 375,
+        "count": 1
+      },
+      "params": {
+        "param1": 1
+      }
+    },
+    {
+      "skill_id": 1115,
+      "skill_name": "minh_tam_kien_tinh",
+      "display_name": "Minh Tam Kien Tinh",
+      "faction": "huashan",
+      "style": 0,
+      "is_melee": 0,
+      "attack_radius": 400,
+      "anim_id": 11,
+      "timing": {
+        "cast_startup_tick": 5,
+        "cast_startup_sec": 0.278
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 5
+        }
+      },
+      "child_skill": {
+        "skill_id": 376,
+        "count": 1
+      },
+      "params": {
+        "param1": 20,
+        "param2": 5
+      }
+    },
+    {
+      "skill_id": 1131,
+      "skill_name": "ma_am_kich",
+      "display_name": "Ma Am Kich",
+      "faction": "unknown",
+      "style": 0,
+      "is_melee": 1,
+      "attack_radius": 60,
+      "anim_id": 10,
+      "timing": {
+        "cast_startup_tick": 3,
+        "cast_startup_sec": 0.167
+      },
+      "phases": {
+        "cast_startup": {
+          "start": 0,
+          "end": 3
+        }
+      },
+      "child_skill": {
+        "skill_id": 337,
+        "count": 1
+      }
+    }
+  ],
+  "buff_durations_by_faction": {
+    "shaolin": {
+      "budong_mingwang": {
+        "min_tick": 2160,
+        "max_tick": 3240,
+        "min_sec": 120,
+        "max_sec": 180
+      },
+      "yijin_jing": {
+        "min_tick": 2160,
+        "max_tick": 6480,
+        "min_sec": 120,
+        "max_sec": 360
+      },
+      "rulai_qianye": {
+        "min_tick": 2160,
+        "max_tick": 6480,
+        "min_sec": 120,
+        "max_sec": 360
+      },
+      "dachengrulaizhou_cd": {
+        "encoded": "10*18*256..5*18*256",
+        "cd_sec_range": [
+          90,
+          180
+        ]
+      }
+    },
+    "huashan": {
+      "huanyan_yunyan": {
+        "min_tick": 1080,
+        "max_tick": 3240,
+        "min_sec": 60,
+        "max_sec": 180
+      },
+      "zixia_jianqi_cd": {
+        "encoded": "5*18*256+1..80",
+        "cd_tick": 90
+      },
+      "duoming_start_cd": {
+        "cd_tick": 10800,
+        "cd_sec": 600
+      }
+    },
+    "gaibang": {
+      "huabu_liushou": {
+        "min_tick": 2160,
+        "max_tick": 3240,
+        "min_sec": 120,
+        "max_sec": 180
+      },
+      "zuidie_kuangwu": {
+        "min_tick": 2160,
+        "max_tick": 3240,
+        "min_sec": 120,
+        "max_sec": 180
+      },
+      "xiaoyao_gong": {
+        "min_tick": 2160,
+        "max_tick": 3240,
+        "min_sec": 120,
+        "max_sec": 180
+      },
+      "gaibang120_cd": {
+        "encoded": "12*18*256",
+        "cd_tick": 3888,
+        "cd_sec": 216
+      }
+    },
+    "wudang": {
+      "taiji_shengong": {
+        "min_tick": 2160,
+        "max_tick": 6480,
+        "min_sec": 120,
+        "max_sec": 360
+      },
+      "wudang120_mintimepercast": {
+        "min_tick": 180,
+        "max_tick": 630,
+        "min_sec": 10,
+        "max_sec": 35
+      }
+    },
+    "wudu": {
+      "binglan_xuanjing": {
+        "min_tick": 360,
+        "max_tick": 1620,
+        "min_sec": 20,
+        "max_sec": 90
+      },
+      "jiutian_kuanglei": {
+        "min_tick": 360,
+        "max_tick": 1620,
+        "min_sec": 20,
+        "max_sec": 90
+      },
+      "wudu120zuzhou": {
+        "min_tick": 54,
+        "max_tick": 108,
+        "min_sec": 3,
+        "max_sec": 6
+      }
+    },
+    "emei": {
+      "huanyan_yunyan": {
+        "min_tick": 1080,
+        "max_tick": 3240,
+        "min_sec": 60,
+        "max_sec": 180
+      },
+      "fofa_wubian": {
+        "tick": 144,
+        "sec": 8
+      },
+      "foxin_ciyou": {
+        "tick": 144,
+        "sec": 8
+      }
+    },
+    "tangmen": {
+      "nomovespeedatt": {
+        "min_tick": 90,
+        "max_tick": 360,
+        "min_sec": 5,
+        "max_sec": 20
+      }
+    },
+    "kunlun": {
+      "qingfeng_fu": {
+        "tick": 2160,
+        "sec": 120
+      },
+      "jiban_fu": {
+        "min_tick": 360,
+        "max_tick": 1620,
+        "min_sec": 20,
+        "max_sec": 90
+      },
+      "beiming_daohai": {
+        "min_tick": 810,
+        "max_tick": 2160,
+        "min_sec": 45,
+        "max_sec": 120
+      }
+    },
+    "tianwang": {
+      "jingxin_jue": {
+        "min_tick": 2160,
+        "max_tick": 3240,
+        "min_sec": 120,
+        "max_sec": 180
+      }
+    },
+    "tianren": {
+      "huolian_fenhua": {
+        "min_tick": 720,
+        "max_tick": 2160,
+        "min_sec": 40,
+        "max_sec": 120
+      },
+      "tianmo_jieti": {
+        "min_tick": 2160,
+        "max_tick": 6480,
+        "min_sec": 120,
+        "max_sec": 360
+      }
+    },
+    "cuiyan": {
+      "huti_hanbing": {
+        "tick": 2160,
+        "sec": 120
+      },
+      "xueying": {
+        "tick": 5400,
+        "sec": 300
+      }
+    },
+    "xiaoyao": {
+      "danzhichishang_buff": {
+        "tick": 126,
+        "sec": 7
+      },
+      "danzhichishang_cd": {
+        "encoded": "20*18*256",
+        "cd_tick": 6480,
+        "cd_sec": 360
+      }
+    }
+  },
+  "cc_durations": {
+    "shaolin_shizi_hou_stun": {
+      "min_tick": 5,
+      "max_tick": 27,
+      "levels": "1-21"
+    },
+    "gaibang_boji_erfu_stun": {
+      "min_tick": 1,
+      "max_tick": 20,
+      "levels": "1-20"
+    },
+    "kunlun_qixin_fu_stun": {
+      "min_tick": 5,
+      "max_tick": 36,
+      "levels": "1-20"
+    },
+    "tianren_duanhun_ci_stun": {
+      "min_tick": 7,
+      "max_tick": 43,
+      "levels": "1-21"
+    },
+    "wudang_boji_erfu_stun": {
+      "min_tick": 1,
+      "max_tick": 20,
+      "levels": "1-20"
+    },
+    "gaibang120_zuzhou": {
+      "min_tick": 54,
+      "max_tick": 162,
+      "min_sec": 3,
+      "max_sec": 9
+    }
+  },
+  "attack_speed_modifiers": {
+    "_note": "These are percentage modifiers to base attack speed, NOT frame counts",
+    "gaibang_xiaoyao_gong": {
+      "level_range": "1-20",
+      "min_pct": 6,
+      "max_pct": 65
+    },
+    "wudang_taiji_shengong_atk": {
+      "level_range": "1-41",
+      "min_pct": 21,
+      "max_pct": 98
+    },
+    "wudang_taiji_shengong_cast": {
+      "level_range": "35-44",
+      "min_pct": 81,
+      "max_pct": 94
+    },
+    "wudu_wudu_qijing_cast": {
+      "level_range": "1-40",
+      "min_pct": 1,
+      "max_pct": 80
+    },
+    "kunlun_shuangao_atk": {
+      "level_range": "1-39",
+      "min_pct": 25,
+      "max_pct": 126
+    },
+    "kunlun_shuangao_cast": {
+      "level_range": "1-36",
+      "min_pct": 25,
+      "max_pct": 92
+    },
+    "cuiyan_xueying_atk": {
+      "level_range": "1-44",
+      "min_pct": 12,
+      "max_pct": 122
+    },
+    "tianren_tianmo_jieti_atk": {
+      "level_range": "38-40",
+      "min_pct": 0,
+      "max_pct": 60
+    }
+  }
+}
