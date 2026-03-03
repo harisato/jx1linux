@@ -1,178 +1,178 @@
-# He Thong Nhiem Vu va Hoat Dong - VLTK1
+# Hệ Thống Nhiệm Vụ và Hoạt Động - VLTK1
 
-## Cac loai nhiem vu
+## Các loại nhiệm vụ
 
-### 1. Nhiem vu Chinh Tuyen
-- Dan dat nguoi choi qua cot truyen chinh cua game
-- Cho nhieu EXP va vat pham
-- Bat buoc lam de mo khoa tinh nang
+### 1. Nhiệm vụ Chính Tuyến
+- Dẫn dắt người chơi qua cốt truyện chính của game
+- Cho nhiều EXP và vật phẩm
+- Bắt buộc làm để mở khóa tính năng
 
-### 2. Nhiem vu Phu Tuyen
-- Cung cap thong tin ve nhan vat, su kien
-- Cho EXP va vat pham bo sung
-- Co the lam xen ke voi chinh tuyen
+### 2. Nhiệm vụ Phụ Tuyến
+- Cung cấp thông tin về nhân vật, sự kiện
+- Cho EXP và vật phẩm bổ sung
+- Có thể làm xen kẽ với chính tuyến
 
-### 3. Nhiem vu Hang Ngay
-- Lap lai moi ngay, cho EXP va phan thuong
-- Bao gom: Da Tau, Van Tieu, Van Dap...
-- So lan thuc hien gioi han trong ngay
+### 3. Nhiệm vụ Hàng Ngày
+- Lặp lại mỗi ngày, cho EXP và phần thưởng
+- Bao gồm: Dã Tẩu, Vận Tiêu, Vấn Đáp...
+- Số lần thực hiện giới hạn trong ngày
 
-### 4. Nhiem vu Bang Hoi
-- Hoat dong tap the cho thanh vien bang hoi
-- Lua Trai Bang Hoi, Van Tieu Bang Hoi...
+### 4. Nhiệm vụ Bang Hội
+- Hoạt động tập thể cho thành viên bang hội
+- Lửa Trại Bang Hội, Vận Tiêu Bang Hội...
 
-### 5. Nhiem vu Su Kien
-- Xuat hien theo cac su kien dac biet (le hoi, ky niem...)
-- Thuong co phan thuong hap dan va gioi han thoi gian
+### 5. Nhiệm vụ Sự Kiện
+- Xuất hiện theo các sự kiện đặc biệt (lễ hội, kỷ niệm...)
+- Thường có phần thưởng hấp dẫn và giới hạn thời gian
 
-## Nhiem vu Hoang Kim
+## Nhiệm vụ Hoàng Kim
 
-Nhiem vu Hoang Kim la mot trong nhung nhiem vu quan trong nhat trong game.
+Nhiệm vụ Hoàng Kim là một trong những nhiệm vụ quan trọng nhất trong game.
 
-### Dieu kien:
-- Tu cap 20 tro len
-- Nhan tai NPC Long Ngu o tat ca cac thon
+### Điều kiện:
+- Từ cấp 20 trở lên
+- Nhận tại NPC Long Ngữ ở tất cả các thôn
 
-### Cach nhan:
-1. Doi thoai NPC Long Ngu
-2. Nhan tui thu gioi thieu
-3. Mo ra se co thu gioi thieu den NPC cua 3 phe va thu gui cho ban
+### Cách nhận:
+1. Đối thoại NPC Long Ngữ
+2. Nhận túi thư giới thiệu
+3. Mở ra sẽ có thư giới thiệu đến NPC của 3 phe và thư gửi cho bạn
 
-### Ba tuyen nhiem vu:
-- **Chinh phai**: Nhiem vu tu cac NPC phe chinh
-- **Trung lap**: Nhiem vu tu cac NPC trung lap
-- **Ta phai**: Nhiem vu tu cac NPC phe ta
-- Co the thuc hien ca 3 tuyen cung luc
+### Ba tuyến nhiệm vụ:
+- **Chính phái**: Nhiệm vụ từ các NPC phe chính
+- **Trung lập**: Nhiệm vụ từ các NPC trung lập
+- **Tà phái**: Nhiệm vụ từ các NPC phe tà
+- Có thể thực hiện cả 3 tuyến cùng lúc
 
-### Phan thuong:
-- Do Kim Phong (khong khoa)
-- Do Thien Hoang (khong khoa)
-- Tien Thao Lo (khong khoa)
-- Thien Son Bao Lo (khong khoa)
+### Phần thưởng:
+- Đỗ Kim Phong (không khóa)
+- Đỗ Thiên Hoàng (không khóa)
+- Tiên Thảo Lô (không khóa)
+- Thiên Sơn Bảo Lô (không khóa)
 
-## Nhiem vu Mon Phai
+## Nhiệm vụ Môn Phái
 
-Moi mon phai co chuoi nhiem vu rieng theo tung moc cap:
+Mỗi môn phái có chuỗi nhiệm vụ riêng theo từng mốc cấp:
 
-### Thieu Lam:
-- Cap 10: Phong Ho Vien Vo Tang, hoc Quyen/Con/Dao
-- Cap 50: Phong Phuc Ma Thien Vuong, hoc Hoanh Tao Luc Hop, Ma Ha Vo Luong, Long Ho Trrao
+### Thiếu Lâm:
+- Cấp 10: Phong Hộ Viện Vũ Tăng, học Quyền/Côn/Đao
+- Cấp 50: Phong Phục Ma Thiên Vương, học Hoành Tảo Lục Hợp, Ma Ha Vô Lượng, Long Hổ Trào
 
-### Thien Vuong:
-- Cap 10: Phong Truong Thi Ve, hoc Thien Vuong Thuong/Dao/Chuy Phap
-- Cap 20: Phong Thu Trai Han Tuong, hoc Tinh Tam Quyet
-- Cap 30: Phong Chuong Da Dau Linh, hoc Bat Phong Tram, Duong Quan Tam Diep, Hang Van Quyet
+### Thiên Vương:
+- Cấp 10: Phong Trưởng Thị Vệ, học Thiên Vương Thương/Đao/Chùy Pháp
+- Cấp 20: Phong Thủ Trại Hán Tướng, học Tĩnh Tâm Quyết
+- Cấp 30: Phong Chưởng Đà Đầu Lĩnh, học Bát Phong Trảm, Dương Quan Tam Điệp, Hàng Vân Quyết
 
-### Vo Dang:
-- Cap 40: Phong Nhap Quan Dao Nhan, hoc The Van Tung
+### Võ Đang:
+- Cấp 40: Phong Nhập Quan Đạo Nhân, học Thế Vân Tung
 
-### Duong Mon:
-- Cap 30: Phong Gioi Tien Ho Ve, hoc Truy Tam Tien, Man Thien Hoa Vu, Doat Hon Tieu, Xuyen Tam Thich
+### Đường Môn:
+- Cấp 30: Phong Giới Tiên Hộ Vệ, học Truy Tâm Tiễn, Mạn Thiên Hoa Vũ, Đoạt Hồn Tiêu, Xuyên Tâm Thích
 
-### Con Lon:
-- Cap 20: Phong Tu Vi Ho Phap, hoc Ky Ban Phu
-- Cap 40: Phong Thien Vi Ho Phap, hoc Khi Han Ngao Tuyet, Khi Tam Phu
-- Cap 90: Hoc Ngao Tuyet Tieu Phong, Loi Dong Cuu Thien
+### Côn Lôn:
+- Cấp 20: Phong Tử Vi Hộ Pháp, học Kỳ Bàn Phù
+- Cấp 40: Phong Thiên Vi Hộ Pháp, học Khí Hàn Ngạo Tuyết, Khí Tâm Phù
+- Cấp 90: Học Ngạo Tuyết Tiêu Phong, Lôi Động Cửu Thiên
 
-### Thien Nhan:
-- Xuat su: Phong Sat Man Phap Vuong
-- Nhiem vu tu Giao chu Hoan Nhan Hong Liet tai tang 3 Thien Nhan Giao
-- Tim lai 5 thanh doan kiem tai thanh dong
+### Thiên Nhẫn:
+- Xuất sư: Phong Sát Mạn Pháp Vương
+- Nhiệm vụ từ Giáo chủ Hoàn Nhẫn Hồng Liệt tại tầng 3 Thiên Nhẫn Giáo
+- Tìm lại 5 thanh đoản kiếm tại thành đông
 
-## Hoat dong hang ngay
+## Hoạt động hàng ngày
 
-### Van Tieu
-- **Thoi gian:** 10:00 - 22:00 moi ngay
-- **Dia diem:** Bien Kinh
-- **Noi dung:** Van chuyen hang hoa, bao ve tieu xa
-- **Phan thuong:** EXP + Bac
+### Vận Tiêu
+- **Thời gian:** 10:00 - 22:00 mỗi ngày
+- **Địa điểm:** Biện Kinh
+- **Nội dung:** Vận chuyển hàng hóa, bảo vệ tiêu xa
+- **Phần thưởng:** EXP + Bạc
 
-### Van Dap Moi Ngay
-- **So cau hoi:** 10 cau
-- **Phan thuong:** Rat nhieu EXP
-- **Meo:** Co gang tra loi dung cang nhieu cang tot
+### Vấn Đáp Mỗi Ngày
+- **Số câu hỏi:** 10 câu
+- **Phần thưởng:** Rất nhiều EXP
+- **Mẹo:** Cố gắng trả lời đúng càng nhiều càng tốt
 
-### Da Tau
-- **Loai:** Nhiem vu lap lai
-- **Noi dung:** Giao hang hoac danh quai theo yeu cau
-- **Phan thuong:** EXP va vat pham
+### Dã Tẩu
+- **Loại:** Nhiệm vụ lặp lại
+- **Nội dung:** Giao hàng hoặc đánh quái theo yêu cầu
+- **Phần thưởng:** EXP và vật phẩm
 
-### Lua Trai Bang Hoi
-- **Thoi gian:** 19:15 - 20:00
-- **Dieu kien:** Phai la thanh vien bang hoi
-- **Phan thuong:** EXP CUC KHUNG
-- **Luu y:** KHONG duoc bo hoat dong nay!
+### Lửa Trại Bang Hội
+- **Thời gian:** 19:15 - 20:00 hàng ngày
+- **Điều kiện:** Phải là thành viên bang hội
+- **Phần thưởng:** EXP CỰC KHỦNG
+- **Lưu ý:** KHÔNG được bỏ hoạt động này!
 
-### Phong Lang Do
-- **Loai:** PvP / Hoat dong chien truong
-- **Phan thuong:** EXP + vat pham
+### Phong Lăng Độ
+- **Loại:** PvP / Hoạt động chiến trường
+- **Phần thưởng:** EXP + vật phẩm
 
-### Boss The Gioi
-- **Noi dung:** Hop tac danh boss cap cao
-- **Phan thuong:** Do Pho Hoang Kim, Bo Thien Thach, trang bi tot
+### Boss Thế Giới
+- **Nội dung:** Hợp tác đánh boss cấp cao
+- **Phần thưởng:** Đồ Phổ Hoàng Kim, Bổ Thiên Thạch, trang bị tốt
 
-### Boss Hoang Kim
-- **Noi dung:** San boss rieng cua bang hoi
-- **Phan thuong:** Ruong Hoang Kim, trang bi hoang kim
+### Boss Hoàng Kim
+- **Nội dung:** Săn boss riêng của bang hội
+- **Phần thưởng:** Rương Hoàng Kim, trang bị hoàng kim
 
-### Thu Linh Da Ngoai
-- **Noi dung:** Danh boss ngoai toi
-- **Phan thuong:** EXP + vat pham
+### Thủ Lĩnh Dã Ngoại
+- **Nội dung:** Đánh boss ngoài trời
+- **Phần thưởng:** EXP + vật phẩm
 
-### Chen Ruou Tu Nghia
-- **Noi dung:** Hoat dong cong dong
-- **Phan thuong:** EXP + nguyen lieu Hoang Kim
+### Chén Rượu Tư Nghĩa
+- **Nội dung:** Hoạt động cộng đồng
+- **Phần thưởng:** EXP + nguyên liệu Hoàng Kim
 
-## Hoat dong PvP dinh ky
+## Hoạt động PvP định kỳ
 
-### Tong Kim
-- **Thoi gian bao danh:** 12h50, 14h50, 20h50, 22h50
-- **Thoi gian khai chien:** 13h00, 15h00, 21h00, 23h00
-- **Thoi gian dien ra:** 60 phut
-- **So nhan vat toi da:** 120 moi phe
-- Chi tiet xem file 07-pk-pvp-cong-thanh.md
+### Tống Kim
+- **Thời gian báo danh:** 12h50, 14h50, 20h50, 22h50
+- **Thời gian khai chiến:** 13h00, 15h00, 21h00, 23h00
+- **Thời gian diễn ra:** 60 phút
+- **Số nhân vật tối đa:** 120 mỗi phe
+- Chi tiết xem file 07-pk-pvp-cong-thanh.md
 
-### Cong Thanh Chien
-- Hoat dong quy mo lon giua cac bang hoi
-- Tranh doat lanh tho
+### Công Thành Chiến
+- Hoạt động quy mô lớn giữa các bang hội
+- Tranh đoạt lãnh thổ
 
-### Lien Dau
-- Thi dau giua cac nguoi choi
-- Xep hang theo ky nang
+### Liên Đấu
+- Thi đấu giữa các người chơi
+- Xếp hạng theo kỹ năng
 
-### Vuot Ai
-- Vuot qua cac thach thuc theo cap do
-- Phan thuong tang dan theo do kho
+### Vượt Ải
+- Vượt qua các thách thức theo cấp độ
+- Phần thưởng tăng dần theo độ khó
 
-## Lich hoat dong tham khao
+## Lịch hoạt động tham khảo
 
-| Thoi gian | Hoat dong |
+| Thời gian | Hoạt động |
 |---|---|
-| 10:00-22:00 | Van Tieu |
-| 12:50 | Bao danh Tong Kim (dot 1) |
-| 13:00-14:00 | Tong Kim (dot 1) |
-| 14:50 | Bao danh Tong Kim (dot 2) |
-| 15:00-16:00 | Tong Kim (dot 2) |
-| 19:15-20:00 | Lua Trai Bang Hoi |
-| 20:50 | Bao danh Tong Kim (dot 3) |
-| 21:00-22:00 | Tong Kim (dot 3) |
-| 22:50 | Bao danh Tong Kim (dot 4) |
-| 23:00-24:00 | Tong Kim (dot 4) |
+| 10:00-22:00 | Vận Tiêu |
+| 12:50 | Báo danh Tống Kim (đợt 1) |
+| 13:00-14:00 | Tống Kim (đợt 1) |
+| 14:50 | Báo danh Tống Kim (đợt 2) |
+| 15:00-16:00 | Tống Kim (đợt 2) |
+| 19:15-20:00 | Lửa Trại Bang Hội |
+| 20:50 | Báo danh Tống Kim (đợt 3) |
+| 21:00-22:00 | Tống Kim (đợt 3) |
+| 22:50 | Báo danh Tống Kim (đợt 4) |
+| 23:00-24:00 | Tống Kim (đợt 4) |
 
-## Nhiem vu Tan Thu (cap 1-10)
+## Nhiệm vụ Tân Thủ (cấp 1-10)
 
-### Cac buoc co ban:
-1. Tai bang theo doi nhiem vu nhan chon "Tim Quan Su"
-2. Nhan vat tu dong tim den NPC Quan Su Tan Thu
-3. Doi thoai NPC nhan nhiem vu danh 5 Heo Trang
-4. Hoan thanh va nhan EXP
-5. Chon nhiem vu gia nhap mon phai
-6. He thong tu dong dua nhan vat den ban do mon phai
+### Các bước cơ bản:
+1. Tại bảng theo dõi nhiệm vụ nhấn chọn "Tìm Quản Sự"
+2. Nhân vật tự động tìm đến NPC Quản Sự Tân Thủ
+3. Đối thoại NPC nhận nhiệm vụ đánh 5 Heo Trắng
+4. Hoàn thành và nhận EXP
+5. Chọn nhiệm vụ gia nhập môn phái
+6. Hệ thống tự động đưa nhân vật đến bản đồ môn phái
 
-## Nguon tham khao
+## Nguồn tham khảo
 
-- yome.vn - Huong dan nhiem vu chinh tuyen tu A den Z
-- sgame.vn - Nhiem vu mon phai chi tiet
-- jx1.efun.vn - Nhiem vu Hoang Kim
-- volam.zing.vn - Huong dan tan thu chinh thuc
-- volammienphi.zing.vn - Tong hop tinh nang
+- yome.vn - Hướng dẫn nhiệm vụ chính tuyến từ A đến Z
+- sgame.vn - Nhiệm vụ môn phái chi tiết
+- jx1.efun.vn - Nhiệm vụ Hoàng Kim
+- volam.zing.vn - Hướng dẫn tân thủ chính thức
+- volammienphi.zing.vn - Tổng hợp tính năng

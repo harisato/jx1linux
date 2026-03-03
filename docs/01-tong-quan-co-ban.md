@@ -1,103 +1,103 @@
-# Tong Quan Co Ban - Vo Lam Truyen Ky 1 (JX1)
+# Tổng Quan Cơ Bản - Võ Lâm Truyền Kỳ 1 (JX1)
 
-## Gioi thieu game
+## Giới thiệu game
 
-Vo Lam Truyen Ky 1 (VLTK1 / JX1) la game nhap vai truc tuyen nhieu nguoi choi (MMORPG), duoc lay boi canh cuoc chien giua Tong - Kim. Nguoi choi hoa than la mot thieu nien/thieu nu xuat chung, bat dau qua trinh tu luyen trong the gioi vo lam rong lon.
+Võ Lâm Truyền Kỳ 1 (VLTK1 / JX1) là game nhập vai trực tuyến nhiều người chơi (MMORPG), được lấy bối cảnh cuộc chiến giữa Tống - Kim. Người chơi hóa thân là một thiếu niên/thiếu nữ xuất chúng, bắt đầu quá trình tu luyện trong thế giới võ lâm rộng lớn.
 
-Game so huu loi choi kinh dien: thuc hien nhiem vu, san quai, danh boss de thu thap diem kinh nghiem nham tang cap do. Viec tang cap se giup mo khoa them nhieu tinh nang va ky nang chien dau moi.
+Game sở hữu lối chơi kinh điển: thực hiện nhiệm vụ, săn quái, đánh boss để thu thập điểm kinh nghiệm nhằm tăng cấp độ. Việc tăng cấp sẽ giúp mở khóa thêm nhiều tính năng và kỹ năng chiến đấu mới.
 
-VLTK1 duoc Kingsoft (Trung Quoc) phat trien va VNG phan phoi tai Viet Nam. Tu khi ra mat, VLTK da tro thanh mot tuong dai cua dong game nhap vai kiem hiep tai Viet Nam.
+VLTK1 được Kingsoft (Trung Quốc) phát triển và VNG phân phối tại Việt Nam. Từ khi ra mắt, VLTK đã trở thành một tượng đài của dòng game nhập vai kiếm hiệp tại Việt Nam.
 
-## Cac tinh nang chinh
+## Các tính năng chính
 
-### 1. He thong mon phai
-- Game co 10 mon phai chinh (Thap Dai Mon Phai) va them 1-2 phai moi o cac phien ban sau
-- Moi mon phai co dac tinh ngu hanh, ky nang va loi choi rieng biet
-- Phan chia theo phe: Chinh phai, Ta phai, Trung lap
+### 1. Hệ thống môn phái
+- Game có 10 môn phái chính (Thập Đại Môn Phái) và thêm 1-2 phái mới ở các phiên bản sau
+- Mỗi môn phái có đặc tính ngũ hành, kỹ năng và lối chơi riêng biệt
+- Phân chia theo phe: Chính phái, Tà phái, Trung lập
 
-### 2. He thong ngu hanh
-- 5 hanh: Kim, Moc, Thuy, Hoa, Tho
-- Tuong sinh: Moc -> Hoa -> Tho -> Kim -> Thuy -> Moc
-- Tuong khac: Moc -> Tho -> Thuy -> Hoa -> Kim -> Moc
-- Anh huong den chien dau, trang bi va moi quan he giua cac mon phai
+### 2. Hệ thống ngũ hành
+- 5 hành: Kim, Mộc, Thủy, Hỏa, Thổ
+- Tương sinh: Mộc -> Hỏa -> Thổ -> Kim -> Thủy -> Mộc
+- Tương khắc: Mộc -> Thổ -> Thủy -> Hỏa -> Kim -> Mộc
+- Ảnh hưởng đến chiến đấu, trang bị và mối quan hệ giữa các môn phái
 
-### 3. He thong nhiem vu
-- Nhiem vu chinh tuyen: Dan dat nguoi choi qua cot truyen chinh
-- Nhiem vu phu tuyen: Cung cap thong tin ve nhan vat, su kien
-- Nhiem vu hang ngay: Cho EXP va phan thuong moi ngay
-- Nhiem vu bang hoi: Hoat dong tap the cho thanh vien bang hoi
-- Nhiem vu su kien: Xuat hien theo cac su kien dac biet
+### 3. Hệ thống nhiệm vụ
+- Nhiệm vụ chính tuyến: Dẫn dắt người chơi qua cốt truyện chính
+- Nhiệm vụ phụ tuyến: Cung cấp thông tin về nhân vật, sự kiện
+- Nhiệm vụ hàng ngày: Cho EXP và phần thưởng mỗi ngày
+- Nhiệm vụ bang hội: Hoạt động tập thể cho thành viên bang hội
+- Nhiệm vụ sự kiện: Xuất hiện theo các sự kiện đặc biệt
 
-### 4. He thong chien dau
-- PvE: San quai, vuot pho ban, danh boss
-- PvP: Do sat (PK), chien truong Tong Kim, Cong Thanh Chien
-- He thong ngu hanh tuong khac anh huong lon den ket qua chien dau
+### 4. Hệ thống chiến đấu
+- PvE: Săn quái, vượt phó bản, đánh boss
+- PvP: Đồ sát (PK), chiến trường Tống Kim, Công Thành Chiến
+- Hệ thống ngũ hành tương khắc ảnh hưởng lớn đến kết quả chiến đấu
 
-### 5. He thong trang bi
-- Nhieu cap bac: Thuong (trang), Xanh (lam), Tim (huyen tinh), Cam, Hoang Kim
-- Co che kham nam, cuong hoa, tinh luyen
-- He thong Huyen Tinh Khoang Thach de nang cap trang bi
+### 5. Hệ thống trang bị
+- Nhiều cấp bậc: Thường (trắng), Xanh (lam), Tím (huyền tinh), Cam, Hoàng Kim
+- Cơ chế khảm nạm, cường hóa, tinh luyện
+- Hệ thống Huyền Tinh Khoáng Thạch để nâng cấp trang bị
 
-## Diem tiem nang
+## Điểm tiềm năng
 
-Diem tiem nang la diem duoc nhan khi len cap, dung de tang 4 thuoc tinh co ban:
+Điểm tiềm năng là điểm được nhận khi lên cấp, dùng để tăng 4 thuộc tính cơ bản:
 
-| Thuoc tinh | Tac dung |
+| Thuộc tính | Tác dụng |
 |---|---|
-| **Suc Manh** | Tang sat thuong ngoai cong, luc tay |
-| **Noi Cong** | Tang sat thuong noi cong, noi luc |
-| **Sinh Khi** | Tang sinh luc (mau) co ban |
-| **Than Phap** | Tang chinh xac va ne tranh |
+| **Sức Mạnh** | Tăng sát thương ngoại công, lực tay |
+| **Nội Công** | Tăng sát thương nội công, nội lực |
+| **Sinh Khí** | Tăng sinh lực (máu) cơ bản |
+| **Thân Pháp** | Tăng chính xác và né tránh |
 
-### Luu y quan trong:
-- Truoc level 39/40 duoc cong diem va tay diem mien phi
-- Sau level 40, tay diem tiem nang can Tinh Hong Bao Thach
-- Moi phai co cach cong diem khac nhau, can tham khao huong dan cu the
+### Lưu ý quan trọng:
+- Trước level 39/40 được cộng điểm và tẩy điểm miễn phí
+- Sau level 40, tẩy điểm tiềm năng cần Tinh Hồng Bảo Thạch
+- Mỗi phái có cách cộng điểm khác nhau, cần tham khảo hướng dẫn cụ thể
 
-## Diem ky nang
+## Điểm kỹ năng
 
-- Moi cap do se nhan duoc 1 diem ky nang
-- Diem ky nang dung de nang cap cac chieu thuc cua mon phai
-- Can phan bo hop ly giua chieu tan cong chinh, chieu ho tro va chieu tran mon
-- O cac moc cap do nhat dinh (thay tuy, cap 63, cap 90...) co the tay ky nang de phan bo lai
+- Mỗi cấp độ sẽ nhận được 1 điểm kỹ năng
+- Điểm kỹ năng dùng để nâng cấp các chiêu thức của môn phái
+- Cần phân bổ hợp lý giữa chiêu tấn công chính, chiêu hỗ trợ và chiêu trấn môn
+- Ở các mốc cấp độ nhất định (thay tủy, cấp 63, cấp 90...) có thể tẩy kỹ năng để phân bổ lại
 
-## Meo co ban cho nguoi moi
+## Mẹo cơ bản cho người mới
 
-1. **Lam nhiem vu chinh tuyen**: Day la cach nhanh nhat de len cap o giai doan dau
-2. **Gia nhap bang hoi som**: Ngay dau trong bang se nhan duoc nhieu ho tro
-3. **Nhan su phu**: Tu cap 20, nhan su phu de duoc truyen cong tang EXP
-4. **Tham gia hoat dong hang ngay**: Van Tieu, Van Dap, Lua Trai Bang Hoi...
-5. **Khong su dung Bach Cau Hoan som**: De danh den Lv40 roi dot pha
-6. **Chon phai phu hop**: Moi phai co uu nhuoc diem rieng, chon theo so thich va loi choi
+1. **Làm nhiệm vụ chính tuyến**: Đây là cách nhanh nhất để lên cấp ở giai đoạn đầu
+2. **Gia nhập bang hội sớm**: Ngày đầu trong bang sẽ nhận được nhiều hỗ trợ
+3. **Nhận sư phụ**: Từ cấp 20, nhận sư phụ để được truyền công tăng EXP
+4. **Tham gia hoạt động hàng ngày**: Vận Tiêu, Vấn Đáp, Lửa Trại Bang Hội...
+5. **Không sử dụng Bạch Câu Hoàn sớm**: Để dành đến Lv40 rồi đột phá
+6. **Chọn phái phù hợp**: Mỗi phái có ưu nhược điểm riêng, chọn theo sở thích và lối chơi
 
-## Giao dien co ban
+## Giao diện cơ bản
 
-- **Thanh trang thai**: Hien thi HP, MP, cap do, diem kinh nghiem
-- **Hanh trang**: Chua vat pham, trang bi
-- **Bang ky nang**: Quan ly va nang cap ky nang
-- **Ban do**: Xem vi tri hien tai va tim duong
-- **Chat**: Giao tiep voi nguoi choi khac
-- **Nhiem vu**: Theo doi nhiem vu dang lam
+- **Thanh trạng thái**: Hiển thị HP, MP, cấp độ, điểm kinh nghiệm
+- **Hành trang**: Chứa vật phẩm, trang bị
+- **Bảng kỹ năng**: Quản lý và nâng cấp kỹ năng
+- **Bản đồ**: Xem vị trí hiện tại và tìm đường
+- **Chat**: Giao tiếp với người chơi khác
+- **Nhiệm vụ**: Theo dõi nhiệm vụ đang làm
 
-## Cac moc quan trong
+## Các mốc quan trọng
 
-| Cap do | Su kien |
+| Cấp độ | Sự kiện |
 |---|---|
-| 5 | Nhan nhiem vu tan thu |
-| 10 | Gia nhap mon phai, hoc ky nang dau tien |
-| 20 | Nhan nhiem vu Hoang Kim, co the nhan su phu |
-| 30 | Gia nhap bang hoi, tham gia Lua Trai |
-| 39-40 | Het mien phi tay diem tiem nang |
-| 50 | Hoc tuyet ky cap cao |
-| 60-80 | Co the truyen cong cho nhan vat khac |
-| 90 | Hoc tuyet ky tran mon |
-| 100 | Mo he thong thu cung (pet) |
-| 120 | Mo he thong kinh mach |
-| 150 | Hoc ky nang 150 toi thuong |
+| 5 | Nhận nhiệm vụ tân thủ |
+| 10 | Gia nhập môn phái, học kỹ năng đầu tiên |
+| 20 | Nhận nhiệm vụ Hoàng Kim, có thể nhận sư phụ |
+| 30 | Gia nhập bang hội, tham gia Lửa Trại |
+| 39-40 | Hết miễn phí tẩy điểm tiềm năng |
+| 50 | Học tuyệt kỹ cấp cao |
+| 60-80 | Có thể truyền công cho nhân vật khác |
+| 90 | Học tuyệt kỹ trấn môn |
+| 100 | Mở hệ thống thú cưng (pet) |
+| 120 | Mở hệ thống kinh mạch |
+| 150 | Học kỹ năng 150 tối thượng |
 
-## Nguon tham khao
+## Nguồn tham khảo
 
-- volamm.zing.vn - Trang chu VLTK1 Mobile chinh thuc
-- gamemoira.org - Cam nang VLTK JX1
-- sgame.vn - Huong dan tiem nang ky nang cac phai
-- kisugame.com - Huong dan build cac mon phai
+- volamm.zing.vn - Trang chủ VLTK1 Mobile chính thức
+- gamemoira.org - Cẩm nang VLTK JX1
+- sgame.vn - Hướng dẫn tiềm năng kỹ năng các phái
+- kisugame.com - Hướng dẫn build các môn phái

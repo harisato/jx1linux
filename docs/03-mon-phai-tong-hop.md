@@ -1,538 +1,538 @@
-# Thap Dai Mon Phai - Vo Lam Truyen Ky 1
+# Thập Đại Môn Phái - Võ Lâm Truyền Kỳ 1
 
-## Tong quan
+## Tổng quan
 
-VLTK1 co 10 mon phai chinh (Thap Dai Mon Phai), duoc phan chia theo ngu hanh.
-Moi mon phai co nhieu nhanh (duong) ky nang khac nhau, tao nen su da dang trong loi choi.
-
----
-
-## 1. THIEU LAM (He Kim - Chinh Phai)
-
-**Vi tri**: Nui Tung Son, tinh Ha Nam
-**Sang lap**: Dat Ma Su To tu Tay Truc
-**Gioi tinh**: Chi nam
-**Dac tinh**: Ngoai Cong
-**Tan cong**: Tam Gan
-**Phan nhanh**: Quyen Phap, Con Phap (Bong), Dao Phap
-
-### Khac he / Ky he:
-- Khac: Duong Mon, Ngu Doc (Kim khac Moc)
-- Ky: Cai Bang, Thien Nhan (Hoa khac Kim)
-
-### 1.1 Thieu Lam Quyen Phap
-
-**Uu diem:**
-- Kha nang phan don cuc ky hieu qua
-- Xuat chieu lien tuc, ty le choang cao, de khong che doi phuong
-- Ky nang va tuyet hoc khien Quyen ngay cang trau va khoe hon
-
-**Nhuoc diem:**
-- Khong the su dung ngua khi tan cong
-- Khong co skill tang toc do di chuyen
-
-**Ky nang noi bat:**
-- Nhu Lai Thien Diep: Ky nang chinh tang sinh luc
-- Dich Can Kinh: Tang khang tinh
-- Bat Dong Minh Vuong: Bien lon, tang manh thuoc tinh trong thoi gian ngan
-- Su Tu Hong: Khien ke dich hon me
-- Dai Luc Kim Cang Chuong (cap 150): Ty le xuat chieu lien tuc va choang cao
-
-**Tiem nang:** Suc Manh 70%, Sinh Khi 30%, Than Phap 100-150 diem
-
-**Cach tang ky nang:**
-- Tang toan bo vao Nhu Lai Thien Diep va Dich Can Kinh truoc
-- Max 30 skill Nhu Lai Thien Diep o cap 89
-- 10 diem ky nang cho Dich Can Kinh o cap 69
-- Sau do tang Bat Dong Minh Vuong hoac Thieu Lam Con Phap
-
-### 1.2 Thieu Lam Con Phap (Bong)
-
-**Uu diem:**
-- Tan cong chi mang cuc cao va kiem soat dien rong
-- Dong cay keo la the manh lon
-- Chieu Vi Da Hien Chu tan cong lien tuc 4 lan khu vuc lon
-
-**Nhuoc diem:**
-- Chay bo, khong co ky nang tang toc
-- Can ky nang PK cao de danh trung muc tieu
-
-**Ky nang noi bat:**
-- Hoanh Tao Thien Quan: Con Phap manh nhat, gay sat thuong dien rong + lam cham
-- Vi Da Hien Chu (cap 150): Danh lan khu vuc va choang cao
-- Su Tu Hong: Noi luc bao phat, khien dich hon me
-
-**Tiem nang:** Suc Manh 70%, Sinh Khi 30%, Than Phap 100-150 diem
-**Luu y:** Uu tien tang Than Phap len 250 diem de tranh miss
-
-### 1.3 Thieu Lam Dao Phap
-
-**Uu diem:**
-- Danh xa, khong phu thuoc do chinh xac
-- Co the xuat chieu tren ngua (duoc ho tro sinh luc, ne tranh, toc do)
-- Vu khi toc danh va bang sat giup cuc manh
-
-**Nhuoc diem:**
-- Ty le tan cong chi mang khong cao
-- Toc do xuat chieu khong cao nhu Quyen
-- Doi hoi kinh nghiem thuc chien day dan
-
-**Ky nang noi bat:**
-- Vo Tuong Tram: Chieu chinh cua Dao Phap
-- Ma Ha Vo Luong (cap 50+): Tuyet ky cao cap
-
-**Tiem nang:** Suc Manh 80%, Sinh Khi 20%, Than Phap va Noi Cong khong can
-
-**Buff chung Thieu Lam:**
-- Buff tang 135% sat thuong vat ly ngoai cong cho minh va dong doi
-- Ne tranh 800 diem giup dong doi it an don
+VLTK1 có 10 môn phái chính (Thập Đại Môn Phái), được phân chia theo ngũ hành.
+Mỗi môn phái có nhiều nhánh (đường) kỹ năng khác nhau, tạo nên sự đa dạng trong lối chơi.
 
 ---
 
-## 2. NGA MY (He Thuy - Chinh Phai)
+## 1. THIẾU LÂM (Hệ Kim - Chính Phái)
 
-**Vi tri**: Nui Nga My
-**Gioi tinh**: Chi nu
-**Dac tinh**: Noi Cong
-**Tan cong**: Tam Xa
-**Phan nhanh**: Kiem Phap, Chuong Phap, Buff (Ho tro)
+**Vị trí**: Núi Tung Sơn, tỉnh Hà Nam
+**Sáng lập**: Đạt Ma Sư Tổ từ Tây Trúc
+**Giới tính**: Chỉ nam
+**Đặc tính**: Ngoại Công
+**Tấn công**: Tầm Gần
+**Phân nhánh**: Quyền Pháp, Côn Pháp (Bổng), Đao Pháp
 
-### Khac he / Ky he:
-- Khac: Cai Bang, Thien Nhan (Thuy khac Hoa)
-- Ky: Vo Dang, Con Lon (Tho khac Thuy)
+### Khắc hệ / Kỵ hệ:
+- Khắc: Đường Môn, Ngũ Độc (Kim khắc Mộc)
+- Kỵ: Cái Bang, Thiên Nhẫn (Hỏa khắc Kim)
 
-### 2.1 Nga My Kiem Phap
+### 1.1 Thiếu Lâm Quyền Pháp
 
-**Dac diem:** So huu bang sat va do giat cao, khi ap sat cuc ky kho chiu
+**Ưu điểm:**
+- Khả năng phản đòn cực kỳ hiệu quả
+- Xuất chiêu liên tục, tỷ lệ choáng cao, dễ khống chế đối phương
+- Kỹ năng và tuyệt học khiến Quyền ngày càng trâu và khỏe hơn
 
-**Tiem nang:** 7 phan Suc Manh, 3 phan Sinh Khi. Than Phap 29-30 diem
-**Ky nang 150:** Ba Vuong Tam Kim
+**Nhược điểm:**
+- Không thể sử dụng ngựa khi tấn công
+- Không có skill tăng tốc độ di chuyển
 
-### 2.2 Nga My Chuong Phap
+**Kỹ năng nổi bật:**
+- Như Lai Thiên Diệp: Kỹ năng chính tăng sinh lực
+- Dịch Cân Kinh: Tăng kháng tính
+- Bất Động Minh Vương: Biến lớn, tăng mạnh thuộc tính trong thời gian ngắn
+- Sư Tử Hống: Khiến kẻ địch hôn mê
+- Đại Lực Kim Cang Chưởng (cấp 150): Tỷ lệ xuất chiêu liên tục và choáng cao
 
-**Dac diem:** Ky nang sat thuong cao, tam danh xa va rong. Phu hop vai tro cau ria
+**Tiềm năng:** Sức Mạnh 70%, Sinh Khí 30%, Thân Pháp 100-150 điểm
 
-**Tiem nang:** Suc Manh 90%, Sinh Khi 10-20%
-**Ky nang 90:** Phong Suong Toai Anh
-**Ky nang 120:** Be Nguyet Phat Tran
-**Ky nang 150:** Bang Vu Lac Tinh
+**Cách tăng kỹ năng:**
+- Tăng toàn bộ vào Như Lai Thiên Diệp và Dịch Cân Kinh trước
+- Max 30 skill Như Lai Thiên Diệp ở cấp 89
+- 10 điểm kỹ năng cho Dịch Cân Kinh ở cấp 69
+- Sau đó tăng Bất Động Minh Vương hoặc Thiếu Lâm Côn Pháp
 
-### 2.3 Nga My Buff (Ho tro)
+### 1.2 Thiếu Lâm Côn Pháp (Bổng)
 
-**Vai tro:** Khong the thieu trong moi doi hinh. Ho tro, buff, hoi mau
+**Ưu điểm:**
+- Tấn công chí mạng cực cao và kiểm soát diện rộng
+- Đòng cày kéo là thế mạnh lớn
+- Chiêu Vi Đà Hiến Chử tấn công liên tục 4 lần khu vực lớn
 
-**Cac ky nang buff quan trong:**
-- Luu Thuy: Tang toc do (full skill 20 tang toc chay len 66)
-- Phat Tam Tu Huu: Tang them 125% mau nhan vat (full skill 20)
-- Pho Do Chung Sinh: Nhu Mong Diep nhung co them khang tat ca
-- Phat Phap Vo Bien (tran mon): Tang bang sat, toc do xuat chieu, khang bang
-- Mong Diep: Khang tinh co ban
+**Nhược điểm:**
+- Chạy bộ, không có kỹ năng tăng tốc
+- Cần kỹ năng PK cao để đánh trúng mục tiêu
 
-**Goi y cong skill buff:** 20 Mong Diep, 20 Phat Tam, 30 Tran Mon, 1 Tu Hang
+**Kỹ năng nổi bật:**
+- Hoành Tảo Thiên Quân: Côn Pháp mạnh nhất, gây sát thương diện rộng + làm chậm
+- Vi Đà Hiến Chử (cấp 150): Đánh lan khu vực và choáng cao
+- Sư Tử Hống: Nội lực bạo phát, khiến địch hôn mê
 
-**Meo Buff:**
-- Cac chieu buff co thoi gian delay sau khi tat:
-  - Luu Thuy: 3s
-  - Mong Diep: 3s
-  - Phat Tam Tu Huu: 8s
-  - Thanh Am Phan Xuong: 2.5s
-  - Pho Do Chung Sinh: 2.5s
-- Nho delay nay, Nga My buff co the xoay vong nhieu chieu buff cung luc
+**Tiềm năng:** Sức Mạnh 70%, Sinh Khí 30%, Thân Pháp 100-150 điểm
+**Lưu ý:** Ưu tiên tăng Thân Pháp lên 250 điểm để tránh miss
 
----
+### 1.3 Thiếu Lâm Đao Pháp
 
-## 3. VO DANG (He Tho - Chinh Phai)
+**Ưu điểm:**
+- Đánh xa, không phụ thuộc độ chính xác
+- Có thể xuất chiêu trên ngựa (được hỗ trợ sinh lực, né tránh, tốc độ)
+- Vũ khí tốc đánh và băng sát giúp cực mạnh
 
-**Dac tinh**: Noi Cong
-**Phan nhanh**: Kiem Tong, Khi Tong (Quyen Phap)
+**Nhược điểm:**
+- Tỷ lệ tấn công chí mạng không cao
+- Tốc độ xuất chiêu không cao như Quyền
+- Đòi hỏi kinh nghiệm thực chiến dày dặn
 
-### Khac he / Ky he:
-- Khac: Nga My, Thuy Yen (Tho khac Thuy)
-- Ky: Duong Mon, Ngu Doc (Moc khac Tho)
+**Kỹ năng nổi bật:**
+- Vô Tướng Trảm: Chiêu chính của Đao Pháp
+- Ma Ha Vô Lượng (cấp 50+): Tuyệt kỹ cao cấp
 
-### 3.1 Vo Dang Kiem Tong
+**Tiềm năng:** Sức Mạnh 80%, Sinh Khí 20%, Thân Pháp và Nội Công không cần
 
-**Tiem nang:** Suc Manh 165 diem (Khi Tong thi 110), Noi Cong 320-350, Than Phap khong tang
-Sinh Khi moi cap cong them 2 diem
-
-**Cach tang ky nang (cap 63 - 62 diem):**
-- 20 Vo Dang Kiem Phap
-- 13 Toa Vong Vo Nga
-- 3 Tam Hoanh Thao Nguyet
-- 3 Thai Cuc Than Cong
-
-**Tay tuy lai o cap 90 (89 diem):**
-- 1 Thuong Hai Minh Nguyet
-- 20 Vo Dang Kiem Phap
-- 20 Tam Hoanh Thao Nguyet
-- 30 Thai Cuc Than Cong
-- 18 diem con lai: The Van Tung + Toa Vong Vo Nga
-
-### 3.2 Vo Dang Khi Tong
-
-**Dac diem:** Giam sat thuong nho vao noi luc. Han che tang Suc Manh va Than Phap,
-don het vao Noi Cong va Sinh Khi.
-
-**Cach tang ky nang (cap 63 - 62 diem):**
-- 20 Vo Dang Quyen Phap
-- 13 Toa Vong Vo Nga
-- 3 Vo Nga Vo Kiem
-- 3 Thai Cuc Than Cong
-
-**Tay tuy lai o cap 90 (89 diem):**
-- 1 No Loi Chi
-- 20 Vo Dang Quyen Phap
-- 20 Vo Nga Vo Kiem
-- 30 Thai Cuc Than Cong
-- 18 diem con lai: The Van Tung + Toa Vong Vo Nga
-- Sau lever 90: max 20 Toa Vong Vo Nga, roi max No Loi Chi, roi Bac Cap Nhi Phuc
-
-### Noi luyen cong Vo Dang:
-- Cap 1-10: Thon xom va phu can
-- Cap 11-20: Nui Vo Dang, me cung Day Gieng
-- Cap 21-30: Hoa Lang Dong
-- Cap 31-40: Phuc Nguu Son, Tay Nam Kiem Cac
-- Cap 41-50: Ke Quan Dong, Hoang Ha Nguyen Dau
-- Cap 51-60: Me Cung Thiet Thap
-- Cap 61-70: Hoanh Son Phai
-- Cap 71-80: Dao Hoa Nguyen
+**Buff chung Thiếu Lâm:**
+- Buff tăng 135% sát thương vật lý ngoại công cho mình và đồng đội
+- Né tránh 800 điểm giúp đồng đội ít ăn đòn
 
 ---
 
-## 4. CAI BANG (He Hoa - Chinh Phai)
+## 2. NGA MY (Hệ Thủy - Chính Phái)
 
-**Dac tinh**: Ngoai Cong / Noi Cong (tuy nhanh)
-**Phan nhanh**: Chuong Phap, Bong Phap (Con Phap)
+**Vị trí**: Núi Nga My
+**Giới tính**: Chỉ nữ
+**Đặc tính**: Nội Công
+**Tấn công**: Tầm Xa
+**Phân nhánh**: Kiếm Pháp, Chưởng Pháp, Buff (Hỗ trợ)
 
-### Khac he / Ky he:
-- Khac: Thieu Lam, Thien Vuong (Hoa khac Kim)
-- Ky: Nga My, Thuy Yen (Thuy khac Hoa)
+### Khắc hệ / Kỵ hệ:
+- Khắc: Cái Bang, Thiên Nhẫn (Thủy khắc Hỏa)
+- Kỵ: Võ Đang, Côn Lôn (Thổ khắc Thủy)
 
-### Uu diem chung:
-- PK linh hoat voi ky nang tang toc do di chuyen
-- Luong sat thuong dau ra cuc ky lon
-- PK tay doi hoac PK to doi deu hieu qua
+### 2.1 Nga My Kiếm Pháp
 
-### Nhuoc diem chung:
-- Can luong trang bi cap cao
-- Cap thap mau rat giay va yeu
+**Đặc điểm:** Sở hữu băng sát và độ giật cao, khi áp sát cực kỳ khó chịu
 
-### 4.1 Cai Bang Chuong Phap
+**Tiềm năng:** 7 phần Sức Mạnh, 3 phần Sinh Khí. Thân Pháp 29-30 điểm
+**Kỹ năng 150:** Bá Vương Tâm Kim
 
-**Chieu thuc noi bat:**
-- Phi Long Tai Thien: 4 Long Quyen lien tuc duoi theo dich kem ty le Thieu Dot
-- Thoi Thua Luc Long: Hoa long tieu diet dich phia truoc
+### 2.2 Nga My Chưởng Pháp
 
-**Tiem nang:** Noi cong 3 : Sinh khi 1 : Than phap 1
-**Luu y:** Suc Manh = 165 thi dung lai, cong het cho Sinh Khi
+**Đặc điểm:** Kỹ năng sát thương cao, tầm đánh xa và rộng. Phù hợp vai trò câu rìa
 
-### 4.2 Cai Bang Bong Phap (Con)
+**Tiềm năng:** Sức Mạnh 90%, Sinh Khí 10-20%
+**Kỹ năng 90:** Phong Sương Toái Ảnh
+**Kỹ năng 120:** Bế Nguyệt Phất Trần
+**Kỹ năng 150:** Băng Vũ Lạc Tinh
 
-**Chieu thuc noi bat:**
-- Thien Ha Vo Cau: Chieu manh nhat, ao hoa 3 Anh Con duoi theo dich kem thieu dot
-- Bong Huynh Luoc Dia: Ao hoa 9 Anh Con theo dich
-- Bong Da Ac Cau: Gay sat thuong xung quanh
-- Tieu Dieu Cong: Tam phap tang tan cong
+### 2.3 Nga My Buff (Hỗ trợ)
 
-**Tiem nang:** Suc Manh 2 : Sinh Khi 1 : Than Phap 2
+**Vai trò:** Không thể thiếu trong mọi đội hình. Hỗ trợ, buff, hồi máu
 
----
+**Các kỹ năng buff quan trọng:**
+- Lưu Thủy: Tăng tốc độ (full skill 20 tăng tốc chạy lên 66)
+- Phật Tâm Tự Hữu: Tăng thêm 125% máu nhân vật (full skill 20)
+- Phổ Độ Chúng Sinh: Như Mộng Điệp nhưng có thêm kháng tất cả
+- Phật Pháp Vô Biên (trấn môn): Tăng băng sát, tốc độ xuất chiêu, kháng băng
+- Mộng Điệp: Kháng tính cơ bản
 
-## 5. NGU DOC (He Moc - Ta Phai)
+**Gợi ý cộng skill buff:** 20 Mộng Điệp, 20 Phật Tâm, 30 Trấn Môn, 1 Từ Hàng
 
-**Dac tinh**: Doc sat, Noi cong / Ngoai cong
-**Tan cong**: Tam Xa
-**Phan nhanh**: Chuong Phap, Dao Phap, Bua
-
-### Khac he / Ky he:
-- Khac: Vo Dang, Con Lon (Moc khac Tho)
-- Ky: Thieu Lam, Thien Vuong (Kim khac Moc)
-
-### Uu diem:
-- Ky nang su dung doc thuong thua, chiem uu the trong moi linh vuc
-- Hap Tinh Yem dot noi luc vo cung kho chiu
-- Tam danh xa, rat kho chiu khi giao tranh 1vs1
-- Khi trung bua, toc do rut mau do doc gay ra cuc lon
-
-### Nhuoc diem:
-- Chay bo, khong co ky nang tang toc, de bi bat va ket lieu
-- Rat can do PTVL de tranh bi soc dam vat ly
-- Doi hoi ky nang PK cao va quan sat tinh huong tot
-
-### Chieu thuc noi bat:
-- Am Phong Thuc Cot: Chuong phap manh nhat, tan cong 2 lan + doc + Suy Yeu
-- Hinh Tieu Cot Lap: Tan cong 6 lan lien tuc + doc cho tat ca dich khu vuc
-- Van Co Phe Tam: Doc duoc chi mang, khien dich xung quanh bi nhiem doc
-- Vo Hinh Doc: Doc an hinh cuc manh
-- Bach Doc Xuyen Tam: Gay doc sat nhanh chong
-
-### Tiem nang:
-- Dao Phap: Suc Manh 300 roi chuyen sang Sinh Khi
-- Chuong Phap: Noi Cong 300 roi chuyen sang Sinh Khi
-- Bua: Don het vao Sinh Khi (vi Ngu Doc ban chat sinh luc rat yeu)
-
-### Cach tang ky nang (Chuong -> Dao):
-- LV10: 1 LV Doc Sa Chuong, 1 LV Ngu Doc Chuong Phap
-- LV11-29: Tang them Ngu Doc Chuong Phap
-- LV30: 1 LV Vo Hinh Doc, 1 LV Bach Doc Xuyen Tam, 6 LV Ngu Doc Dao Phap
-- LV31-39: Tang Ngu Doc Dao Phap len 15 LV
-- LV40: 1 LV Van Doc Thuc Tam
+**Mẹo Buff:**
+- Các chiêu buff có thời gian delay sau khi tắt:
+  - Lưu Thủy: 3s
+  - Mộng Điệp: 3s
+  - Phật Tâm Tự Hữu: 8s
+  - Thanh Âm Phạn Xướng: 2.5s
+  - Phổ Độ Chúng Sinh: 2.5s
+- Nhờ delay này, Nga My buff có thể xoay vòng nhiều chiêu buff cùng lúc
 
 ---
 
-## 6. DUONG MON (He Moc - Trung Lap)
+## 3. VÕ ĐANG (Hệ Thổ - Chính Phái)
 
-**Dac tinh**: Ngoai Cong
-**Tan cong**: Tam Xa / Dat Bay
-**Phan nhanh**: Tu Tien (No Tien), Phi Dao, Phi Tieu, Cam Bay
+**Đặc tính**: Nội Công
+**Phân nhánh**: Kiếm Tông, Khí Tông (Quyền Pháp)
 
-### Khac he / Ky he:
-- Khac: Vo Dang, Con Lon (Moc khac Tho)
-- Ky: Thieu Lam, Thien Vuong (Kim khac Moc)
+### Khắc hệ / Kỵ hệ:
+- Khắc: Nga My, Thúy Yên (Thổ khắc Thủy)
+- Kỵ: Đường Môn, Ngũ Độc (Mộc khắc Thổ)
 
-### 6.1 Duong Mon Phi Dao
+### 3.1 Võ Đang Kiếm Tông
 
-**Uu diem:** Than phap nhanh nhen, phan ung linh hoat. Tuyet ky 9x khien dich bi giat lien tuc
-**Nhuoc diem:** Da phan ky nang deu o duoi ngua
+**Tiềm năng:** Sức Mạnh 165 điểm (Khí Tông thì 110), Nội Công 320-350, Thân Pháp không tăng
+Sinh Khí mỗi cấp cộng thêm 2 điểm
 
-**Ky nang chinh:** Truy Tam Tien, Phich Lich Don, Tam Nhan
-**Luu y:** Cap 95+ tay tuy, tang max: Tran phai Tam Nhan, Am Khi Duong Mon, Truy Tam Tien, Phich Lich Don
+**Cách tăng kỹ năng (cấp 63 - 62 điểm):**
+- 20 Võ Đang Kiếm Pháp
+- 13 Tọa Vọng Vô Ngã
+- 3 Tam Hoành Thao Nguyệt
+- 3 Thái Cực Thần Công
 
-### 6.2 Duong Mon Tu Tien (No Tien)
+**Tẩy tủy lại ở cấp 90 (89 điểm):**
+- 1 Thương Hải Minh Nguyệt
+- 20 Võ Đang Kiếm Pháp
+- 20 Tam Hoành Thao Nguyệt
+- 30 Thái Cực Thần Công
+- 18 điểm còn lại: Thế Vân Tung + Tọa Vọng Vô Ngã
 
-**Uu diem:** Co the su dung ky nang tren ngua, than phap linh hoat, dien rong tu cu ly xa
-**Nhuoc diem:** Luong mau rat it
+### 3.2 Võ Đang Khí Tông
 
-**Ky nang noi bat:**
-- Bao Vu Le Hoa (cap 90)
-- Me Tung Anh (cap 120)
-- Thien Lien Tu Sat (cap 150): No Tien manh nhat, ban ra 1 co quan gay 3 lan sat thuong + doc
+**Đặc điểm:** Giảm sát thương nhờ vào nội lực. Hạn chế tăng Sức Mạnh và Thân Pháp,
+dồn hết vào Nội Công và Sinh Khí.
 
-### 6.3 Duong Mon Phi Tieu
+**Cách tăng kỹ năng (cấp 63 - 62 điểm):**
+- 20 Võ Đang Quyền Pháp
+- 13 Tọa Vọng Vô Ngã
+- 3 Vô Ngã Vô Kiếm
+- 3 Thái Cực Thần Công
 
-**Uu diem:** Kha nang ne tranh cao, don sat thuong manh. Tam danh xa va rong
-**Ky nang noi bat:** Cuu Cung Phi Tinh (5 Kim Tien Tieu lien tuc + Suy Yeu), Nem Can Khon
-**Tiem nang:** Than phap 100% (khong can Suc Manh, Sinh Khi, Noi Cong)
+**Tẩy tủy lại ở cấp 90 (89 điểm):**
+- 1 Nộ Lôi Chỉ
+- 20 Võ Đang Quyền Pháp
+- 20 Vô Ngã Vô Kiếm
+- 30 Thái Cực Thần Công
+- 18 điểm còn lại: Thế Vân Tung + Tọa Vọng Vô Ngã
+- Sau lever 90: max 20 Tọa Vọng Vô Ngã, rồi max Nộ Lôi Chỉ, rồi Bác Cấp Nhi Phục
 
-### 6.4 Duong Mon Cam Bay
-
-**Uu diem:** Soc dame cuc cao, kha nang giet nhanh khi dich vao vung bom
-**Nhuoc diem:** Can thoi gian dat bom, phai xuong ngua, de bi phuc kich chet nguoc
-
-**Ky nang chinh:** Dia Diem Hoa, Doc Thu Cot, Xuyen Tam Thich, Han Bang Thich, Loi Kich Thuat
-**Tiem nang:** Tuy chon nhung nen co it Suc Manh de mac do
-
-**Loi khuyen:**
-- Duoi cap 79: theo Phi Dao
-- Duoi cap 119: theo Tu Tien (Bao Vu)
-- Cap cao hon: duong nao cung duoc nhung Tu Tien van de PK nhat
-
----
-
-## 7. CON LON (He Tho - Trung Lap)
-
-**Xuat xu**: Tay Vuc
-**Dac tinh**: Noi Cong
-**Phan nhanh**: Dao Phap, Kiem Phap, Bua Chu
-
-### Khac he / Ky he:
-- Khac: Nga My, Thuy Yen (Tho khac Thuy)
-- Ky: Duong Mon, Ngu Doc (Moc khac Tho)
-
-### Dac diem chung:
-- Vo cong kha manh, ton noi luc
-- Nhieu ky nang nen co nhieu cach tang
-- Con Lon noi tieng mau giay, de bi doi phuong dut diem
-
-### 7.1 Con Lon Dao Phap
-
-**Ky nang noi bat:**
-- Ngao Tuyet Tieu Phong: Dao phap manh nhat, trieu hoan cuong phong + choang + dat no
-- Cuu Thien Cuong Phong: 4 loc xoay + dat no
-
-**Tiem nang:** Suc Manh 230+, Noi Cong 1 it, con lai Sinh Khi
-**Luu y:** Tang Suc Manh du 5 diem moi cap (tang le te khong hieu qua)
-
-### 7.2 Con Lon Kiem Phap
-
-**Dac diem:** Dam don rat manh, dien giat lan luyen cong kha nhanh
-
-**Ky nang noi bat:**
-- Loi Dong Cuu Thien: Kiem phap manh nhat, 5 loi dien + Choang
-- Toc do di chuyen nhanh nho ky nang ho tro
-
-**Tiem nang:** Suc Manh lv60 co 110 la du, uu tien Noi Cong
-
-### 7.3 Con Lon Bua Chu
-
-**Dac diem:** PK manh nhat vi bua khong bi phan dam. Co du ca thu lan cong.
-**Luu y:** Thuong chi theo bua khi 11x vi theo bua luyen cong yeu
-
-**Ky nang noi bat:**
-- Khi Tam Phu: Gay sat thuong + choang cho tat ca dich o gan
-- Thanh Phong Phu: Tam phap tang tan cong va di chuyen
-- Luong Nghi Chan Khi (lv120+): Ho the va bat tu 10s (nhung bi vo hieu voi Ngu Doc)
-
-**Tiem nang Bua:** Don het vao mau (Sinh Khi), co the SM 110 de mac do
-
-### Nhiem vu mon phai:
-- Cap 20: Phong Tu Vi Ho Phap, hoc Ky Ban Phu
-- Cap 40: Phong Thien Vi Ho Phap, hoc Khi Han Ngao Tuyet, Khi Tam Phu
-- Cap 90: Hoc Ngao Tuyet Tieu Phong, Loi Dong Cuu Thien
+### Nơi luyện công Võ Đang:
+- Cấp 1-10: Thôn xóm và phụ cận
+- Cấp 11-20: Núi Võ Đang, mê cung Đáy Giếng
+- Cấp 21-30: Hỏa Lang Động
+- Cấp 31-40: Phục Ngưu Sơn, Tây Nam Kiếm Các
+- Cấp 41-50: Kê Quan Động, Hoàng Hà Nguyên Đầu
+- Cấp 51-60: Mê Cung Thiết Tháp
+- Cấp 61-70: Hoành Sơn Phái
+- Cấp 71-80: Đào Hoa Nguyên
 
 ---
 
-## 8. THIEN NHAN (He Hoa - Ta Phai)
+## 4. CÁI BANG (Hệ Hỏa - Chính Phái)
 
-**Dac tinh**: Ngoai Cong
-**Tan cong**: Tam Gan / Tam Xa
-**Phan nhanh**: Mau Phap (Thuong), Dao Phap, Bua Chu
+**Đặc tính**: Ngoại Công / Nội Công (tùy nhánh)
+**Phân nhánh**: Chưởng Pháp, Bổng Pháp (Côn Pháp)
 
-### Khac he / Ky he:
-- Khac: Thieu Lam, Thien Vuong (Hoa khac Kim)
-- Ky: Nga My, Thuy Yen (Thuy khac Hoa)
+### Khắc hệ / Kỵ hệ:
+- Khắc: Thiếu Lâm, Thiên Vương (Hỏa khắc Kim)
+- Kỵ: Nga My, Thúy Yên (Thủy khắc Hỏa)
 
-### Chieu thuc noi bat:
-- Thien Ngoai Luu Tinh: Dao phap manh nhat, tan cong 2 lan + chi mang + thieu dot
+### Ưu điểm chung:
+- PK linh hoạt với kỹ năng tăng tốc độ di chuyển
+- Lượng sát thương đầu ra cực kỳ lớn
+- PK tay đôi hoặc PK tổ đội đều hiệu quả
 
-### 8.1 Thien Nhan Thuong Phap (Mau)
-**Tiem nang:** Suc Manh 2 : Sinh Khi 1 : Than Phap 2 (thien huong ngoai cong)
+### Nhược điểm chung:
+- Cần lượng trang bị cấp cao
+- Cấp thấp máu rất giấy và yếu
 
-### 8.2 Thien Nhan Dao Phap
-**Tiem nang:** Noi Cong 1 : Sinh Khi 3 : Than Phap 1 (khong tang Suc Manh)
+### 4.1 Cái Bang Chưởng Pháp
 
-### 8.3 Thien Nhan Bua Chu
-**Dac diem:** Bua cong manh, phu hop danh nhom
+**Chiêu thức nổi bật:**
+- Phi Long Tại Thiên: 4 Long Quyền liên tục đuổi theo địch kèm tỷ lệ Thiêu Đốt
+- Thời Thừa Lục Long: Hỏa long tiêu diệt địch phía trước
 
-### Nhiem vu mon phai:
-- Xuat su: Phong Sat Man Phap Vuong
-- Giao chu: Hoan Nhan Hong Liet tai tang 3 Thien Nhan Giao
+**Tiềm năng:** Nội công 3 : Sinh khí 1 : Thân pháp 1
+**Lưu ý:** Sức Mạnh = 165 thì dừng lại, cộng hết cho Sinh Khí
 
----
+### 4.2 Cái Bang Bổng Pháp (Côn)
 
-## 9. THIEN VUONG (He Kim - Trung Lap)
+**Chiêu thức nổi bật:**
+- Thiên Hạ Vô Cẩu: Chiêu mạnh nhất, ảo hóa 3 Ảnh Côn đuổi theo địch kèm thiêu đốt
+- Bổng Huỳnh Lược Địa: Ảo hóa 9 Ảnh Côn theo địch
+- Bổng Đả Ác Cẩu: Gây sát thương xung quanh
+- Tiêu Diêu Công: Tâm pháp tăng tấn công
 
-**Dac tinh**: Ngoai Cong, cuc ky cung cap
-**Phan nhanh**: Thuong Phap, Dao Phap, Chuy Phap
-
-### Khac he / Ky he:
-- Khac: Duong Mon, Ngu Doc (Kim khac Moc)
-- Ky: Cai Bang, Thien Nhan (Hoa khac Kim)
-
-### Dac diem chung:
-- Dinh cao solo 1vs1, noi tieng do "trau bo"
-- Khang tinh cao, luc tay tot
-- Chay bo, khong co ky nang tang toc
-
-### 9.1 Thien Vuong Thuong Phap
-
-**Ky nang chinh:**
-- Truy Tinh Truc Nguyet: Tan cong 5 lan lien tiep + tho thuong
-- Ba Vuong Tam Kim: Tan cong 18 lan theo hinh quat
-- Doat Hon Thich: Tan cong + hon me
-- Kim Chung Trao: Tang phong ngu, giam sat thuong ganh chiu
-
-**Uu diem:** Khang phong thu vat ly cao, ty le xuat chieu lien tuc 3 chieu
-**Nhuoc diem:** Damage that thuong, luc cao luc thap. Rat kho danh
-
-**Tiem nang lv90:** SM 260, Than Phap 140, Sinh Khi 130 (ty le 2:1:2)
-
-### 9.2 Thien Vuong Chuy Phap
-
-**Ky nang chinh:**
-- Truy Phong Quyet: Chuy manh nhat, 3 khi kinh hinh quat + tho thuong
-- Tung Hoanh Bat Hoang: 5 luong dao khi xuyen thau
-
-**Dac diem noi bat:** Khong can tang Than Phap (ky nang bo qua ne tranh 99%)
-**Tiem nang:** SM 300, Than Phap 100, Sinh Khi 130 (ty le 3:1:1)
-
-**Meo PK:** X2 hoac x3 dame bang cach dung Doat Hon Thich ap sat, chech chuot 30 do roi xa skill 15x
-
-### 9.3 Thien Vuong Dao Phap
-
-**Dac diem:** It nguoi chon vi sat thuong kem hon. Thuong dung de cay tien, san do event nhanh
-**Tiem nang:** Tuong tu Thuong nhung co the giam mau de tang luc tay/do chinh xac
+**Tiềm năng:** Sức Mạnh 2 : Sinh Khí 1 : Thân Pháp 2
 
 ---
 
-## 10. THUY YEN (He Thuy - Trung Lap)
+## 5. NGŨ ĐỘC (Hệ Mộc - Tà Phái)
 
-**Gioi tinh**: Chi nu
-**Dac tinh**: Ngoai Cong
-**Tan cong**: Tam Xa
-**Phan nhanh**: Don Dao, Song Dao
+**Đặc tính**: Độc sát, Nội công / Ngoại công
+**Tấn công**: Tầm Xa
+**Phân nhánh**: Chưởng Pháp, Đao Pháp, Bùa
 
-### Khac he / Ky he:
-- Khac: Cai Bang, Thien Nhan (Thuy khac Hoa)
-- Ky: Vo Dang, Con Lon (Tho khac Thuy)
+### Khắc hệ / Kỵ hệ:
+- Khắc: Võ Đang, Côn Lôn (Mộc khắc Thổ)
+- Kỵ: Thiếu Lâm, Thiên Vương (Kim khắc Mộc)
 
-### Uu diem:
-- Ky nang linh hoat va uyen chuyen
-- Suc sat thuong lon, co the tieu diet doi thu nhanh gon
-- Bang sat cao, kha nang di chuyen nhanh
-- Noi khiep so voi cac phai he Hoa
+### Ưu điểm:
+- Kỹ năng sử dụng độc thượng thừa, chiếm ưu thế trong mọi lĩnh vực
+- Hấp Tinh Yểm đốt nội lực vô cùng khó chịu
+- Tầm đánh xa, rất khó chịu khi giao tranh 1vs1
+- Khi trúng bùa, tốc độ rút máu do độc gây ra cực lớn
 
-### Nhuoc diem:
-- De bi doi thu ha guc do khang thap
-- Thi trien chieu thuc phai xuong ngua
+### Nhược điểm:
+- Chạy bộ, không có kỹ năng tăng tốc, dễ bị bắt và kết liễu
+- Rất cần đồ PTVL để tránh bị sốc đam vật lý
+- Đòi hỏi kỹ năng PK cao và quan sát tình huống tốt
 
-### 10.1 Thuy Yen Don Dao
+### Chiêu thức nổi bật:
+- Âm Phong Thực Cốt: Chưởng pháp mạnh nhất, tấn công 2 lần + độc + Suy Yếu
+- Hình Tiêu Cốt Lập: Tấn công 6 lần liên tục + độc cho tất cả địch khu vực
+- Vạn Cổ Phệ Tâm: Độc dược chí mạng, khiến địch xung quanh bị nhiễm độc
+- Vô Hình Độc: Độc ẩn hình cực mạnh
+- Bách Độc Xuyên Tâm: Gây độc sát nhanh chóng
 
-**Ky nang noi bat:** Bang Tung Vo Anh, Muc Da Luu Tinh, Tuyet Anh
-**Tiem nang:** SM 260+, con lai Sinh Khi (max)
-**Ky nang:** TYDP 20, Vu Da Le Hoa 1, Tran phai 30, Muc Da Luu Tinh 18, Bang Tung Vo Anh 20, Tuyet Anh 20
+### Tiềm năng:
+- Đao Pháp: Sức Mạnh 300 rồi chuyển sang Sinh Khí
+- Chưởng Pháp: Nội Công 300 rồi chuyển sang Sinh Khí
+- Bùa: Dồn hết vào Sinh Khí (vì Ngũ Độc bản chất sinh lực rất yếu)
 
-### 10.2 Thuy Yen Song Dao
-
-**Ky nang noi bat:** Bang Tam Tien Tu, Bich Hai Trieu Sinh
-**Tiem nang:** SM 210, con lai Sinh Khi (max)
-**Ky nang:** TYSD 19, Tran phai 30, Bich Hai Trieu Sinh 20, Bang Tam Tien Tu 20, Tuyet Anh 20
-
----
-
-## 11. MINH GIAO (He Moc - Mon phai moi)
-
-**Dac diem:** Loi danh thien hoan toan ve doc sat
-**Phan nhanh**: Song Dao (can chien), Don Dao (tam xa)
-
-### Song Dao:
-- Thien ve chong chiu va kha nang bam duoi, gay choang
-
-### Don Dao:
-- Manh o kha nang gay sat thuong tam xa va tan cong tren dien rong
+### Cách tăng kỹ năng (Chưởng -> Đao):
+- LV10: 1 LV Độc Sa Chưởng, 1 LV Ngũ Độc Chưởng Pháp
+- LV11-29: Tăng thêm Ngũ Độc Chưởng Pháp
+- LV30: 1 LV Vô Hình Độc, 1 LV Bách Độc Xuyên Tâm, 6 LV Ngũ Độc Đao Pháp
+- LV31-39: Tăng Ngũ Độc Đao Pháp lên 15 LV
+- LV40: 1 LV Vạn Độc Thực Tâm
 
 ---
 
-## Bang tom tat cach cong diem tiem nang
+## 6. ĐƯỜNG MÔN (Hệ Mộc - Trung Lập)
 
-| Mon Phai | Nhanh | SM | NC | SK | TP |
+**Đặc tính**: Ngoại Công
+**Tấn công**: Tầm Xa / Đặt Bẫy
+**Phân nhánh**: Tụ Tiễn (Nỏ Tiễn), Phi Đao, Phi Tiêu, Cạm Bẫy
+
+### Khắc hệ / Kỵ hệ:
+- Khắc: Võ Đang, Côn Lôn (Mộc khắc Thổ)
+- Kỵ: Thiếu Lâm, Thiên Vương (Kim khắc Mộc)
+
+### 6.1 Đường Môn Phi Đao
+
+**Ưu điểm:** Thân pháp nhanh nhẹn, phản ứng linh hoạt. Tuyệt kỹ 9x khiến địch bị giật liên tục
+**Nhược điểm:** Đa phần kỹ năng đều ở dưới ngựa
+
+**Kỹ năng chính:** Truy Tâm Tiễn, Phích Lịch Đơn, Tâm Nhãn
+**Lưu ý:** Cấp 95+ tẩy tủy, tăng max: Trấn phái Tâm Nhãn, Ám Khí Đường Môn, Truy Tâm Tiễn, Phích Lịch Đơn
+
+### 6.2 Đường Môn Tụ Tiễn (Nỏ Tiễn)
+
+**Ưu điểm:** Có thể sử dụng kỹ năng trên ngựa, thân pháp linh hoạt, diện rộng từ cự ly xa
+**Nhược điểm:** Lượng máu rất ít
+
+**Kỹ năng nổi bật:**
+- Bạo Vũ Lê Hoa (cấp 90)
+- Mê Tung Ảnh (cấp 120)
+- Thiên Liên Tứ Sát (cấp 150): Nỏ Tiễn mạnh nhất, bắn ra 1 cơ quan gây 3 lần sát thương + độc
+
+### 6.3 Đường Môn Phi Tiêu
+
+**Ưu điểm:** Khả năng né tránh cao, dồn sát thương mạnh. Tầm đánh xa và rộng
+**Kỹ năng nổi bật:** Cửu Cung Phi Tinh (5 Kim Tiền Tiêu liên tục + Suy Yếu), Ném Càn Khôn
+**Tiềm năng:** Thân pháp 100% (không cần Sức Mạnh, Sinh Khí, Nội Công)
+
+### 6.4 Đường Môn Cạm Bẫy
+
+**Ưu điểm:** Sốc dame cực cao, khả năng giết nhanh khi địch vào vùng bom
+**Nhược điểm:** Cần thời gian đặt bom, phải xuống ngựa, dễ bị phục kích chết ngược
+
+**Kỹ năng chính:** Địa Diệm Hỏa, Độc Thứ Cốt, Xuyên Tâm Thích, Hàn Băng Thích, Lôi Kích Thuật
+**Tiềm năng:** Tùy chọn nhưng nên có ít Sức Mạnh để mặc đồ
+
+**Lời khuyên:**
+- Dưới cấp 79: theo Phi Đao
+- Dưới cấp 119: theo Tụ Tiễn (Bạo Vũ)
+- Cấp cao hơn: đường nào cũng được nhưng Tụ Tiễn vẫn dễ PK nhất
+
+---
+
+## 7. CÔN LÔN (Hệ Thổ - Trung Lập)
+
+**Xuất xứ**: Tây Vực
+**Đặc tính**: Nội Công
+**Phân nhánh**: Đao Pháp, Kiếm Pháp, Bùa Chú
+
+### Khắc hệ / Kỵ hệ:
+- Khắc: Nga My, Thúy Yên (Thổ khắc Thủy)
+- Kỵ: Đường Môn, Ngũ Độc (Mộc khắc Thổ)
+
+### Đặc điểm chung:
+- Võ công khá mạnh, tốn nội lực
+- Nhiều kỹ năng nên có nhiều cách tăng
+- Côn Lôn nổi tiếng máu giấy, dễ bị đối phương dứt điểm
+
+### 7.1 Côn Lôn Đao Pháp
+
+**Kỹ năng nổi bật:**
+- Ngạo Tuyết Tiêu Phong: Đao pháp mạnh nhất, triệu hồi cuồng phong + choáng + đất nổ
+- Cửu Thiên Cuồng Phong: 4 lốc xoáy + đất nổ
+
+**Tiềm năng:** Sức Mạnh 230+, Nội Công 1 ít, còn lại Sinh Khí
+**Lưu ý:** Tăng Sức Mạnh đủ 5 điểm mỗi cấp (tăng lẻ tẻ không hiệu quả)
+
+### 7.2 Côn Lôn Kiếm Pháp
+
+**Đặc điểm:** Dam dồn rất mạnh, điện giật lan luyện công khá nhanh
+
+**Kỹ năng nổi bật:**
+- Lôi Động Cửu Thiên: Kiếm pháp mạnh nhất, 5 lôi điện + Choáng
+- Tốc độ di chuyển nhanh nhờ kỹ năng hỗ trợ
+
+**Tiềm năng:** Sức Mạnh lv60 có 110 là đủ, ưu tiên Nội Công
+
+### 7.3 Côn Lôn Bùa Chú
+
+**Đặc điểm:** PK mạnh nhất vì bùa không bị phản dam. Có đủ cả thủ lẫn công.
+**Lưu ý:** Thường chỉ theo bùa khi 11x vì theo bùa luyện công yếu
+
+**Kỹ năng nổi bật:**
+- Khí Tâm Phù: Gây sát thương + choáng cho tất cả địch ở gần
+- Thanh Phong Phù: Tâm pháp tăng tấn công và di chuyển
+- Lưỡng Nghi Chân Khí (lv120+): Hộ thể và bất tử 10s (nhưng bị vô hiệu với Ngũ Độc)
+
+**Tiềm năng Bùa:** Dồn hết vào máu (Sinh Khí), có thể SM 110 để mặc đồ
+
+### Nhiệm vụ môn phái:
+- Cấp 20: Phong Tử Vi Hộ Pháp, học Kỳ Bàn Phù
+- Cấp 40: Phong Thiên Vi Hộ Pháp, học Khí Hàn Ngạo Tuyết, Khí Tâm Phù
+- Cấp 90: Học Ngạo Tuyết Tiêu Phong, Lôi Động Cửu Thiên
+
+---
+
+## 8. THIÊN NHẪN (Hệ Hỏa - Tà Phái)
+
+**Đặc tính**: Ngoại Công
+**Tấn công**: Tầm Gần / Tầm Xa
+**Phân nhánh**: Mâu Pháp (Thương), Đao Pháp, Bùa Chú
+
+### Khắc hệ / Kỵ hệ:
+- Khắc: Thiếu Lâm, Thiên Vương (Hỏa khắc Kim)
+- Kỵ: Nga My, Thúy Yên (Thủy khắc Hỏa)
+
+### Chiêu thức nổi bật:
+- Thiên Ngoại Lưu Tinh: Đao pháp mạnh nhất, tấn công 2 lần + chí mạng + thiêu đốt
+
+### 8.1 Thiên Nhẫn Thương Pháp (Mâu)
+**Tiềm năng:** Sức Mạnh 2 : Sinh Khí 1 : Thân Pháp 2 (thiên hướng ngoại công)
+
+### 8.2 Thiên Nhẫn Đao Pháp
+**Tiềm năng:** Nội Công 1 : Sinh Khí 3 : Thân Pháp 1 (không tăng Sức Mạnh)
+
+### 8.3 Thiên Nhẫn Bùa Chú
+**Đặc điểm:** Bùa công mạnh, phù hợp đánh nhóm
+
+### Nhiệm vụ môn phái:
+- Xuất sư: Phong Sát Mạn Pháp Vương
+- Giáo chủ: Hoàn Nhẫn Hồng Liệt tại tầng 3 Thiên Nhẫn Giáo
+
+---
+
+## 9. THIÊN VƯƠNG (Hệ Kim - Trung Lập)
+
+**Đặc tính**: Ngoại Công, cực kỳ cứng cáp
+**Phân nhánh**: Thương Pháp, Đao Pháp, Chùy Pháp
+
+### Khắc hệ / Kỵ hệ:
+- Khắc: Đường Môn, Ngũ Độc (Kim khắc Mộc)
+- Kỵ: Cái Bang, Thiên Nhẫn (Hỏa khắc Kim)
+
+### Đặc điểm chung:
+- Đỉnh cao solo 1vs1, nổi tiếng do "trâu bò"
+- Kháng tính cao, lực tay tốt
+- Chạy bộ, không có kỹ năng tăng tốc
+
+### 9.1 Thiên Vương Thương Pháp
+
+**Kỹ năng chính:**
+- Truy Tinh Trục Nguyệt: Tấn công 5 lần liên tiếp + thọ thương
+- Bá Vương Tâm Kim: Tấn công 18 lần theo hình quạt
+- Đoạt Hồn Thích: Tấn công + hôn mê
+- Kim Chung Trào: Tăng phòng ngự, giảm sát thương gánh chịu
+
+**Ưu điểm:** Kháng phòng thủ vật lý cao, tỷ lệ xuất chiêu liên tục 3 chiêu
+**Nhược điểm:** Damage thất thường, lúc cao lúc thấp. Rất khó đánh
+
+**Tiềm năng lv90:** SM 260, Thân Pháp 140, Sinh Khí 130 (tỷ lệ 2:1:2)
+
+### 9.2 Thiên Vương Chùy Pháp
+
+**Kỹ năng chính:**
+- Truy Phong Quyết: Chùy mạnh nhất, 3 khí kình hình quạt + thọ thương
+- Tung Hoành Bát Hoang: 5 lưỡng đao khí xuyên thấu
+
+**Đặc điểm nổi bật:** Không cần tăng Thân Pháp (kỹ năng bỏ qua né tránh 99%)
+**Tiềm năng:** SM 300, Thân Pháp 100, Sinh Khí 130 (tỷ lệ 3:1:1)
+
+**Mẹo PK:** X2 hoặc x3 dame bằng cách dùng Đoạt Hồn Thích áp sát, chếch chuột 30 độ rồi xả skill 15x
+
+### 9.3 Thiên Vương Đao Pháp
+
+**Đặc điểm:** Ít người chọn vì sát thương kém hơn. Thường dùng để cày tiền, săn đồ event nhanh
+**Tiềm năng:** Tương tự Thương nhưng có thể giảm máu để tăng lực tay/độ chính xác
+
+---
+
+## 10. THÚY YÊN (Hệ Thủy - Trung Lập)
+
+**Giới tính**: Chỉ nữ
+**Đặc tính**: Ngoại Công
+**Tấn công**: Tầm Xa
+**Phân nhánh**: Đơn Đao, Song Đao
+
+### Khắc hệ / Kỵ hệ:
+- Khắc: Cái Bang, Thiên Nhẫn (Thủy khắc Hỏa)
+- Kỵ: Võ Đang, Côn Lôn (Thổ khắc Thủy)
+
+### Ưu điểm:
+- Kỹ năng linh hoạt và uyển chuyển
+- Sức sát thương lớn, có thể tiêu diệt đối thủ nhanh gọn
+- Băng sát cao, khả năng di chuyển nhanh
+- Nỗi khiếp sợ với các phái hệ Hỏa
+
+### Nhược điểm:
+- Dễ bị đối thủ hạ gục do kháng thấp
+- Thi triển chiêu thức phải xuống ngựa
+
+### 10.1 Thúy Yên Đơn Đao
+
+**Kỹ năng nổi bật:** Băng Tùng Vô Ảnh, Mục Dạ Lưu Tinh, Tuyết Ảnh
+**Tiềm năng:** SM 260+, còn lại Sinh Khí (max)
+**Kỹ năng:** TYĐP 20, Vũ Dạ Lê Hoa 1, Trấn phái 30, Mục Dạ Lưu Tinh 18, Băng Tùng Vô Ảnh 20, Tuyết Ảnh 20
+
+### 10.2 Thúy Yên Song Đao
+
+**Kỹ năng nổi bật:** Băng Tâm Tiễn Tự, Bích Hải Triều Sinh
+**Tiềm năng:** SM 210, còn lại Sinh Khí (max)
+**Kỹ năng:** TYSĐ 19, Trấn phái 30, Bích Hải Triều Sinh 20, Băng Tâm Tiễn Tự 20, Tuyết Ảnh 20
+
+---
+
+## 11. MINH GIÁO (Hệ Mộc - Môn phái mới)
+
+**Đặc điểm:** Lối đánh thiên hoàn toàn về độc sát
+**Phân nhánh**: Song Đao (cận chiến), Đơn Đao (tầm xa)
+
+### Song Đao:
+- Thiên về chống chịu và khả năng bám đuổi, gây choáng
+
+### Đơn Đao:
+- Mạnh ở khả năng gây sát thương tầm xa và tấn công trên diện rộng
+
+---
+
+## Bảng tóm tắt cách cộng điểm tiềm năng
+
+| Môn Phái | Nhánh | SM | NC | SK | TP |
 |---|---|---|---|---|---|
-| Thieu Lam | Quyen | 70% | - | 30% | 100-150d |
-| Thieu Lam | Con | 70% | - | 30% | 100-150d |
-| Thieu Lam | Dao | 80% | - | 20% | - |
-| Nga My | Kiem | 70% | - | 30% | 29-30d |
-| Nga My | Chuong | 90% | - | 10-20% | - |
-| Vo Dang | Kiem | 165d | 320-350d | 2d/cap | - |
-| Vo Dang | Khi | - | Max | Max | - |
-| Cai Bang | Chuong | - | 3 phan | 1 phan | 1 phan |
-| Cai Bang | Bong | 2 phan | - | 1 phan | 2 phan |
-| Ngu Doc | Dao | 300d | - | Max | - |
-| Ngu Doc | Chuong | - | 300d | Max | - |
-| Duong Mon | Phi Tieu | - | - | - | 100% |
-| Con Lon | Dao | 230d | 1 it | Max | - |
-| Con Lon | Kiem | 110d | Max | - | - |
-| Thien Vuong | Thuong | 260d | - | 130d | 140d |
-| Thien Vuong | Chuy | 300d | - | 130d | 100d |
-| Thuy Yen | Don Dao | 260+ | - | Max | - |
-| Thuy Yen | Song Dao | 210d | - | Max | - |
+| Thiếu Lâm | Quyền | 70% | - | 30% | 100-150đ |
+| Thiếu Lâm | Côn | 70% | - | 30% | 100-150đ |
+| Thiếu Lâm | Đao | 80% | - | 20% | - |
+| Nga My | Kiếm | 70% | - | 30% | 29-30đ |
+| Nga My | Chưởng | 90% | - | 10-20% | - |
+| Võ Đang | Kiếm | 165đ | 320-350đ | 2đ/cấp | - |
+| Võ Đang | Khí | - | Max | Max | - |
+| Cái Bang | Chưởng | - | 3 phần | 1 phần | 1 phần |
+| Cái Bang | Bổng | 2 phần | - | 1 phần | 2 phần |
+| Ngũ Độc | Đao | 300đ | - | Max | - |
+| Ngũ Độc | Chưởng | - | 300đ | Max | - |
+| Đường Môn | Phi Tiêu | - | - | - | 100% |
+| Côn Lôn | Đao | 230đ | 1 ít | Max | - |
+| Côn Lôn | Kiếm | 110đ | Max | - | - |
+| Thiên Vương | Thương | 260đ | - | 130đ | 140đ |
+| Thiên Vương | Chùy | 300đ | - | 130đ | 100đ |
+| Thúy Yên | Đơn Đao | 260+ | - | Max | - |
+| Thúy Yên | Song Đao | 210đ | - | Max | - |
 
-*Ghi chu: SM = Suc Manh, NC = Noi Cong, SK = Sinh Khi, TP = Than Phap, d = diem*
+*Ghi chú: SM = Sức Mạnh, NC = Nội Công, SK = Sinh Khí, TP = Thân Pháp, đ = điểm*
 
-## Nguon tham khao
+## Nguồn tham khảo
 
-- sgame.vn - Huong dan nang diem tiem nang thap dai mon phai
-- kisugame.com - Huong dan build cac mon phai
-- gamemoira.org - Huong dan mon phai VLTK
-- thegioididong.com - Huong dan VLTK1 Mobile
-- volammienphi.vnggames.com - Cam nang mon phai chinh thuc
-- volam2d.blogspot.com - Toan tap cac phai
+- sgame.vn - Hướng dẫn nâng điểm tiềm năng thập đại môn phái
+- kisugame.com - Hướng dẫn build các môn phái
+- gamemoira.org - Hướng dẫn môn phái VLTK
+- thegioididong.com - Hướng dẫn VLTK1 Mobile
+- volammienphi.vnggames.com - Cẩm nang môn phái chính thức
+- volam2d.blogspot.com - Toàn tập các phái

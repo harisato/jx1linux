@@ -1,137 +1,137 @@
-# PK, PvP va Cong Thanh Chien - VLTK1
+# PK, PvP và Công Thành Chiến - VLTK1
 
-## Tong quan
+## Tổng quan
 
-VLTK1 noi tieng voi he thong PvP da dang va hap dan:
-- PVP don, to doi, bang hoi tu do tuyet dinh
-- Thang bai tai ky nang nguoi choi
-- He thong ngu hanh tuong khac tao chieu sau chien thuat
+VLTK1 nổi tiếng với hệ thống PvP đa dạng và hấp dẫn:
+- PVP đơn, tổ đội, bang hội tự do tuyệt đỉnh
+- Thắng bại tại kỹ năng người chơi
+- Hệ thống ngũ hành tương khắc tạo chiều sâu chiến thuật
 
-## Che do PK (Do Sat)
+## Chế độ PK (Đồ Sát)
 
-### Cach bat che do PK:
-1. Nhan chon muc **Luyen Cong** phia duoi thanh trang thai
-2. Nhan chon che do **Do Sat**
-3. Phia duoi thanh trang thai se chuyen mau
+### Cách bật chế độ PK:
+1. Nhấn chọn mục **Luyện Công** phía dưới thanh trạng thái
+2. Nhấn chọn chế độ **Đồ Sát**
+3. Phía dưới thanh trạng thái sẽ chuyển màu
 
-### Cac che do giao dau:
+### Các chế độ giao đấu:
 
-#### 1. Luyen Cong (Mac dinh)
-- Che do an toan, khong the tan cong nguoi choi khac
-- Phu hop khi train quai, lam nhiem vu
+#### 1. Luyện Công (Mặc định)
+- Chế độ an toàn, không thể tấn công người chơi khác
+- Phù hợp khi train quái, làm nhiệm vụ
 
-#### 2. Chien Dau
-- Co the tham chien voi nguoi choi khac o cung trang thai
-- Khong the choi voi nguoi choi moi
-- Thoi gian chuyen ve Luyen Cong: khoang 3 phut
+#### 2. Chiến Đấu
+- Có thể tham chiến với người chơi khác ở cùng trạng thái
+- Không thể chơi với người chơi mới
+- Thời gian chuyển về Luyện Công: khoảng 3 phút
 
-#### 3. Do Sat
-- Tan cong MOI nguoi xung quanh, ke ca thanh vien to doi
-- Bi tinh diem PK khi tan cong nguoi choi khac
-- Qua nhieu diem PK se bi tong vao Nha Lao
-- Neu doi phuong danh tra thi co the khong bi tinh diem PK
+#### 3. Đồ Sát
+- Tấn công MỌI người xung quanh, kể cả thành viên tổ đội
+- Bị tính điểm PK khi tấn công người chơi khác
+- Quá nhiều điểm PK sẽ bị tống vào Nhà Lao
+- Nếu đối phương đánh trả thì có thể không bị tính điểm PK
 
-#### 4. Cuu Sat
-- Che do it nguoi biet nhat
-- Chi giao dau voi nguoi choi cung mau chu (cung cap bac)
-- Kich hoat trong vong 10 giay sau khi bat
-- Chi dung khi muon thach dau rieng
+#### 4. Cừu Sát
+- Chế độ ít người biết nhất
+- Chỉ giao đấu với người chơi cùng màu chữ (cùng cấp bậc)
+- Kích hoạt trong vòng 10 giây sau khi bật
+- Chỉ dùng khi muốn thách đấu riêng
 
-## Chien Truong Tong Kim
+## Chiến Trường Tống Kim
 
-Chien truong Phong Van Luan Kiem (Tong Kim) la noi cac cao thu cung hao huu,
-bang hoi ta xung huu dot, thi trien vo cong xung ba thien ha.
+Chiến trường Phong Vân Luận Kiếm (Tống Kim) là nơi các cao thủ cùng hảo hữu,
+bang hội tả xung hữu đột, thi triển võ công xưng bá thiên hạ.
 
-### Dieu kien tham gia:
-- Tat ca nhan vat da gia nhap mon phai deu co the tham gia
+### Điều kiện tham gia:
+- Tất cả nhân vật đã gia nhập môn phái đều có thể tham gia
 
-### Lich trinh:
+### Lịch trình:
 
-| Noi dung | Thoi gian |
+| Nội dung | Thời gian |
 |---|---|
-| Bao danh dot 1 | 12h50 (cho 10 phut) |
-| Khai chien dot 1 | 13h00 |
-| Bao danh dot 2 | 14h50 |
-| Khai chien dot 2 | 15h00 |
-| Bao danh dot 3 | 20h50 |
-| Khai chien dot 3 | 21h00 |
-| Bao danh dot 4 | 22h50 |
-| Khai chien dot 4 | 23h00 |
+| Báo danh đợt 1 | 12h50 (chờ 10 phút) |
+| Khai chiến đợt 1 | 13h00 |
+| Báo danh đợt 2 | 14h50 |
+| Khai chiến đợt 2 | 15h00 |
+| Báo danh đợt 3 | 20h50 |
+| Khai chiến đợt 3 | 21h00 |
+| Báo danh đợt 4 | 22h50 |
+| Khai chiến đợt 4 | 23h00 |
 
-### Thong so:
-- Thoi gian dien ra: **60 phut** moi tran
-- So nhan vat toi da: **120 moi phe**
-- Dang ky tai NPC **Mo Binh Quan** (Tong hoac Kim)
+### Thông số:
+- Thời gian diễn ra: **60 phút** mỗi trận
+- Số nhân vật tối đa: **120 mỗi phe**
+- Đăng ký tại NPC **Mộ Binh Quan** (Tống hoặc Kim)
 
-### He thong diem va Lien Tram:
-- Tieu diet nguoi choi phe khac 5 lan lien tuc (khong bi tieu diet) -> nhan them diem thuong cong don
-- Phe thang mac dinh duoc **50.000.000 EXP**
-- Diem tich luy reset luc 0h00 thu Hai hang tuan
+### Hệ thống điểm và Liên Trảm:
+- Tiêu diệt người chơi phe khác 5 lần liên tục (không bị tiêu diệt) -> nhận thêm điểm thưởng cộng dồn
+- Phe thắng mặc định được **50.000.000 EXP**
+- Điểm tích lũy reset lúc 0h00 thứ Hai hàng tuần
 
-### Top 10 phan thuong:
-- Diem tich luy ca nhan cong don de xet Top 10 moi server
-- Thoi gian ghi nhan: 0h01 thu Hai den 23h59 Chu Nhat
-- Thoi gian nhan thuong: 01h00 - 24h00 thu Hai
-- Phan thuong: Vong hao quang + diem kinh nghiem tuy thu hang
+### Top 10 phần thưởng:
+- Điểm tích lũy cá nhân cộng dồn để xét Top 10 mỗi server
+- Thời gian ghi nhận: 0h01 thứ Hai đến 23h59 Chủ Nhật
+- Thời gian nhận thưởng: 01h00 - 24h00 thứ Hai
+- Phần thưởng: Vòng hào quang + điểm kinh nghiệm tùy thứ hạng
 
-### Tong Kim So Cap:
-- Phi bao danh: 3.000 luong vang
-- Thoi gian bao danh: 10h30, 14h30, 18h30, 20h30, 22h30
-- Thoi gian cho: 30 phut
-- So nhan vat toi thieu: 20 (duoi 20 tran dau se khong dien ra)
+### Tống Kim Sơ Cấp:
+- Phí báo danh: 3.000 lượng vàng
+- Thời gian báo danh: 10h30, 14h30, 18h30, 20h30, 22h30
+- Thời gian chờ: 30 phút
+- Số nhân vật tối thiểu: 20 (dưới 20 trận đấu sẽ không diễn ra)
 
-## Cong Thanh Chien
+## Công Thành Chiến
 
-Cong Thanh Chien la hoat dong quy mo lon nhat trong VLTK1,
-noi cac bang hoi tranh doat lanh tho trong nhung tran chien lon.
+Công Thành Chiến là hoạt động quy mô lớn nhất trong VLTK1,
+nơi các bang hội tranh đoạt lãnh thổ trong những trận chiến lớn.
 
-### Dac diem:
-- Can bang cac mon phai
-- Tai hien trai nghiem Vo Lam hao hung
-- PK, san boss Hoang Kim trong Cong Thanh Chien
-- Cac may chu chon ra bang hoi dai dien tham gia giai dau Thien Ha De Nhat Bang
+### Đặc điểm:
+- Cân bằng các môn phái
+- Tái hiện trải nghiệm Võ Lâm hào hùng
+- PK, săn boss Hoàng Kim trong Công Thành Chiến
+- Các máy chủ chọn ra bang hội đại diện tham gia giải đấu Thiên Hạ Đệ Nhất Bang
 
-## Phong Lang Do
+## Phong Lăng Độ
 
-Hoat dong chien truong PvP dinh ky:
-- Ket hop PvE (danh quai) va PvP (danh nguoi choi)
-- Phan thuong EXP va vat pham
+Hoạt động chiến trường PvP định kỳ:
+- Kết hợp PvE (đánh quái) và PvP (đánh người chơi)
+- Phần thưởng EXP và vật phẩm
 
-## Chien luoc PK theo Ngu Hanh
+## Chiến lược PK theo Ngũ Hành
 
-### Nguyen tac co ban:
-- **Uu tien danh phai bi khac**: Tang sat thuong dang ke
-- **Tranh ne phai khac minh**: Giam sat thuong ganh chiu
-- **To doi can can bang ngu hanh**: De doi pho nhieu tinh huong
+### Nguyên tắc cơ bản:
+- **Ưu tiên đánh phái bị khắc**: Tăng sát thương đáng kể
+- **Tránh né phái khắc mình**: Giảm sát thương gánh chịu
+- **Tổ đội cần cân bằng ngũ hành**: Để đối phó nhiều tình huống
 
-### Vi du cu the:
+### Ví dụ cụ thể:
 
-| Ban choi | Nen danh (khac che) | Nen tranh (bi khac) |
+| Bạn chơi | Nên đánh (khắc chế) | Nên tránh (bị khắc) |
 |---|---|---|
-| Thieu Lam (Kim) | Ngu Doc, Duong Mon (Moc) | Cai Bang, Thien Nhan (Hoa) |
-| Nga My (Thuy) | Cai Bang, Thien Nhan (Hoa) | Vo Dang, Con Lon (Tho) |
-| Cai Bang (Hoa) | Thieu Lam, Thien Vuong (Kim) | Nga My, Thuy Yen (Thuy) |
-| Duong Mon (Moc) | Vo Dang, Con Lon (Tho) | Thieu Lam, Thien Vuong (Kim) |
-| Vo Dang (Tho) | Nga My, Thuy Yen (Thuy) | Duong Mon, Ngu Doc (Moc) |
+| Thiếu Lâm (Kim) | Ngũ Độc, Đường Môn (Mộc) | Cái Bang, Thiên Nhẫn (Hỏa) |
+| Nga My (Thủy) | Cái Bang, Thiên Nhẫn (Hỏa) | Võ Đang, Côn Lôn (Thổ) |
+| Cái Bang (Hỏa) | Thiếu Lâm, Thiên Vương (Kim) | Nga My, Thúy Yên (Thủy) |
+| Đường Môn (Mộc) | Võ Đang, Côn Lôn (Thổ) | Thiếu Lâm, Thiên Vương (Kim) |
+| Võ Đang (Thổ) | Nga My, Thúy Yên (Thủy) | Đường Môn, Ngũ Độc (Mộc) |
 
-### Meo PK nang cao:
-1. **Hieu biet doi thu**: Biet chieu thuc va diem yeu cua moi phai
-2. **Su dung dia hinh**: Tan dung dia hinh de tranh ne va phuc kich
-3. **Quan ly cooldown**: Biet khi nao nen su dung chieu moi va khi nao nen cho
-4. **Doi hinh to doi**: Phan bo vai tro ro rang (tank, damage, support)
-5. **Buff truoc khi PK**: Dam bao da su dung het cac buff co san
+### Mẹo PK nâng cao:
+1. **Hiểu biết đối thủ**: Biết chiêu thức và điểm yếu của mỗi phái
+2. **Sử dụng địa hình**: Tận dụng địa hình để tránh né và phục kích
+3. **Quản lý cooldown**: Biết khi nào nên sử dụng chiêu mới và khi nào nên chờ
+4. **Đội hình tổ đội**: Phân bổ vai trò rõ ràng (tank, damage, support)
+5. **Buff trước khi PK**: Đảm bảo đã sử dụng hết các buff có sẵn
 
-## Meo giam Lag khi Tong Kim
+## Mẹo giảm Lag khi Tống Kim
 
-- Uu tien de che do tro choi o **2D**, khong nen de 3D
-- Su dung phim tat **Alt+D** (giam chat luong hinh anh)
-- Su dung phim tat **Alt+F** (khong hien thi nguoi choi khac)
-- Giam so luong hieu ung dac biet trong cai dat
+- Ưu tiên để chế độ trò chơi ở **2D**, không nên để 3D
+- Sử dụng phím tắt **Alt+D** (giảm chất lượng hình ảnh)
+- Sử dụng phím tắt **Alt+F** (không hiển thị người chơi khác)
+- Giảm số lượng hiệu ứng đặc biệt trong cài đặt
 
-## Nguon tham khao
+## Nguồn tham khảo
 
-- ctc.vnggames.com - Chien truong Tong Kim chinh thuc
-- ctc.vnggames.com - Huong dan Tong Kim So cap
-- thegioididong.com - Cach bat che do Do Sat
-- congthanhchienpk.net - Phien ban chuan CTC
-- gamemoira.org - Cam nang VLTK JX1
+- ctc.vnggames.com - Chiến trường Tống Kim chính thức
+- ctc.vnggames.com - Hướng dẫn Tống Kim Sơ cấp
+- thegioididong.com - Cách bật chế độ Đồ Sát
+- congthanhchienpk.net - Phiên bản chuẩn CTC
+- gamemoira.org - Cẩm nang VLTK JX1

@@ -1,188 +1,188 @@
-# Kinh Mach, Thu Cung (Pet) va Bang Hoi - VLTK1
+# Kinh Mạch, Thú Cưng (Pet) và Bang Hội - VLTK1
 
-## Phan 1: He Thong Kinh Mach
+## Phần 1: Hệ Thống Kinh Mạch
 
-### Gioi thieu
-Kinh Mach la tinh nang dem den luong chi so cuc khung sau khi "da thong" Bat Mach Chan Kinh.
-Day la tinh nang quan trong de gia tang gioi han luc chien.
+### Giới thiệu
+Kinh Mạch là tính năng đem đến lượng chỉ số cực khủng sau khi "đả thông" Bát Mạch Chân Kinh.
+Đây là tính năng quan trọng để gia tăng giới hạn lực chiến.
 
-### Dieu kien mo
-- Nhan vat cap **120** tro len
+### Điều kiện mở
+- Nhân vật cấp **120** trở lên
 
-### Cau truc he thong
+### Cấu trúc hệ thống
 
-#### Phien ban VLTK1 Mobile (Nhat Niem Tieu Dao):
-- Tong cong **8 mach**
-- Moi mach co **16 huyet vi**
-- Tang cang cao, yeu cau cap nguyen lieu va so luong cang tang
+#### Phiên bản VLTK1 Mobile (Nhất Niệm Tiêu Dao):
+- Tổng cộng **8 mạch**
+- Mỗi mạch có **16 huyệt vị**
+- Tầng càng cao, yêu cầu cấp nguyên liệu và số lượng càng tăng
 
-#### Phien ban VLTK Mobile (cu hon):
-- Gom **Nham Mach** va **Doc Mach**
-- Moi mach chia thanh **12 huyet vi** khac nhau
-- Moi huyet vi co the xung huyet len toi da **20 tang**
+#### Phiên bản VLTK Mobile (cũ hơn):
+- Gồm **Nhâm Mạch** và **Đốc Mạch**
+- Mỗi mạch chia thành **12 huyệt vị** khác nhau
+- Mỗi huyệt vị có thể xung huyệt lên tối đa **20 tầng**
 
-### Cach xung huyet (nang cap)
+### Cách xung huyệt (nâng cấp)
 
-#### Nguyen lieu:
-- **Ho Mach Don** va **Nguyen Khi** (phien ban moi)
-- **Bac** va **Chan Khi** (phien ban cu)
-- Chan Khi nhan duoc qua: Dung Tu Chat Don tang tiem nang cho Dong Hanh, hoac dung Chan Khi Don tai Ky Tran Cac
+#### Nguyên liệu:
+- **Hộ Mạch Đơn** và **Nguyên Khí** (phiên bản mới)
+- **Bạc** và **Chân Khí** (phiên bản cũ)
+- Chân Khí nhận được qua: Dùng Tư Chất Đơn tăng tiềm năng cho Đồng Hành, hoặc dùng Chân Khí Đơn tại Kỳ Trận Các
 
-#### Quy tac xung huyet:
-- Phai xung huyet toan bo huyet vi cua tang do truoc khi nang cap mach tiep theo
-- Moi ngay toi da duoc xung huyet **30 lan** (reset luc 04:00)
-- Tang huyet vi cang cao, ty le thanh cong cang thap
-- Xung huyet that bai: cap huyet vi khong thay doi nhung mat nguyen lieu
-- Ho Mach Don pham chat cao -> ty le thanh cong lon, co the "nhay coc" 3 huyet vi
-- Neu "den qua", toi lan thu 4 xung huyet chac chan thanh cong
+#### Quy tắc xung huyệt:
+- Phải xung huyệt toàn bộ huyệt vị của tầng đó trước khi nâng cấp mạch tiếp theo
+- Mỗi ngày tối đa được xung huyệt **30 lần** (reset lúc 04:00)
+- Tầng huyệt vị càng cao, tỷ lệ thành công càng thấp
+- Xung huyệt thất bại: cấp huyệt vị không thay đổi nhưng mất nguyên liệu
+- Hộ Mạch Đơn phẩm chất cao -> tỷ lệ thành công lớn, có thể "nhảy cóc" 3 huyệt vị
+- Nếu "đen quá", tới lần thứ 4 xung huyệt chắc chắn thành công
 
-#### Do kho xung huyet (tu thap den cao):
-De Dang < Chac Chan < Trac Tro < Kho Khan < Nguy Hiem
+#### Độ khó xung huyệt (từ thấp đến cao):
+Dễ Dàng < Chắc Chắn < Trắc Trở < Khó Khăn < Nguy Hiểm
 
-### Dieu kien mo huyet tiep theo:
-- Sau khi xung huyet duoc **10 tang**, co the xung ngay huyet vi tiep theo
-- Huyet vi cuoi cung can dao cu **Bi Quyen Thong Huyet**
-- Bi Quyen Thong Huyet Nham Mach - Khuc Cot: nhan tu ruong hoat dong Thi Dau Mon Phai
+### Điều kiện mở huyệt tiếp theo:
+- Sau khi xung huyệt được **10 tầng**, có thể xung ngay huyệt vị tiếp theo
+- Huyệt vị cuối cùng cần đạo cụ **Bí Quyết Thông Huyệt**
+- Bí Quyết Thông Huyệt Nhâm Mạch - Khúc Cốt: nhận từ rương hoạt động Thi Đấu Môn Phái
 
-### Hieu ung thuoc tinh:
-- Huyet vi khac nhau tang thuoc tinh cho **Dong Hanh** va **chu nhan**
-- Huyet vi cuoi moi Mach: tang thuoc tinh + **ky nang bi dong** cho chu nhan
-- Moi huyet vi co gioi han cap nhan vat duoc da thong
+### Hiệu ứng thuộc tính:
+- Huyệt vị khác nhau tăng thuộc tính cho **Đồng Hành** và **chủ nhân**
+- Huyệt vị cuối mỗi Mạch: tăng thuộc tính + **kỹ năng bị động** cho chủ nhân
+- Mỗi huyệt vị có giới hạn cấp nhân vật được đả thông
 
-### Co che Dan Dien:
-- 2 trang thai: **day** va **met moi**
-- Dan Dien day: dung Tu Chat Don nhan Chan Khi
-- Sa thai/tay tuy Dong Hanh -> Dan Dien met moi
-- Khi met moi: dung Tu Chat Don se giam met moi (khong nhan Chan Khi)
+### Cơ chế Đan Điền:
+- 2 trạng thái: **đầy** và **mệt mỏi**
+- Đan Điền đầy: dùng Tư Chất Đơn nhận Chân Khí
+- Sa thải/tẩy tủy Đồng Hành -> Đan Điền mệt mỏi
+- Khi mệt mỏi: dùng Tư Chất Đơn sẽ giảm mệt mỏi (không nhận Chân Khí)
 
-### Meo toi uu:
-- San uu dai Ho Mach Don cap cao tai **Cua Hang** hoac **Dau Gia** sau hoat dong hang ngay
-- Gia tri Kinh Mach chi thuc su ro net o nhung tang cao
-
----
-
-## Phan 2: He Thong Thu Cung (Pet)
-
-### Dieu kien nhan thu cung:
-- Nhan vat cap **100** tro len
-- Hanh trang co it nhat 1 **Thien Noan**
-- Doi thoai voi NPC **Ba chu tiem vat nuoi**
-- Sau khi nhan se bi tru 1 Thien Noan
-
-### Hinh dang va Ten:
-- Hinh dang phu thuoc vao cap do thu cung
-- Doi ten tai NPC Ba chu tiem vat nuoi: chi phi 5 Tinh Luyen Thach/1 lan
-- Ten toi da 8 ky tu
-
-### Cap do va Nang cap:
-- **100 cap do** thu cung (tu cap 1)
-- Nang cap tai NPC Ba chu tiem vat nuoi
-- Cac moc nang cap (10->11, 20->21, 30->31...):
-  - Can vat pham **Thuan Thu Quyen**
-  - Co xac suat thanh cong nhat dinh
-- Nang cap len 101 va 121: dung **Dot Pha Don** doi thanh **Tieu Dot Pha Don** (1 = 3)
-
-### He thong ky nang thu nuoi:
-- Mo khoa khi thu nuoi dat **cap 20** tro len
-- Cac moc mo khoa ky nang: cap 20, 40, 60, 80, 100
-- Toi da hoc duoc **5 ky nang**
-- O ky nang dau tien chi yeu cau dang cap
-- Cac o con lai can dao cu de mo khoa
-
-### Cho an va Thuan duong:
-
-#### Cho an (tang truong):
-- 4 loai trai cay: Tao, Mia, Ngo, Khoai
-- Toi da **16 lan/ngay**
-- Moi lan: +1.000.000 EXP + 2 diem tang truong
-
-#### Thuan duong (truyen EXP):
-- Doi 60.000.000 EXP nhan vat de nhan 1 diem thuan duong
-- Toi da **10 lan/ngay**
-- Tai NPC Ba chu tiem vat nuoi
-
-### Hop the:
-- Nhan vat hop the voi thu cung se nhan duoc **50% thuoc tinh** tu thu cung
-- Tang manh suc manh nhan vat
+### Mẹo tối ưu:
+- Săn ưu đãi Hộ Mạch Đơn cấp cao tại **Cửa Hàng** hoặc **Đấu Giá** sau hoạt động hàng ngày
+- Giá trị Kinh Mạch chỉ thực sự rõ nét ở những tầng cao
 
 ---
 
-## Phan 3: He Thong Thu Cuoi (Ma Thu / Niet Ban Thu)
+## Phần 2: Hệ Thống Thú Cưng (Pet)
 
-### Tien hoa thu cuoi:
-1. **Tu Linh** -> **Ma Thu cap 1**
-   - Diem tiem nang truoc do giu nguyen
-   - Ma Thu tang dang cap se cong them diem tiem nang
+### Điều kiện nhận thú cưng:
+- Nhân vật cấp **100** trở lên
+- Hành trang có ít nhất 1 **Thiên Noãn**
+- Đối thoại với NPC **Bà chủ tiệm vật nuôi**
+- Sau khi nhận sẽ bị trừ 1 Thiên Noãn
 
-2. **Ma Thu cap 120** -> **Niet Ban**
-   - 4 loai Ma Thu: Thanh Long, Chu Tuoc, Bach Ho, Huyen Vu
-   - Niet Ban thanh cong tang nang luong Ky Uc Thanh hoac Ky Uc Ma
+### Hình dạng và Tên:
+- Hình dạng phụ thuộc vào cấp độ thú cưng
+- Đổi tên tại NPC Bà chủ tiệm vật nuôi: chi phí 5 Tinh Luyện Thạch/1 lần
+- Tên tối đa 8 ký tự
 
-3. **Niet Ban thanh cong** -> **Thanh Thu Tu Linh cap 1**
-   - Can 1 **Nguyet Quang Bao Hap** de trieu hoan
-   - Ky Uc Thanh dat toi da -> Thanh Thu
+### Cấp độ và Nâng cấp:
+- **100 cấp độ** thú cưng (từ cấp 1)
+- Nâng cấp tại NPC Bà chủ tiệm vật nuôi
+- Các mốc nâng cấp (10->11, 20->21, 30->31...):
+  - Cần vật phẩm **Thuần Thú Quyển**
+  - Có xác suất thành công nhất định
+- Nâng cấp lên 101 và 121: dùng **Đột Phá Đơn** đổi thành **Tiểu Đột Phá Đơn** (1 = 3)
 
-4. **Thanh Thu** -> **Huyet Thu**
-   - Thanh Thu va Huyet Thu dat dang cap toi da **120**
+### Hệ thống kỹ năng thú nuôi:
+- Mở khóa khi thú nuôi đạt **cấp 20** trở lên
+- Các mốc mở khóa kỹ năng: cấp 20, 40, 60, 80, 100
+- Tối đa học được **5 kỹ năng**
+- Ô kỹ năng đầu tiên chỉ yêu cầu đẳng cấp
+- Các ô còn lại cần đạo cụ để mở khóa
 
-### Trang bi thu cuoi:
-- Phien ban Bach Thang Duong Gia cap nhat he thong trang bi thu cuoi moi
-- Cua Hang thu cuoi va mat na
+### Cho ăn và Thuần dưỡng:
+
+#### Cho ăn (tăng trưởng):
+- 4 loại trái cây: Táo, Mía, Ngô, Khoai
+- Tối đa **16 lần/ngày**
+- Mỗi lần: +1.000.000 EXP + 2 điểm tăng trưởng
+
+#### Thuần dưỡng (truyền EXP):
+- Đổi 60.000.000 EXP nhân vật để nhận 1 điểm thuần dưỡng
+- Tối đa **10 lần/ngày**
+- Tại NPC Bà chủ tiệm vật nuôi
+
+### Hợp thể:
+- Nhân vật hợp thể với thú cưng sẽ nhận được **50% thuộc tính** từ thú cưng
+- Tăng mạnh sức mạnh nhân vật
 
 ---
 
-## Phan 4: He Thong Bang Hoi (Tong)
+## Phần 3: Hệ Thống Thú Cưỡi (Ma Thú / Niết Bàn Thú)
 
-### Tong quan:
-- Bang hoi la he thong xa hoi quan trong nhat trong VLTK1
-- Nguoi choi xay dung tinh bang huu, lap bang hoi va gan bo nhu mot xa hoi thu nho
-- Can dat cap 30 de gia nhap bang hoi
+### Tiến hóa thú cưỡi:
+1. **Tứ Linh** -> **Ma Thú cấp 1**
+   - Điểm tiềm năng trước đó giữ nguyên
+   - Ma Thú tăng đẳng cấp sẽ cộng thêm điểm tiềm năng
 
-### Cac hoat dong bang hoi:
+2. **Ma Thú cấp 120** -> **Niết Bàn**
+   - 4 loại Ma Thú: Thanh Long, Chu Tước, Bạch Hổ, Huyền Vũ
+   - Niết Bàn thành công tăng năng lượng Ký Ức Thánh hoặc Ký Ức Ma
 
-#### Lua Trai Bang Hoi
-- Thoi gian: 19:15 - 20:00 hang ngay
-- EXP cuc khung, KHONG nen bo
-- Can gia nhap bang truoc 19:15
+3. **Niết Bàn thành công** -> **Thánh Thú Tứ Linh cấp 1**
+   - Cần 1 **Nguyệt Quang Bảo Hạp** để triệu hoàn
+   - Ký Ức Thánh đạt tối đa -> Thánh Thú
 
-#### Boss The Gioi
-- Hop tac danh boss cap cao
-- Phan thuong: Do Pho Hoang Kim, Bo Thien Thach
+4. **Thánh Thú** -> **Huyết Thú**
+   - Thánh Thú và Huyết Thú đạt đẳng cấp tối đa **120**
 
-#### Boss Hoang Kim
-- Boss rieng cua bang hoi
-- Phan thuong: Ruong Hoang Kim, trang bi hoang kim
+### Trang bị thú cưỡi:
+- Phiên bản Bách Thắng Đường Gia cập nhật hệ thống trang bị thú cưỡi mới
+- Cửa Hàng thú cưỡi và mặt nạ
 
-#### Thu Linh Da Ngoai
-- Danh boss ngoai troi
-- Phan thuong: EXP + vat pham
+---
 
-#### Van Tieu Bang Hoi
-- Van chuyen hang hoa cho bang hoi
-- Phan thuong: Dong gop bang + vat pham
+## Phần 4: Hệ Thống Bang Hội (Tông)
 
-### Cong Thanh Chien:
-- Hoat dong quy mo lon nhat: bang hoi tranh doat lanh tho
-- Cac may chu chon bang hoi dai dien tham gia **Thien Ha De Nhat Bang**
-- Hien chia 3 giai: Mobile va 2 giai PC (thu phi va mien phi)
+### Tổng quan:
+- Bang hội là hệ thống xã hội quan trọng nhất trong VLTK1
+- Người chơi xây dựng tình bang hữu, lập bang hội và gắn bó như một xã hội thu nhỏ
+- Cần đạt cấp 30 để gia nhập bang hội
 
-### Chuc vu Bang Hoi:
-- Bang chu
-- Pho bang chu
-- Truong lao
-- Trinh Sat (phien ban Phong Hoa Thien Son)
-- Thanh vien thuong
+### Các hoạt động bang hội:
 
-### Loi khuyen:
-1. **Vao bang som**: Ngay dau duoc phat li xi nhieu
-2. **Tham gia Lua Trai moi ngay**: EXP rat lon
-3. **Dong gop cho bang**: Tang uy tin va nhan phan thuong
-4. **Tham gia hoat dong bang**: Boss, Van Tieu, Cong Thanh Chien
+#### Lửa Trại Bang Hội
+- Thời gian: 19:15 - 20:00 hàng ngày
+- EXP cực khủng, KHÔNG nên bỏ
+- Cần gia nhập bang trước 19:15
 
-## Nguon tham khao
+#### Boss Thế Giới
+- Hợp tác đánh boss cấp cao
+- Phần thưởng: Đồ Phổ Hoàng Kim, Bổ Thiên Thạch
 
-- motgame.vn - Chi tiet he thong Kinh Mach VLTK1 Mobile
-- game8.vn - He thong kinh mach phien ban moi
-- volammienphi.zing.vn - Tong hop tinh nang thu nuoi
-- vlcm.zing.vn - Ma Thu va Niet Ban Thu
-- hoanghamobile.com - Cac phien ban VLTK
+#### Boss Hoàng Kim
+- Boss riêng của bang hội
+- Phần thưởng: Rương Hoàng Kim, trang bị hoàng kim
+
+#### Thủ Lĩnh Dã Ngoại
+- Đánh boss ngoài trời
+- Phần thưởng: EXP + vật phẩm
+
+#### Vận Tiêu Bang Hội
+- Vận chuyển hàng hóa cho bang hội
+- Phần thưởng: Đóng góp bang + vật phẩm
+
+### Công Thành Chiến:
+- Hoạt động quy mô lớn nhất: bang hội tranh đoạt lãnh thổ
+- Các máy chủ chọn bang hội đại diện tham gia **Thiên Hạ Đệ Nhất Bang**
+- Hiện chia 3 giải: Mobile và 2 giải PC (thu phí và miễn phí)
+
+### Chức vụ Bang Hội:
+- Bang chủ
+- Phó bang chủ
+- Trưởng lão
+- Trinh Sát (phiên bản Phong Hỏa Thiên Sơn)
+- Thành viên thường
+
+### Lời khuyên:
+1. **Vào bang sớm**: Ngày đầu được phát lì xì nhiều
+2. **Tham gia Lửa Trại mỗi ngày**: EXP rất lớn
+3. **Đóng góp cho bang**: Tăng uy tín và nhận phần thưởng
+4. **Tham gia hoạt động bang**: Boss, Vận Tiêu, Công Thành Chiến
+
+## Nguồn tham khảo
+
+- motgame.vn - Chi tiết hệ thống Kinh Mạch VLTK1 Mobile
+- game8.vn - Hệ thống kinh mạch phiên bản mới
+- volammienphi.zing.vn - Tổng hợp tính năng thú nuôi
+- vlcm.zing.vn - Ma Thú và Niết Bàn Thú
+- hoanghamobile.com - Các phiên bản VLTK

@@ -1,35 +1,34 @@
-# Huong Dan Choi JX1 - Vo Lam Truyen Ky 1
+# Hướng Dẫn Chơi JX1 - Võ Lâm Truyền Kỳ 1
 
-Tai lieu tong hop huong dan choi game Vo Lam Truyen Ky 1 (JX1/VLTK1)
-tu co ban den nang cao, phuc vu cong dong Hoi Quan Vo Lam.
+Tài liệu tổng hợp hướng dẫn chơi game Võ Lâm Truyền Kỳ 1 (JX1/VLTK1)
+từ cơ bản đến nâng cao, phục vụ cộng đồng Hội Quán Võ Lâm.
 
-## Muc luc
+## Mục lục
 
-| STT | File | Noi dung |
+| STT | File | Nội dung |
 |---|---|---|
-| 01 | [01-tong-quan-co-ban.md](01-tong-quan-co-ban.md) | Gioi thieu game, diem tiem nang, diem ky nang, meo cho nguoi moi |
-| 02 | [02-he-thong-ngu-hanh.md](02-he-thong-ngu-hanh.md) | Ngu Hanh tuong sinh tuong khac, anh huong den mon phai va trang bi |
-| 03 | [03-mon-phai-tong-hop.md](03-mon-phai-tong-hop.md) | Chi tiet 10+ mon phai: ky nang, tiem nang, uu nhuoc diem, cach build |
-| 04 | [04-len-cap-kinh-nghiem.md](04-len-cap-kinh-nghiem.md) | Huong dan len cap nhanh, cay EXP hieu qua theo giai doan |
-| 05 | [05-trang-bi-huyen-tinh.md](05-trang-bi-huyen-tinh.md) | He thong trang bi, Huyen Tinh, Hoang Kim, kham nam, nang cap |
-| 06 | [06-nhiem-vu-hoat-dong.md](06-nhiem-vu-hoat-dong.md) | Cac loai nhiem vu, hoat dong hang ngay, lich su kien |
-| 07 | [07-pk-pvp-cong-thanh.md](07-pk-pvp-cong-thanh.md) | PK, PvP, Tong Kim, Cong Thanh Chien, chien luoc |
-| 08 | [08-kinh-mach-pet-bang-hoi.md](08-kinh-mach-pet-bang-hoi.md) | Kinh Mach, Thu Cung, Thu Cuoi, Bang Hoi |
-| 09 | [09-ban-do-luyen-cong.md](09-ban-do-luyen-cong.md) | Ban do train theo cap do, dia diem luyen cong toi uu |
+| 01 | [01-tong-quan-co-ban.md](01-tong-quan-co-ban.md) | Giới thiệu game, điểm tiềm năng, điểm kỹ năng, mẹo cho người mới |
+| 02 | [02-he-thong-ngu-hanh.md](02-he-thong-ngu-hanh.md) | Ngũ Hành tương sinh tương khắc, ảnh hưởng đến môn phái và trang bị |
+| 03 | [03-mon-phai-tong-hop.md](03-mon-phai-tong-hop.md) | Chi tiết 10+ môn phái: kỹ năng, tiềm năng, ưu nhược điểm, cách build |
+| 04 | [04-len-cap-kinh-nghiem.md](04-len-cap-kinh-nghiem.md) | Hướng dẫn lên cấp nhanh, cày EXP hiệu quả theo giai đoạn |
+| 05 | [05-trang-bi-huyen-tinh.md](05-trang-bi-huyen-tinh.md) | Hệ thống trang bị, Huyền Tinh, Hoàng Kim, khảm nạm, nâng cấp |
+| 06 | [06-nhiem-vu-hoat-dong.md](06-nhiem-vu-hoat-dong.md) | Các loại nhiệm vụ, hoạt động hàng ngày, lịch sự kiện |
+| 07 | [07-pk-pvp-cong-thanh.md](07-pk-pvp-cong-thanh.md) | PK, PvP, Tống Kim, Công Thành Chiến, chiến lược |
+| 08 | [08-kinh-mach-pet-bang-hoi.md](08-kinh-mach-pet-bang-hoi.md) | Kinh Mạch, Thú Cưng, Thú Cưỡi, Bang Hội |
+| 09 | [09-ban-do-luyen-cong.md](09-ban-do-luyen-cong.md) | Bản đồ train theo cấp độ, địa điểm luyện công tối ưu |
 
-## Ghi chu
+## Ghi chú
 
-- Tai lieu su dung tieng Viet khong dau de tuong thich voi TCVN3 encoding
-  duoc su dung trong he thong script cua game
-- Noi dung duoc tong hop tu nhieu nguon cong dong va trang chinh thuc
-- Ap dung cho phien ban 8.x (JxOffline 1)
+- Tài liệu sử dụng tiếng Việt có dấu (UTF-8/Unicode)
+- Nội dung được tổng hợp từ nhiều nguồn cộng đồng và trang chính thức
+- Áp dụng cho phiên bản 8.x (JxOffline 1)
 
-## Nguon tham khao chinh
+## Nguồn tham khảo chính
 
-- volamm.zing.vn / volamm.vnggames.com - Trang chu VLTK1 chinh thuc
-- gamemoira.org - Cam nang huong dan VLTK JX1
-- sgame.vn - Huong dan tiem nang ky nang cac phai
-- kisugame.com - Huong dan build cac mon phai
-- ctc.vnggames.com - VLTK Cong Thanh Chien
-- volammienphi.vnggames.com - Vo Lam Mien Phi cam nang
-- thegioididong.com - Huong dan VLTK1 Mobile
+- volamm.zing.vn / volamm.vnggames.com - Trang chủ VLTK1 chính thức
+- gamemoira.org - Cẩm nang hướng dẫn VLTK JX1
+- sgame.vn - Hướng dẫn tiềm năng kỹ năng các phái
+- kisugame.com - Hướng dẫn build các môn phái
+- ctc.vnggames.com - VLTK Công Thành Chiến
+- volammienphi.vnggames.com - Võ Lâm Miễn Phí cẩm nang
+- thegioididong.com - Hướng dẫn VLTK1 Mobile

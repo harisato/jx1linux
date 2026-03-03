@@ -1,152 +1,152 @@
-# Ban Do Luyen Cong (Map Train) - VLTK1
+# Bản Đồ Luyện Công (Map Train) - VLTK1
 
-## Tong quan
+## Tổng quan
 
-Viec chon dung map luyen cong trong VLTK1 khong chi giup nguoi choi cay level nhanh
-ma con tang kha nang nhan duoc do ngon. Phai chon dung map phu hop voi level de
-nhan duoc nhieu diem kinh nghiem hon.
+Việc chọn đúng map luyện công trong VLTK1 không chỉ giúp người chơi cày level nhanh
+mà còn tăng khả năng nhận được đồ ngon. Phải chọn đúng map phù hợp với level để
+nhận được nhiều điểm kinh nghiệm hơn.
 
-## Ban do theo cap do
+## Bản đồ theo cấp độ
 
-### Cap 1-10: Thon xom va Vung phu can
-- 8 thon va vung phu can
-- Quai co ban, phu hop tap lam quen game
-- Lam nhiem vu tan thu tai day
+### Cấp 1-10: Thôn xóm và Vùng phụ cận
+- 8 thôn và vùng phụ cận
+- Quái cơ bản, phù hợp tập làm quen game
+- Làm nhiệm vụ tân thủ tại đây
 
-### Cap 11-20: Ngoai thanh va Mon phai
-- 7 ngoai thanh
-- 10 dai mon phai
-- Thiet Sat Dong
-- Duoc Vuong Coc
-- Nhan Dang Son
-- Hoa Son
-- Nui Vo Dang, me cung Day Gieng (Vo Dang)
+### Cấp 11-20: Ngoại thành và Môn phái
+- 7 ngoại thành
+- 10 đại môn phái
+- Thiết Sát Động
+- Dược Vương Cốc
+- Nhận Đang Sơn
+- Hoa Sơn
+- Núi Võ Đang, mê cung Đáy Giếng (Võ Đang)
 
-### Cap 2x: Ban do so cap
+### Cấp 2x: Bản đồ sơ cấp
 
-| Ban do | Duong di | He quai |
+| Bản đồ | Đường đi | Hệ quái |
 |---|---|---|
-| Bach Thuy Dong | Tuong Duong -> Ba Lang Huyen -> Vu Lang Son -> Bach Thuy Dong | - |
-| Kiem Cac Thuc Dao | Phuong Tuong Nam -> Kiem Cac Thuc Dao | - |
-| Phuc Luu Dong | - | - |
-| Manh Ho Huyet Dong | - | - |
+| Bạch Thủy Động | Tương Dương -> Ba Lăng Huyện -> Vũ Lang Sơn -> Bạch Thủy Động | - |
+| Kiếm Các Thục Đạo | Phương Tường Nam -> Kiếm Các Thục Đạo | - |
+| Phục Lưu Động | - | - |
+| Mãnh Hổ Huyệt Động | - | - |
 
-### Cap 3x: Ban do trung cap
+### Cấp 3x: Bản đồ trung cấp
 
-| Ban do | Duong di | He quai |
+| Bản đồ | Đường đi | Hệ quái |
 |---|---|---|
-| Vu Di Son | Lam An -> Long Tuyen Thon -> Vu Di Son | - |
-| Diem Thuong Son | Dai Ly -> Diem Thuong Son | - |
-| Tuyet Bao Dong | Phuong Tuong -> Long Mon Tran -> Duoc Vuong Coc -> Tuyet Bao Dong | - |
-| Hoa Lang Dong | - | - (Vo Dang train) |
+| Vũ Di Sơn | Lâm An -> Long Tuyền Thôn -> Vũ Di Sơn | - |
+| Diệm Thương Sơn | Đại Lý -> Diệm Thương Sơn | - |
+| Tuyết Bão Động | Phương Tường -> Long Môn Trấn -> Dược Vương Cốc -> Tuyết Bão Động | - |
+| Hỏa Lang Động | - | - (Võ Đang train) |
 
-### Cap 4x: Ban do trung cao
+### Cấp 4x: Bản đồ trung cao
 
-| Ban do | Duong di | He quai |
+| Bản đồ | Đường đi | Hệ quái |
 |---|---|---|
-| Yen Tu Dong | Than Hanh Phu -> Khoa Lang Dong -> Yen Tu Dong | - |
-| Thuc Cuong Son | Duong Chau Tay -> Thuc Cuong Son | - |
-| Diem Thuong Dong T1,2,3 | Dai Ly -> Diem Thuong Son -> Diem Thuong Dong | - |
-| Phuc Nguu Son | - | - (Vo Dang train) |
-| Tay Nam Kiem Cac | - | - (Vo Dang train) |
-| Ke Quan Dong | - | - (Vo Dang train) |
-| Hoang Ha Nguyen Dau | - | - (Vo Dang train) |
+| Yên Tự Động | Thần Hành Phủ -> Khoa Lang Động -> Yên Tự Động | - |
+| Thục Cương Sơn | Dương Châu Tây -> Thục Cương Sơn | - |
+| Diệm Thương Động T1,2,3 | Đại Lý -> Diệm Thương Sơn -> Diệm Thương Động | - |
+| Phục Ngưu Sơn | - | - (Võ Đang train) |
+| Tây Nam Kiếm Các | - | - (Võ Đang train) |
+| Kê Quan Động | - | - (Võ Đang train) |
+| Hoàng Hà Nguyên Đầu | - | - (Võ Đang train) |
 
-### Cap 5x: Ban do cao cap
+### Cấp 5x: Bản đồ cao cấp
 
-| Ban do | Duong di | He quai |
+| Bản đồ | Đường đi | Hệ quái |
 |---|---|---|
-| Me Cung Thiet Thap T1,2,3 | Bien Kinh Tay -> Me Cung Thiet Thap | Kim, Thuy |
-| Thien Tam Thap T1,2 | Dai Ly Phu -> Thien Tam Thap | Hoa, Moc |
-| Bao Ngoc Hoa Dong | Ngu Doc Giao -> Vu Di Son -> Bao Ngoc Hoa Dong | Kim, Tho |
-| Nghiet Long Dong | Long Tuyen Thon -> La Tieu Son -> Nghiet Long Dong | Kim, Tho |
+| Mê Cung Thiết Tháp T1,2,3 | Biện Kinh Tây -> Mê Cung Thiết Tháp | Kim, Thủy |
+| Thiên Tâm Tháp T1,2 | Đại Lý Phủ -> Thiên Tâm Tháp | Hỏa, Mộc |
+| Bảo Ngọc Hoa Động | Ngũ Độc Giáo -> Vũ Di Sơn -> Bảo Ngọc Hoa Động | Kim, Thổ |
+| Nghiệt Long Động | Long Tuyền Thôn -> La Tiêu Sơn -> Nghiệt Long Động | Kim, Thổ |
 
-### Cap 6x: Ban do nang cao
+### Cấp 6x: Bản đồ nâng cao
 
-| Ban do | Duong di | He quai | Ghi chu |
+| Bản đồ | Đường đi | Hệ quái | Ghi chú |
 |---|---|---|---|
-| Thien Tam Thap | Dai Ly Phu -> Thien Tam Thap | Hoa, Moc | Quai tap trung dong, de luyen cap |
-| Tuong Van Dong | Duong Chau Tay -> Cai Bang -> Tuong Van Dong | Kim, Thuy | Thich hop luyen cap |
-| 108 La Han Tran | Bien Kinh Nam -> Thieu Lam Tu -> La Han Duong -> 108 La Han Tran | Moc, Hoa | - |
-| Nha Mon Mat Dao | Tuong Duong Phu -> Nha Mon Mat Dao | Moc, Thuy | - |
+| Thiên Tâm Tháp | Đại Lý Phủ -> Thiên Tâm Tháp | Hỏa, Mộc | Quái tập trung đông, dễ luyện cấp |
+| Tường Vân Động | Dương Châu Tây -> Cái Bang -> Tường Vân Động | Kim, Thủy | Thích hợp luyện cấp |
+| 108 La Hán Trận | Biện Kinh Nam -> Thiếu Lâm Tự -> La Hán Đường -> 108 La Hán Trận | Mộc, Hỏa | - |
+| Nha Môn Mật Đạo | Tương Dương Phủ -> Nha Môn Mật Đạo | Mộc, Thủy | - |
 
-### Cap 7x-8x: Ban do cap cao
+### Cấp 7x-8x: Bản đồ cấp cao
 
-| Ban do | Duong di | He quai | Ghi chu |
+| Bản đồ | Đường đi | Hệ quái | Ghi chú |
 |---|---|---|---|
-| Luong Thuy Dong | Lam An Phu -> Long Tuyen Thon -> Nhan Dang Son -> Luong Thuy Dong | Du 5 he | - |
-| Thanh Khe Dong | Lam An Phu -> Long Tuyen Thon -> Thanh Khe Dong | Du 5 he | - |
-| Dao Hoa Nguyen | - | - | Vo Dang train cap 71-80 |
-| Hoanh Son Phai | - | - | Vo Dang train cap 61-70 |
+| Lương Thủy Động | Lâm An Phủ -> Long Tuyền Thôn -> Nhận Đang Sơn -> Lương Thủy Động | Đủ 5 hệ | - |
+| Thanh Khê Động | Lâm An Phủ -> Long Tuyền Thôn -> Thanh Khê Động | Đủ 5 hệ | - |
+| Đào Hoa Nguyên | - | - | Võ Đang train cấp 71-80 |
+| Hoành Sơn Phái | - | - | Võ Đang train cấp 61-70 |
 
-### Cap 9x: Ban do toi cao
+### Cấp 9x: Bản đồ tối cao
 
-| Ban do | Duong di | He quai |
+| Bản đồ | Đường đi | Hệ quái |
 |---|---|---|
-| Vo Danh Dong | Dai Ly Phu -> Thach Co Tran -> Vo Danh Dong | Du 5 he |
-| Tuyet Bao Dong T8 | Phuong Tuong -> Long Mon Tran -> Duoc Vuong Coc -> Tuyet Bao Dong | - |
-| Bang Ha Dong | Phuong Tuong -> Vinh Lac Tran -> Bang Ha Dong | - |
+| Vô Danh Động | Đại Lý Phủ -> Thạch Cổ Trấn -> Vô Danh Động | Đủ 5 hệ |
+| Tuyết Bão Động T8 | Phương Tường -> Long Môn Trấn -> Dược Vương Cốc -> Tuyết Bão Động | - |
+| Băng Hà Động | Phương Tường -> Vĩnh Lạc Trấn -> Băng Hà Động | - |
 
-## Luu y khi chon map train
+## Lưu ý khi chọn map train
 
-### 1. Uu tien map co he quai phu hop
-- Danh quai he bi khac minh se nhanh hon
-- Vi du: Thieu Lam (Kim) nen danh quai he Moc
+### 1. Ưu tiên map có hệ quái phù hợp
+- Đánh quái hệ bị khắc mình sẽ nhanh hơn
+- Ví dụ: Thiếu Lâm (Kim) nên đánh quái hệ Mộc
 
-### 2. Tranh map co quai khac he minh
-- Quai he khac minh se gay nhieu sat thuong hon va chet nhieu hon
-- Vi du: Thieu Lam (Kim) nen tranh quai he Hoa
+### 2. Tránh map có quái khắc hệ mình
+- Quái hệ khắc mình sẽ gây nhiều sát thương hơn và chết nhiều hơn
+- Ví dụ: Thiếu Lâm (Kim) nên tránh quái hệ Hỏa
 
-### 3. Mat do quai
-- Map co quai tap trung dong se giup train nhanh hon
-- Mot so map nhu Thien Tam Thap co mat do quai rat cao
+### 3. Mật độ quái
+- Map có quái tập trung đông sẽ giúp train nhanh hơn
+- Một số map như Thiên Tâm Tháp có mật độ quái rất cao
 
-### 4. To doi khi train
-- Mot so map nhu Tuong Van Dong hoac Tuyet Bao Dong can to doi
-- To doi giup tang hieu qua va an toan hon
+### 4. Tổ đội khi train
+- Một số map như Tường Vân Động hoặc Tuyết Bão Động cần tổ đội
+- Tổ đội giúp tăng hiệu quả và an toàn hơn
 
-### 5. Vat pham roi
-- Moi map co bang roi do khac nhau
-- Chon map co co hoi roi do tot de vua train vua kiem tien
+### 5. Vật phẩm rơi
+- Mỗi map có bảng rơi đồ khác nhau
+- Chọn map có cơ hội rơi đồ tốt để vừa train vừa kiếm tiền
 
-## Dia diem luyen cong theo mon phai
+## Địa điểm luyện công theo môn phái
 
-### Thieu Lam (Kim):
-- Nen train tai map co quai he Moc (khac che)
-- Tranh map co nhieu quai he Hoa (bi khac)
+### Thiếu Lâm (Kim):
+- Nên train tại map có quái hệ Mộc (khắc chế)
+- Tránh map có nhiều quái hệ Hỏa (bị khắc)
 
-### Nga My (Thuy):
-- Nen train tai map co quai he Hoa
-- Tranh map co nhieu quai he Tho
+### Nga My (Thủy):
+- Nên train tại map có quái hệ Hỏa
+- Tránh map có nhiều quái hệ Thổ
 
-### Cai Bang (Hoa):
-- Nen train tai map co quai he Kim
-- Tranh map co nhieu quai he Thuy
+### Cái Bang (Hỏa):
+- Nên train tại map có quái hệ Kim
+- Tránh map có nhiều quái hệ Thủy
 
-### Duong Mon (Moc):
-- Nen train tai map co quai he Tho
-- Tranh map co nhieu quai he Kim
+### Đường Môn (Mộc):
+- Nên train tại map có quái hệ Thổ
+- Tránh map có nhiều quái hệ Kim
 
-### Vo Dang (Tho):
-- Nen train tai map co quai he Thuy
-- Tranh map co nhieu quai he Moc
-- Lo trinh cu the: Day Gieng (11-20) -> Hoa Lang Dong (21-30) -> Phuc Nguu Son (31-40)
-  -> Ke Quan Dong (41-50) -> Me Cung Thiet Thap (51-60) -> Hoanh Son Phai (61-70)
-  -> Dao Hoa Nguyen (71-80)
+### Võ Đang (Thổ):
+- Nên train tại map có quái hệ Thủy
+- Tránh map có nhiều quái hệ Mộc
+- Lộ trình cụ thể: Đáy Giếng (11-20) -> Hỏa Lang Động (21-30) -> Phục Ngưu Sơn (31-40)
+  -> Kê Quan Động (41-50) -> Mê Cung Thiết Tháp (51-60) -> Hoành Sơn Phái (61-70)
+  -> Đào Hoa Nguyên (71-80)
 
-## Meo train hieu qua
+## Mẹo train hiệu quả
 
-1. **Su dung Nu Nhi Hong**: Tang 110% EXP
-2. **Su dung Luyen Cong Don**: Tang x10 EXP va vat pham
-3. **Chon gio vang**: Mot so khung gio co bonus EXP
-4. **To doi 5 nguoi**: Tang hieu qua train va chia se EXP hop ly
-5. **Buff day du**: Dam bao da buff truoc khi train (dac biet Nga My)
-6. **Su dung auto**: Cac tool auto giup train lien tuc khi AFK
+1. **Sử dụng Nữ Nhi Hồng**: Tăng 110% EXP
+2. **Sử dụng Luyện Công Đơn**: Tăng x10 EXP và vật phẩm
+3. **Chọn giờ vàng**: Một số khung giờ có bonus EXP
+4. **Tổ đội 5 người**: Tăng hiệu quả train và chia sẻ EXP hợp lý
+5. **Buff đầy đủ**: Đảm bảo đã buff trước khi train (đặc biệt Nga My)
+6. **Sử dụng auto**: Các tool auto giúp train liên tục khi AFK
 
-## Nguon tham khao
+## Nguồn tham khảo
 
-- thienhavodich.com - Ban do luyen cong co map dan duong
-- gameprivate4u.com - Ban do luyen cong Vo Lam 1
-- gamecua8x.info - Ban Do Luyen Cong, Map Train VLTK1
-- thegioididong.com - Danh sach ban do luyen cong cap 20-180
-- volam123.blogspot.com - Dia diem train luyen trong VLTK
+- thienhavodich.com - Bản đồ luyện công có map dẫn đường
+- gameprivate4u.com - Bản đồ luyện công Võ Lâm 1
+- gamecua8x.info - Bản Đồ Luyện Công, Map Train VLTK1
+- thegioididong.com - Danh sách bản đồ luyện công cấp 20-180
+- volam123.blogspot.com - Địa điểm train luyện trong VLTK

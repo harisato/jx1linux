@@ -1,140 +1,140 @@
-# Huong Dan Len Cap va Cay Kinh Nghiem - VLTK1
+# Hướng Dẫn Lên Cấp và Cày Kinh Nghiệm - VLTK1
 
-## Tong quan
+## Tổng quan
 
-Len cap la mot trong nhung yeu to quan trong nhat trong VLTK1. Cap do cao giup mo khoa
-ky nang, trang bi manh hon va tham gia duoc nhieu hoat dong hap dan.
+Lên cấp là một trong những yếu tố quan trọng nhất trong VLTK1. Cấp độ cao giúp mở khóa
+kỹ năng, trang bị mạnh hơn và tham gia được nhiều hoạt động hấp dẫn.
 
-## Phuong phap len cap theo giai doan
+## Phương pháp lên cấp theo giai đoạn
 
-### Giai doan 1: Cap 1-20 (Tan thu)
+### Giai đoạn 1: Cấp 1-20 (Tân thủ)
 
-1. **Nhiem vu chinh tuyen**: Cach nhanh nhat de len cap o giai doan dau
-   - Lam nhiem vu chinh tuyen de dat cap 15
-   - Xen ke nhiem vu phu tuyen de dat cap 16
-   - Tiep tuc chinh tuyen den cap 19-20, va len duoc cap 23
+1. **Nhiệm vụ chính tuyến**: Cách nhanh nhất để lên cấp ở giai đoạn đầu
+   - Làm nhiệm vụ chính tuyến để đạt cấp 15
+   - Xen kẽ nhiệm vụ phụ tuyến để đạt cấp 16
+   - Tiếp tục chính tuyến đến cấp 19-20, và lên được cấp 23
 
-2. **Nhiem vu tan thu**:
-   - Tai bang theo doi nhiem vu nhan chon "Tim Quan Su"
-   - Doi thoai NPC Quan Su Tan Thu, nhan nhiem vu danh bai 5 Heo Trang
-   - Chon nhiem vu gia nhap mon phai tai NPC de tu tiep dan
+2. **Nhiệm vụ tân thủ**:
+   - Tại bảng theo dõi nhiệm vụ nhấn chọn "Tìm Quản Sự"
+   - Đối thoại NPC Quản Sự Tân Thủ, nhận nhiệm vụ đánh bại 5 Heo Trắng
+   - Chọn nhiệm vụ gia nhập môn phái tại NPC để tự tiếp dẫn
 
-3. **Nhan Su Phu** (tu cap 20):
-   - Tim nguoi cap cao hon de bai su
-   - Su phu va do de nen cach nhau 2 cap de nhan duoc nhieu EXP truyen cong
+3. **Nhận Sư Phụ** (từ cấp 20):
+   - Tìm người cấp cao hơn để bái sư
+   - Sư phụ và đồ đệ nên cách nhau 2 cấp để nhận được nhiều EXP truyền công
 
-### Giai doan 2: Cap 20-40
+### Giai đoạn 2: Cấp 20-40
 
-1. **Di pho ban**: Bat dau di pho ban Tang Kiem Son Trang
-   - Co gang vuot pho ban voi xep hang S tro len
-   - Moi thanh vien can do than mat hao huu cao, luc chien tu 8.000 tro len
+1. **Đi phó bản**: Bắt đầu đi phó bản Tăng Kiếm Sơn Trang
+   - Cố gắng vượt phó bản với xếp hạng S trở lên
+   - Mỗi thành viên cần độ thân mật hảo hữu cao, lực chiến từ 8.000 trở lên
 
-2. **Nhiem vu Hoang Kim** (tu cap 20):
-   - Nhan tai NPC Long Ngu o tat ca cac thon
-   - Ba tuyen nhiem vu: Chinh phai, Trung lap, Ta phai
-   - Co the thuc hien ca 3 tuyen cung luc
+2. **Nhiệm vụ Hoàng Kim** (từ cấp 20):
+   - Nhận tại NPC Long Ngữ ở tất cả các thôn
+   - Ba tuyến nhiệm vụ: Chính phái, Trung lập, Tà phái
+   - Có thể thực hiện cả 3 tuyến cùng lúc
 
-3. **Gia nhap bang hoi** (tu cap 30):
-   - Co gang vao Bang truoc 19:15 de kip Lua Trai Bang Hoi
-   - Ngay dau trong Bang se duoc phat li xi nhieu
+3. **Gia nhập bang hội** (từ cấp 30):
+   - Cố gắng vào Bang trước 19:15 để kịp Lửa Trại Bang Hội
+   - Ngày đầu trong Bang sẽ được phát lì xì nhiều
 
-4. **Luu y quan trong**:
-   - 3 ngay dau chi co the dat toi da cap 39
-   - Truoc cap 39 duoc cong diem va tay diem mien phi - TAN DUNG!
-   - KHONG su dung Bach Cau Hoan va Tu Luyen Don som, de danh den Lv40
+4. **Lưu ý quan trọng**:
+   - 3 ngày đầu chỉ có thể đạt tối đa cấp 39
+   - Trước cấp 39 được cộng điểm và tẩy điểm miễn phí - TẬN DỤNG!
+   - KHÔNG sử dụng Bạch Câu Hoàn và Tu Luyện Đơn sớm, để dành đến Lv40
 
-### Giai doan 3: Cap 40-60
+### Giai đoạn 3: Cấp 40-60
 
-1. **Hoat dong hang ngay** (bat dau mo nhieu tinh nang):
-   - Tong Kim, san boss Tieu Hoang Kim
-   - Boss sat thu, nhiem vu Da Tau
-   - Phong Lang Do, Lien Dau, Vuot Ai
-   - Van Tieu, Hai Qua Huy Hoang
+1. **Hoạt động hàng ngày** (bắt đầu mở nhiều tính năng):
+   - Tống Kim, săn boss Tiểu Hoàng Kim
+   - Boss sát thủ, nhiệm vụ Dã Tẩu
+   - Phong Lăng Độ, Liên Đấu, Vượt Ải
+   - Vận Tiêu, Hải Quá Huy Hoàng
 
-2. **Lua Trai Bang Hoi**: EXP cuc khung, khong duoc bo!
+2. **Lửa Trại Bang Hội**: EXP cực khủng, không được bỏ!
 
-3. **Van Dap moi ngay**: Tra loi 10 cau hoi, nhan nhieu EXP
+3. **Vấn Đáp mỗi ngày**: Trả lời 10 câu hỏi, nhận nhiều EXP
 
-4. **Van Tieu**: Khung gio 10:00 - 22:00 moi ngay tai Bien Kinh
+4. **Vận Tiêu**: Khung giờ 10:00 - 22:00 mỗi ngày tại Biện Kinh
 
-### Giai doan 4: Cap 60-90
+### Giai đoạn 4: Cấp 60-90
 
-1. **Truyen cong**: Tu cap 60-80 co the truyen cong cho nhan vat khac de nhan EXP
-2. **Pho ban cap cao**: Tang do kho pho ban de nhan nhieu EXP hon
-3. **San boss**: Boss Hoang Kim, Boss The Gioi cho EXP lon
-4. **Nhiem vu Da Tau**: Nhiem vu lap lai, cho EXP on dinh
+1. **Truyền công**: Từ cấp 60-80 có thể truyền công cho nhân vật khác để nhận EXP
+2. **Phó bản cấp cao**: Tăng độ khó phó bản để nhận nhiều EXP hơn
+3. **Săn boss**: Boss Hoàng Kim, Boss Thế Giới cho EXP lớn
+4. **Nhiệm vụ Dã Tẩu**: Nhiệm vụ lặp lại, cho EXP ổn định
 
-### Giai doan 5: Cap 90+
+### Giai đoạn 5: Cấp 90+
 
-1. **Hoc tuyet ky tran mon** (cap 90): Suc manh tang vot
-2. **He thong thu cung** (cap 100): Mo them nguon suc manh
-3. **Kinh mach** (cap 120): Tang chi so dang ke
-4. **Ky nang 150**: Tuyet chieu toi thuong
+1. **Học tuyệt kỹ trấn môn** (cấp 90): Sức mạnh tăng vọt
+2. **Hệ thống thú cưng** (cấp 100): Mở thêm nguồn sức mạnh
+3. **Kinh mạch** (cấp 120): Tăng chỉ số đáng kể
+4. **Kỹ năng 150**: Tuyệt chiêu tối thượng
 
-## Cac hoat dong cho EXP hang ngay
+## Các hoạt động cho EXP hàng ngày
 
-| Hoat dong | Thoi gian | EXP | Ghi chu |
+| Hoạt động | Thời gian | EXP | Ghi chú |
 |---|---|---|---|
-| Lua Trai Bang Hoi | 19:15-20:00 | Cuc cao | Can gia nhap bang |
-| Van Dap | Hang ngay | Cao | 10 cau hoi |
-| Van Tieu | 10:00-22:00 | Trung binh | Tai Bien Kinh |
-| Tong Kim | 13:00, 15:00, 21:00, 23:00 | Rat cao | Can dang ky |
-| Da Tau | Hang ngay | Trung binh | Nhiem vu lap lai |
-| San Boss Hoang Kim | Theo lich | Cao | Can to doi |
-| Pho Ban | Bat ky | Cao | Xep hang S de nhan nhieu |
-| Phong Lang Do | Theo lich | Cao | Hoat dong PvP |
+| Lửa Trại Bang Hội | 19:15-20:00 | Cực cao | Cần gia nhập bang |
+| Vấn Đáp | Hàng ngày | Cao | 10 câu hỏi |
+| Vận Tiêu | 10:00-22:00 | Trung bình | Tại Biện Kinh |
+| Tống Kim | 13:00, 15:00, 21:00, 23:00 | Rất cao | Cần đăng ký |
+| Dã Tẩu | Hàng ngày | Trung bình | Nhiệm vụ lặp lại |
+| Săn Boss Hoàng Kim | Theo lịch | Cao | Cần tổ đội |
+| Phó Bản | Bất kỳ | Cao | Xếp hạng S để nhận nhiều |
+| Phong Lăng Độ | Theo lịch | Cao | Hoạt động PvP |
 
-## Su dung vat pham tang EXP
+## Sử dụng vật phẩm tăng EXP
 
-| Vat pham | Tac dung |
+| Vật phẩm | Tác dụng |
 |---|---|
-| Nu Nhi Hong | Tang 110% EXP |
-| Luyen Cong Don | Tang x10 EXP va vat pham |
-| Bach Cau Hoan | Tang EXP (nen de danh den Lv40) |
-| Tu Luyen Don | Tang EXP (nen de danh den Lv40) |
+| Nữ Nhi Hồng | Tăng 110% EXP |
+| Luyện Công Đơn | Tăng x10 EXP và vật phẩm |
+| Bạch Câu Hoàn | Tăng EXP (nên để dành đến Lv40) |
+| Tu Luyện Đơn | Tăng EXP (nên để dành đến Lv40) |
 
-## Uy Thac Roi Mang (Offline EXP)
+## Ủy Thác Rời Mạng (Offline EXP)
 
-VLTK1 Mobile co tinh nang Uy Thac Roi Mang giup nhan EXP khi offline:
-- Co the su dung Bach Cau Hoan de tang them EXP
-- **Vi tri hop le**: Ba Lang Huyen, Bien Kinh, Tuong Duong, Lam An
-- Neu o noi khac se KHONG nhan duoc EXP tu Uy Thac Roi Mang
+VLTK1 Mobile có tính năng Ủy Thác Rời Mạng giúp nhận EXP khi offline:
+- Có thể sử dụng Bạch Câu Hoàn để tăng thêm EXP
+- **Vị trí hợp lệ**: Ba Lăng Huyện, Biện Kinh, Tương Dương, Lâm An
+- Nếu ở nơi khác sẽ KHÔNG nhận được EXP từ Ủy Thác Rời Mạng
 
-## Phai nao len cap nhanh nhat?
+## Phái nào lên cấp nhanh nhất?
 
-Theo kinh nghiem game thu, **Thieu Lam** la phai luyen level nhanh nhat:
-- Sat thuong gay ra rong, danh mot luc nhieu quai xung quanh
-- Rat co loi the khi dua top
-- Phu hop cho nguoi muoi choi muon len cap nhanh
+Theo kinh nghiệm game thủ, **Thiếu Lâm** là phái luyện level nhanh nhất:
+- Sát thương gây ra rộng, đánh một lúc nhiều quái xung quanh
+- Rất có lợi thế khi đua top
+- Phù hợp cho người mười chơi muốn lên cấp nhanh
 
-## Meo toi uu kinh nghiem
+## Mẹo tối ưu kinh nghiệm
 
-1. **Khong bo sot bat ky hoat dong nao** trong ngay
-2. **Nhan su phu som** de duoc truyen cong
-3. **Chon dung map train** phu hop voi level (xem file 09-ban-do-luyen-cong.md)
-4. **To doi khi train** de tang hieu qua
-5. **Su dung vat pham tang EXP** dung thoi diem (Lv40+)
-6. **Tham gia su kien** de nhan EXP thuong them
+1. **Không bỏ sót bất kỳ hoạt động nào** trong ngày
+2. **Nhận sư phụ sớm** để được truyền công
+3. **Chọn đúng map train** phù hợp với level (xem file 09-ban-do-luyen-cong.md)
+4. **Tổ đội khi train** để tăng hiệu quả
+5. **Sử dụng vật phẩm tăng EXP** đúng thời điểm (Lv40+)
+6. **Tham gia sự kiện** để nhận EXP thưởng thêm
 
-## Cac "moc" quan trong can biet
+## Các "mốc" quan trọng cần biết
 
-| Moc | Noi dung |
+| Mốc | Nội dung |
 |---|---|
-| Cap 10 | Gia nhap mon phai |
-| Cap 20 | Nhan nhiem vu Hoang Kim, nhan su phu |
-| Cap 30 | Gia nhap bang hoi |
-| Cap 39-40 | Het mien phi tay diem |
-| Cap 50 | Hoc tuyet ky cap cao |
-| Cap 63 | Moc tay tuy ky nang lan 1 |
-| Cap 90 | Hoc tuyet ky tran mon, moc tay tuy lan 2 |
-| Cap 100 | Mo he thong thu cung |
-| Cap 120 | Mo he thong kinh mach |
-| Cap 150 | Hoc ky nang 150 toi thuong |
+| Cấp 10 | Gia nhập môn phái |
+| Cấp 20 | Nhận nhiệm vụ Hoàng Kim, nhận sư phụ |
+| Cấp 30 | Gia nhập bang hội |
+| Cấp 39-40 | Hết miễn phí tẩy điểm |
+| Cấp 50 | Học tuyệt kỹ cấp cao |
+| Cấp 63 | Mốc tẩy tủy kỹ năng lần 1 |
+| Cấp 90 | Học tuyệt kỹ trấn môn, mốc tẩy tủy lần 2 |
+| Cấp 100 | Mở hệ thống thú cưng |
+| Cấp 120 | Mở hệ thống kinh mạch |
+| Cấp 150 | Học kỹ năng 150 tối thượng |
 
-## Nguon tham khao
+## Nguồn tham khảo
 
-- mytour.vn - Bi quyet leo level nhanh
-- gamecua8x.info - Cach luyen LV nhanh
-- tiengame.com - Cach len level nhanh cho nguoi choi lai
-- thienhavodich.com - Ban do luyen cong
-- thanhnien.vn - Bi kip cay cap do nhanh
+- mytour.vn - Bí quyết leo level nhanh
+- gamecua8x.info - Cách luyện LV nhanh
+- tiengame.com - Cách lên level nhanh cho người chơi lại
+- thienhavodich.com - Bản đồ luyện công
+- thanhnien.vn - Bí kíp cày cấp độ nhanh
