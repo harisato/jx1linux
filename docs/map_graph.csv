@@ -1,0 +1,158 @@
+﻿MapID,MapName,MapType,ConnectedMapIDs,ConnectedMapNames
+1,Phượng Tường,City,3;7;99,Kiếm Các Tây Bắc;Tần Lăng;VỊnh Lạc trấn
+2,Hoa Sơn,Field,99;333,VỊnh Lạc trấn;Hoa Sơn phái
+3,Kiếm Các Tây Bắc,Field,1;4,Phượng Tường;Kim Quang động
+4,Kim Quang động,Cave,3;5;6,Kiếm Các Tây Bắc;Kinh Hoàng động;Tỏa Vân động
+5,Kinh Hoàng động,Cave,4;6;19,Kim Quang động;Tỏa Vân động;Kiếm Các Tây Nam
+6,Tỏa Vân động,Cave,4;5;43,Kim Quang động;Kinh Hoàng động;Kiếm Các Trung Nguyên
+7,Tần Lăng,Field,1;8,Phượng Tường;Lăng Tần Thủy Hoàng
+8,Lăng Tần Thủy Hoàng,Cave,7;206,Tần Lăng;Tần Lăng tầng 2
+9,Trường Giang Nguyên Đầu,Cave,10;11;13,Nhạn Thạch động;Thành Đô;Nga My phái
+10,Nhạn Thạch động,Cave,9,Trường Giang Nguyên Đầu
+11,Thành Đô,City,9;12;13;19;20;21;25,Trường Giang Nguyên Đầu;Địa đạo hậu viện Tín Tưởng tự;Nga My phái;Kiếm Các Tây Nam;Giang Tân Thôn;Thanh Thành sơn;Đường Môn
+12,Địa đạo hậu viện Tín Tưởng tự,Cave,11,Thành Đô
+13,Nga My phái,Tong,9;11;14,Trường Giang Nguyên Đầu;Thành Đô;Mãnh Hổ động
+14,Mãnh Hổ động,Cave,13,Nga My phái
+19,Kiếm Các Tây Nam,Field,5;11,Kinh Hoàng động;Thành Đô
+20,Giang Tân Thôn,Country,11;202,Thành Đô;Phù Dung động
+21,Thanh Thành sơn,Field,11;22;23;24,Thành Đô;Bạch Vân động;Thần Tiên động;Hướng Thủy động
+22,Bạch Vân động,Cave,21,Thanh Thành sơn
+23,Thần Tiên động,Cave,21,Thanh Thành sơn
+24,Hướng Thủy động,Cave,21,Thanh Thành sơn
+25,Đường Môn,Tong,11;26,Thành Đô;Trúc Tơ động tầng 1
+26,Trúc Tơ động tầng 1,Cave,25;27,Đường Môn;Trúc Tơ động tầng 2
+27,Trúc Tơ động tầng 2,Cave,26,Trúc Tơ động tầng 1
+37,Biện Kinh,Capital,38;41;45;100;103;319,Thiết tháp tầng 1;Phục Ngưu Sơn Tây;Thiên NhẨn giáo;Chu Tiên trấn;Thiếu Lâm phái;Lâm Du Quan
+38,Thiết tháp tầng 1,Cave,37;39,Biện Kinh;Thiết tháp tầng 2
+39,Thiết tháp tầng 2,Cave,38;40,Thiết tháp tầng 1;Thiết tháp tầng 3
+40,Thiết tháp tầng 3,Cave,39,Thiết tháp tầng 2
+41,Phục Ngưu Sơn Tây,Field,37;42,Biện Kinh;Thiên Tâm động
+42,Thiên Tâm động,Unknown,41;43;91,Phục Ngưu Sơn Tây;Kiếm Các Trung Nguyên;Mê cung Kê Quán động
+43,Kiếm Các Trung Nguyên,Field,6;42,Tỏa Vân động;Thiên Tâm động
+44,Chiến trường Tống Kim,Battlefield,78;100,Tương Dương;Chu Tiên trấn
+45,Thiên NhẨn giáo,Tong,37;46,Biện Kinh;Thiên NhẨn Giáo tầng 1
+46,Thiên NhẨn Giáo tầng 1,Tong,45;47;48,Thiên NhẨn giáo;Thiên NhẨn Giáo tầng 2;Thiên NhẨn Giáo tầng 2
+47,Thiên NhẨn Giáo tầng 2,Tong,46;49;50,Thiên NhẨn Giáo tầng 1;Thiên NhẨn Giáo tầng 3;Thất Sát động
+48,Thiên NhẨn Giáo tầng 2,Tong,46;49;50,Thiên NhẨn Giáo tầng 1;Thiên NhẨn Giáo tầng 3;Thất Sát động
+49,Thiên NhẨn Giáo tầng 3,Tong,47;48;51,Thiên NhẨn Giáo tầng 2;Thiên NhẨn Giáo tầng 2;Thánh động tầng 1
+50,Thất Sát động,Cave,47;48,Thiên NhẨn Giáo tầng 2;Thiên NhẨn Giáo tầng 2
+51,Thánh động tầng 1,Cave,49;52,Thiên NhẨn Giáo tầng 3;Thánh động tầng 2
+52,Thánh động tầng 2,Cave,51,Thánh động tầng 1
+53,Ba Lăng huyện,Country,54;70;74;199,Nam Nhạc trấn;Vũ Lăng sơn;Miêu LỊnh;Vũ Lăng động
+54,Nam Nhạc trấn,Country,53;56,Ba Lăng huyện;Hoành Sơn Phái
+55,Đào Hoa Nguyên,Others,73,Phục Lưu động
+56,Hoành Sơn Phái,Field,54,Nam Nhạc trấn
+59,Thiên Vương Bang,Tong,65;66,Thiên Vương đảo sơn động;Đáy Động Đình hồ tầng 1
+65,Thiên Vương đảo sơn động,Cave,59,Thiên Vương Bang
+66,Đáy Động Đình hồ tầng 1,Cave,59;67,Thiên Vương Bang;Đáy Động Đình hồ tầng 2
+67,Đáy Động Đình hồ tầng 2,Cave,66,Đáy Động Đình hồ tầng 1
+68,Thanh Loa đảo,Field,69,Thanh Loa đảo sơn động
+69,Thanh Loa đảo sơn động,Cave,68,Thanh Loa đảo
+70,Vũ Lăng sơn,Field,53;71;72;73,Ba Lăng huyện;Bạch Thủy động;Đại Tù động;Phục Lưu động
+71,Bạch Thủy động,Cave,70;73,Vũ Lăng sơn;Phục Lưu động
+72,Đại Tù động,Cave,70,Vũ Lăng sơn
+73,Phục Lưu động,Cave,55;70;71,Đào Hoa Nguyên;Vũ Lăng sơn;Bạch Thủy động
+74,Miêu LỊnh,Field,53;76;77,Ba Lăng huyện;Sơn Bảo động;Yến Tử động
+75,Khoả Lang động,Cave,76;77,Sơn Bảo động;Yến Tử động
+76,Sơn Bảo động,Cave,74;75,Miêu LỊnh;Khoả Lang động
+77,Yến Tử động,Cave,74;75,Miêu LỊnh;Khoả Lang động
+78,Tương Dương,City,44;79;81;90;101,Chiến trường Tống Kim;Mật đạo Nha môn Tương Dương;Võ Đang phái;Phục Ngưu Sơn Đông;Đạo Hương thôn
+79,Mật đạo Nha môn Tương Dương,Cave,78,Tương Dương
+80,Dương Châu,City,92;101;115,Thục Cương sơn;Đạo Hương thôn;Cái Bang
+81,Võ Đang phái,Tong,78;82;83,Tương Dương;Mê cung Đáy giếng;Hỏa Lang động
+82,Mê cung Đáy giếng,Cave,81,Võ Đang phái
+83,Hỏa Lang động,Cave,81,Võ Đang phái
+90,Phục Ngưu Sơn Đông,Field,78;91,Tương Dương;Mê cung Kê Quán động
+91,Mê cung Kê Quán động,Cave,42;90,Thiên Tâm động;Phục Ngưu Sơn Đông
+92,Thục Cương sơn,Field,80;93;94,Dương Châu;Tiến Cúc động;Linh Cốc động
+93,Tiến Cúc động,Cave,92;94,Thục Cương sơn;Linh Cốc động
+94,Linh Cốc động,Cave,92;93,Thục Cương sơn;Tiến Cúc động
+99,VỊnh Lạc trấn,Country,1;2;201,Phượng Tường;Hoa Sơn;Băng Hà động
+100,Chu Tiên trấn,Country,37;44;204,Biện Kinh;Chiến trường Tống Kim;Phi Thiên động
+101,Đạo Hương thôn,Country,78;80;205,Tương Dương;Dương Châu;Dương Trung động
+103,Thiếu Lâm phái,Tong,37;111;113;114,Biện Kinh;Mộc Nhân Hạng;Mật thất Thiếu Lâm;108 La Hán trận
+111,Mộc Nhân Hạng,Unknown,103,Thiếu Lâm phái
+113,Mật thất Thiếu Lâm,Unknown,103,Thiếu Lâm phái
+114,108 La Hán trận,Unknown,103,Thiếu Lâm phái
+115,Cái Bang,Tong,80;116,Dương Châu;Tường Vân động tầng 1
+116,Tường Vân động tầng 1,Unknown,115;117,Cái Bang;Tường Vân động tầng 2
+117,Tường Vân động tầng 2,Unknown,116;118,Tường Vân động tầng 1;Tường Vân động tầng 3
+118,Tường Vân động tầng 3,Unknown,117;119,Tường Vân động tầng 2;Tường Vân động tầng 4
+119,Tường Vân động tầng 4,Unknown,118;120,Tường Vân động tầng 3;Tường Vân động tầng 5
+120,Tường Vân động tầng 5,Unknown,119,Tường Vân động tầng 4
+121,Long Môn trấn,Country,122;131;140;200;340,Hoàng Hà Nguyên Đầu;Côn Lôn phái;Dược Vương Cốc;Cổ Dương động;Mạc Cao Quật
+122,Hoàng Hà Nguyên Đầu,Field,121;123;124;125,Long Môn trấn;Lão Hổ động;Cán Viên động;Lưu Tiên động tầng 1
+123,Lão Hổ động,Unknown,122;124,Hoàng Hà Nguyên Đầu;Cán Viên động
+124,Cán Viên động,Unknown,122;123,Hoàng Hà Nguyên Đầu;Lão Hổ động
+125,Lưu Tiên động tầng 1,Unknown,122;126,Hoàng Hà Nguyên Đầu;Lưu Tiên động tầng 2
+126,Lưu Tiên động tầng 2,Unknown,125;127,Lưu Tiên động tầng 1;Lưu Tiên động tầng 3
+127,Lưu Tiên động tầng 3,Unknown,126;128,Lưu Tiên động tầng 2;Lưu Tiên động tầng 4
+128,Lưu Tiên động tầng 4,Unknown,127;129,Lưu Tiên động tầng 3;Lưu Tiên động tầng 5
+129,Lưu Tiên động tầng 5,Unknown,128;130,Lưu Tiên động tầng 4;Lưu Tiên động tầng 6
+130,Lưu Tiên động tầng 6,Unknown,129,Lưu Tiên động tầng 5
+131,Côn Lôn phái,Tong,121;132;135;136,Long Môn trấn;Băng Huyệt động;Kiến Tính Phong sơn động;Khoái Hoạt Lâm
+132,Băng Huyệt động,Unknown,131,Côn Lôn phái
+135,Kiến Tính Phong sơn động,Unknown,131,Côn Lôn phái
+136,Khoái Hoạt Lâm,Unknown,131,Côn Lôn phái
+140,Dược Vương Cốc,Cave,121;141;142;145,Long Môn trấn;Dược Vương động tầng 1;Dược Vương động tầng 2;Tuyết Báo động tầng 1
+141,Dược Vương động tầng 1,Unknown,140;142;143,Dược Vương Cốc;Dược Vương động tầng 2;Dược Vương động tầng 3
+142,Dược Vương động tầng 2,Unknown,140;141,Dược Vương Cốc;Dược Vương động tầng 1
+143,Dược Vương động tầng 3,Unknown,141;144,Dược Vương động tầng 1;Dược Vương động tầng 4
+144,Dược Vương động tầng 4,Unknown,143,Dược Vương động tầng 3
+145,Tuyết Báo động tầng 1,Unknown,140;146;148;152,Dược Vương Cốc;Tuyết Báo động tầng 2;Tuyết Báo động tầng 4;Tuyết Báo động tầng 8
+146,Tuyết Báo động tầng 2,Unknown,145;150;152,Tuyết Báo động tầng 1;Tuyết Báo động tầng 6;Tuyết Báo động tầng 8
+147,Tuyết Báo động tầng 3,Unknown,148;149,Tuyết Báo động tầng 4;Tuyết Báo động tầng 5
+148,Tuyết Báo động tầng 4,Unknown,145;146;147;152,Tuyết Báo động tầng 1;Tuyết Báo động tầng 2;Tuyết Báo động tầng 3;Tuyết Báo động tầng 8
+149,Tuyết Báo động tầng 5,Unknown,147,Tuyết Báo động tầng 3
+150,Tuyết Báo động tầng 6,Unknown,146,Tuyết Báo động tầng 2
+151,Tuyết Báo động tầng 7,Unknown,152,Tuyết Báo động tầng 8
+152,Tuyết Báo động tầng 8,Unknown,145;146;151,Tuyết Báo động tầng 1;Tuyết Báo động tầng 2;Tuyết Báo động tầng 7
+153,Thạch Cổ trấn,Country,162;203,Đại Lý phủ;Vô Danh động
+154,Thúy Yên môn,Tong,158;162,Mê cung cấm địa;Đại Lý phủ
+158,Mê cung cấm địa,Unknown,154,Thúy Yên môn
+162,Đại Lý phủ,City,153;154;163;164;167,Thạch Cổ trấn;Thúy Yên môn;ác bá địa đạo;Thiên Tầm tháp tầng 1;Điểm Thương sơn
+163,ác bá địa đạo,Unknown,162,Đại Lý phủ
+164,Thiên Tầm tháp tầng 1,Unknown,162;165,Đại Lý phủ;Thiên Tầm tháp tầng 2
+165,Thiên Tầm tháp tầng 2,Unknown,164;166,Thiên Tầm tháp tầng 1;Thiên Tầm tháp tầng 3
+166,Thiên Tầm tháp tầng 3,Unknown,165,Thiên Tầm tháp tầng 2
+167,Điểm Thương sơn,Field,162;168;169;170;171;332,Đại Lý phủ;Phụng Nhãn động;Long Nhãn động;Thổ Phỉ động;Điểm Thương động tầng 1;Thiên Long Tự
+168,Phụng Nhãn động,Unknown,167;169,Điểm Thương sơn;Long Nhãn động
+169,Long Nhãn động,Unknown,167;168,Điểm Thương sơn;Phụng Nhãn động
+170,Thổ Phỉ động,Unknown,167,Điểm Thương sơn
+171,Điểm Thương động tầng 1,Unknown,167;172,Điểm Thương sơn;Điểm Thương động tầng 2
+172,Điểm Thương động tầng 2,Unknown,171;173,Điểm Thương động tầng 1;Điểm Thương động tầng 3
+173,Điểm Thương động tầng 3,Unknown,172,Điểm Thương động tầng 2
+174,Long Tuyền thôn,Country,179;183;193;195;198,La Tiêu sơn;Ngũ Độc Giáo;Vũ Di sơn;Nhạn Đãng sơn;Thanh khê động
+175,Tây Sơn thôn,Country,195,Nhạn Đãng sơn
+176,Lâm An,Capital,179,La Tiêu sơn
+179,La Tiêu sơn,Field,174;176;180;181;182,Long Tuyền thôn;Lâm An;Long Cung động;Lưỡng Thủy động;Nghiệt Long động
+180,Long Cung động,Unknown,179;195;196,La Tiêu sơn;Nhạn Đãng sơn;Dương Giác động
+181,Lưỡng Thủy động,Unknown,179;193;195;196,La Tiêu sơn;Vũ Di sơn;Nhạn Đãng sơn;Dương Giác động
+182,Nghiệt Long động,Unknown,179;193;196,La Tiêu sơn;Vũ Di sơn;Dương Giác động
+183,Ngũ Độc Giáo,Tong,174;190;193,Long Tuyền thôn;Mê cung nhập môn;Vũ Di sơn
+190,Mê cung nhập môn,Unknown,183,Ngũ Độc Giáo
+193,Vũ Di sơn,Field,174;181;182;183;194,Long Tuyền thôn;Lưỡng Thủy động;Nghiệt Long động;Ngũ Độc Giáo;Ngọc Hoa động
+194,Ngọc Hoa động,Unknown,193,Vũ Di sơn
+195,Nhạn Đãng sơn,Field,174;175;180;181;196,Long Tuyền thôn;Tây Sơn thôn;Long Cung động;Lưỡng Thủy động;Dương Giác động
+196,Dương Giác động,Unknown,180;181;182;195,Long Cung động;Lưỡng Thủy động;Nghiệt Long động;Nhạn Đãng sơn
+198,Thanh khê động,Unknown,174,Long Tuyền thôn
+199,Vũ Lăng động,Unknown,53,Ba Lăng huyện
+200,Cổ Dương động,Unknown,121,Long Môn trấn
+201,Băng Hà động,Unknown,99,VỊnh Lạc trấn
+202,Phù Dung động,Unknown,20,Giang Tân Thôn
+203,Vô Danh động,Unknown,153,Thạch Cổ trấn
+204,Phi Thiên động,Unknown,100,Chu Tiên trấn
+205,Dương Trung động,Unknown,101,Đạo Hương thôn
+206,Tần Lăng tầng 2,Unknown,8;207,Lăng Tần Thủy Hoàng;Tần Lăng tầng 3
+207,Tần Lăng tầng 3,Unknown,206,Tần Lăng tầng 2
+224,Sa mạc địa biểu,Cave,136,Khoái Hoạt Lâm
+319,Lâm Du Quan,Field,37;320,Biện Kinh;Chân núi Trường Bạch
+320,Chân núi Trường Bạch,Field,319;321;322,Lâm Du Quan;Trường Bạch sơn Nam;Trường Bạch sơn Bắc
+321,Trường Bạch sơn Nam,Unknown,320,Chân núi Trường Bạch
+322,Trường Bạch sơn Bắc,Unknown,320,Chân núi Trường Bạch
+332,Thiên Long Tự,Tong,167,Điểm Thương sơn
+333,Hoa Sơn phái,Tong,2,Hoa Sơn
+336,Phong Lăng độ,Cave,121;341,Long Môn trấn;Mạc Bắc Thảo Nguyên
+340,Mạc Cao Quật,Cave,121,Long Môn trấn
+341,Mạc Bắc Thảo Nguyên,Cave,319;336,Lâm Du Quan;Phong Lăng độ
+987,Hoa Sơn phái,Tong,2,Hoa Sơn
